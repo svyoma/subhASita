@@ -1,0 +1,37 @@
+{
+  "name": "subhāṣita Explorer",
+  "short_name": "Subhāṣita",
+  "description": "Interactive Sanskrit subhāṣita anthology — browse and discover 15,000+ verses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#7b2d2d",
+  "lang": "sa",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "/static/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Browse Verses",
+      "url": "/browse",
+      "description": "Browse all Sanskrit verses"
+    },
+    {
+      "name": "Random Verse",
+      "url": "/random",
+      "description": "Discover a random verse"
+    },
+    {
+      "name": "Favorites",
+      "url": "/favorites",
+      "description": "View bookmarked verses"
+    }
+  ]
+}

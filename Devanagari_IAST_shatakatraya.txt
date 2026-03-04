@@ -1,0 +1,1336 @@
++++ title = "Bhartrhari: Satakatraya"
+
++++
+
+Intro
+Bhartrhari: Satakatraya
+
+Bhartrhari:
+Satakatraya (1. Nitisataka, 2. Srngarasataka, 3. Vairagyasataka)
+
+Input by Jan K. Brzezinski, 2002
+
+Nitisataka based on the Chaukhamba Vidya Bhavan
+edition by Srhirkrishnanamani Tripathi, 1990.
+
+Srngarasataka based on the Vidya Bhavan Sanskrit Granthamala (no. 61)
+edition from Chowkhamba (1988).
+
+Vairagyasataka based on the Vidya Bhavan Sanskrit Granthamala (no. 67)
+edition from Chowkhamba (1988).
+
+[NOTE by J. K. Brzezinski:
+It really needs a critical reading, as there seem to be several
+extant editions with different numberings and many interpolated verses.
+This text could use proofreading ...]
+
+THIS GRETIL TEXT FILE IS FOR REFERENCE PURPOSES ONLY!
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.
+
+Text converted to Unicode (UTF-8).
+(This file is to be used with a UTF-8 font and your browser's VIEW configuration
+set to UTF-8.)
+
+description:multibyte sequence:
+long a ā
+long A Ā
+long i ī
+long I Ī
+long u ū
+long U Ū
+vocalic r ṛ
+vocalic R Ṛ
+long vocalic r ṝ
+vocalic l ḷ
+vocalic L Ḷ
+long vocalic l ḹ
+velar n ṅ
+velar N Ṅ
+palatal n ñ
+palatal N Ñ
+retroflex t ṭ
+retroflex T Ṭ
+retroflex d ḍ
+retroflex D Ḍ
+retroflex n ṇ
+retroflex N Ṇ
+palatal s ś
+palatal S Ś
+retroflex s ṣ
+retroflex S Ṣ
+anusvara ṃ
+visarga ḥ
+long e ē
+long o ō
+l underbar ḻ
+r underbar ṟ
+n underbar ṉ
+k underbar ḵ
+t underbar ṯ
+
+Unless indicated otherwise, accents have been dropped in order
+to facilitate word search.
+
+For a comprehensive list of GRETIL encodings and formats see:
+http://gretil.sub.uni-goettingen.de/gretil/gretdiac.pdf
+and
+http://gretil.sub.uni-goettingen.de/gretil/gretdias.pdf
+
+For further information see:
+
+pāṭhaḥ
+bhatṛhari: śatakatraya (1. nītiśataka, 2. śṛṅgāraśataka, 3. vairāgyaśataka)
+
+nīti-śatakam
+bhartṛhareḥ
+dik-kālādyanavacchinnānanta-cin-mātra-mūrtaye .
+svānubhūty-eka-mānāya namaḥ śāntāya tejase .. bharst_1.1 ..
+boddhāro matsara-grastāḥ
+prabhavaḥ smaya-dūṣitāḥ .
+abodhopahatāḥ cānye
+jīrṇam aṅge subhāṣitam .. bharst_1.2 ..
+ajñaḥ sukham ārādhyaḥ
+sukhataram ārādhyate viśeṣajñaḥ .
+jñāna-lava-durvidagdhaṃ
+brahmāpi taṃ naraṃ na rañjayati .. bharst_1.3 ..
+prasahya maṇim uddharen makara-vaktra-daṃṣṭrāntarāt
+samudram api santaret pracalad ūrmi-mālākulam .
+bhujaṅgam api kopitaṃ śirasi puṣpavad dhārayet
+na tu pratiniviṣṭa-mūṛkha-jana-cittam ārādhayet .. bharst_1.4 ..
+labheta sikatāsu tailam api yatnataḥ pīḍayan
+pibec ca mṛga-tṛṣṇikāsu salilaṃ pipāsārditaḥ .
+kvacid api paryaṭan śaśa-viṣāṇam āsādayet
+na tu pratiniviṣṭa-mūrkha-cittam ārādhayet .. bharst_1.5 ..
+vyālaṃ bāla-mṛṇāla-tantubhir asau roddhuṃ samujjṛmbhate
+chettuṃ vajra-maṇiṃ śirīṣa-kusuma-prāntena sannahyati .
+mādhuryaṃ madhu-bindunā racayituṃ kṣārāmudher īhate
+netuṃ vāñchanti yaḥ khalān pathi satāṃ sūktaiḥ sudhā-syandibhiḥ .. bharst_1.6 ..
+svāyattam ekānta-guṇaṃ vidhātrā
+vinirmitaṃ chādanam ajñatāyāḥ .
+viśeṣāataḥ sarva-vidāṃ samāje
+vibhūṣaṇaṃ maunam apaṇḍitānām .. bharst_1.7 ..
+yadā kiñcij-jño 'haṃ dvipa iva madāndhaḥ samabhavaṃ
+tadā sarvajño 'smīty abhavad avaliptaṃ mama manaḥ
+yadā kiñcit kiñcid budhajana-sakāśād avagataṃ
+tadā mūrkho 'smīti jvara iva mado me vyapagataḥ .. bharst_1.8 ..
+kṛmi-kula-cittaṃ lālā-klinnaṃ vigandhi-jugupsitaṃ
+nirupama-rasaṃ prītyā khādan narāsthi nirāmiṣam .
+surapatim api śvā pārśvasthaṃ vilokya na śaṅkate
+na hi gaṇayati kṣudro jantuḥ parigraha-phalgutām .. bharst_1.9 ..
+śiraḥ śārvaṃ svargāt paśupati-śirastaḥ kṣitidharaṃ
+mhīdhrād uttuṅgād avanim avaneś cāpi jaladhim .
+adho 'dho gaṅgeyaṃ padam upagatā stokam
+athavāviveka-bhraṣṭānāṃ bhavati vinipātaḥ śatamukhaḥ .. bharst_1.10 ..
+śakyo vārayituṃ jalena hutabhuk cchatreṇa sūryātapo
+nāgendro niśitāgkuśena samado daṇḍena go-gardabhau .
+vyādhir bheṣaja-saṅgrahaiś ca vividhair mantra-prayogair viṣaṃ
+sarvasyauṣadham asti śāstra-vihitaṃ mūrkhasya nasty auṣadhim .. bharst_1.11 ..
+sāhitya-saṅgīta-kalā-vihīnaḥ
+sākṣāt paśuḥ puccha-viṣāṇa-hīnaḥ .
+tṛṇaṃ na khādann api jīvamānas
+tad bhāga-dheyaṃ paramaṃ paśūnām .. bharst_1.12 ..
+yeṣāṃ na vidyā na tapo na dānaṃ
+jñānaṃ na śīlaṃ na guṇo na dharmaḥ .
+te martya-loke bhuvi bhāra-bhūtā
+manuṣya-rūpeṇa mṛgāś caranti .. bharst_1.13 ..
+varaṃ parvata-durgeṣu
+bhrāntaṃ vanacaraiḥ saha
+na mūrkha-jana-samparkaḥ
+surendra-bhavaneṣv api .. bharst_1.14 ..
+śāstropaskṛta-śabda-sundara-giraḥ śiṣya-pradeyāgamā
+vikhyātāḥ kavayo vasanti viṣaye yasya prabhor nirdhanāḥ .
+taj-jāḍyaṃ vasudhādipasya kavayas tv arthaṃ vināpīśvarāḥ
+kutsyāḥ syuḥ kuparīkṣakā hi maṇayo yair arghataḥ pātitāḥ .. bharst_1.15 ..
+hartur yāti na gocaraṃ kim api śaṃ puṣṇāti yat sarvadā 'py
+arthibhyaḥ pratipādyamānam aniśaṃ prāpnoti vṛddhiṃ parām .
+kalpānteṣv api na prayāti nidhanaṃ vidyākhyam antardhanaṃ
+yeṣāṃ tān prati mānam ujjhata nṛpāḥ kas taiḥ saha spardhate .. bharst_1.16 ..
+adhigata-paramārthān paṇḍitān māvamaṃsthās
+tṛṇam iva laghu lakṣmīr naiva tān saṃruṇaddhi .
+abhinava-mada-lekhā-śyāma-gaṇḍa-sthalānāṃ
+na bhavati bisatantur vāraṇaṃ vāraṇānām .. bharst_1.17 ..
+ambhojinī-vana-vihāra-vilāsam eva
+haṃsasya hanti nitarāṃ kupito vidhātā .
+na tv asya dugdha-jala-bheda-vidhau prasiddhāṃ
+vaidagdhī-kīrtim apahartum asau samarthaḥ .. bharst_1.18 ..
+keyūrāṇi na bhūṣayanti puruṣaṃ hārā na candrojjvalā
+na snānaṃ na vilepanaṃ na kusumaṃ nālaṅkṛtā mūrdhajāḥ .
+vāṇy ekā samalaṅkaroti puruṣaṃ yā saṃskṛtā dhāryate
+kṣīyante khalu bhūṣaṇāni satataṃ vāg-bhūṣaṇaṃ bhūṣaṇam .. bharst_1.19 ..
+vidyā nāma narasya rūpam adhikaṃ pracchanna-guptaṃ dhanaṃ
+vidyā bhogakarī yaśaḥ-sukhakarī vidyā gurūṇāṃ guruḥ .
+vidyā bandhujano videśa-gamane vidyā parā devatā
+vidyā rājasu pūjyate na tu dhanaṃ vidyā-vihīnaḥ paśuḥ .. bharst_1.20 ..
+kṣāntiś cet kavacena kiṃ kim aribhiḥ krodho 'sti ced dehināṃ
+jñātiś ced analena kiṃ yadi suhṛd divyauṣadhaṃ kiṃ phalam .
+kiṃ sarpair yadi durjanāḥ kim u dhanair vidyā 'navadyā yadi
+vrīḍā cet kim u bhūṣaṇaiḥ sukavitā yady asti rājyena kim .. bharst_1.21 ..
+dākṣiṇyaṃ svajane dayā parijane śāṭhyaṃ sadā durjane
+prītiḥ sādhujane nayo nṛpa-jane vidvaj-jane cārjavam .
+śauryaṃ śatru-jane kṣamā guru-jane kāntā-jane dhṛṣṭatā
+ye caivaṃ puruṣāḥ kalāsu kuśalās teṣv eva loka-sthitiḥ .. bharst_1.22 ..
+jāḍyaṃ dhiyo harati siñcati vāci satyaṃ
+mānonnatiṃ diśati pāpam apākaroti .
+cetaḥ prasādayati dikṣu tanoti kīrtiṃ
+sat-saṅgatiḥ kathaya kiṃ na karoti puṃsām .. bharst_1.23 ..
+jayanti te sukṛtino
+rasa-siddhāḥ kavīśvarāḥ .
+nāsti yeṣāṃ yaśaḥkāye
+jarā-maraṇa-jaṃ bhayam .. bharst_1.24 ..
+sūnuḥ sac-caritaḥ satī priyatamā svāmī prasādonmukhaḥ
+snigdhaṃ mitram avañcakaḥ parijano niḥkleśa-leśaṃ manaḥ .
+ākāro ruciraḥ sthiraś ca vibhavo vidyāvadātaṃ mukhaṃ
+tuṣṭe viṣṭapa-kaṣṭa-hāriṇi harau samprāpyate dehinā .. bharst_1.25 ..
+prāṇāghātān nivṛttiḥ para-dhana-haraṇe saṃyamaḥ satya-vākyaṃ
+kāle śaktyā pradānaṃ yuvati-jana-kathā-mūka-bhāvaḥ pareṣām .
+tṛṣṇā-sroto vibhaṅgo guruṣu ca vinayaḥ sarva-bhūtānukampā
+sāmānyaḥ sarva-śāstreṣv anupahata-vidhiḥ śreyasām eṣa panthāḥ .. bharst_1.26 ..
+prārabhyate na khalu vighna-bhayena nīcaiḥ
+prārabhya vighna-vihatā viramanti madhyāḥ .
+vighnaiḥ punaḥ punar api pratihanyamānāḥ
+prārabdham uttama-janā na parityajanti .. bharst_1.27 ..
+asanto nābhyarthyāḥ suhṛd api na yācyaḥ kṛśa-dhanaḥ
+priyā nyāyyā vṛttir malinam asubhaṅge 'py asukaram .
+vipady uccaiḥ stheyaṃ padam anuvidheyaṃ ca mahatāṃ
+satāṃ kenoddiṣṭaṃ viṣamam asidhārā-vratam idam .. bharst_1.28 ..
+kṣut-kṣāmo 'pi jarā-kṛśo 'pi śithila-prāṇo 'pi kaṣṭāṃ daśām
+āpanno 'pi vipanna-dīdhitir iti prāṇeṣu naśyatsv api .
+mattebhendra-vibhinna-kumbha-piśita-grāsaika-baddha-spṛhaḥ
+kiṃ jīrṇaṃ tṛṇam atti māna-mahatām agresaraḥ kesarī .. bharst_1.29 ..
+svalpa-snāyu-vasāvaśeṣa-malinaṃ nirmāṃsam apy asthi goḥ
+śvā labdhvā paritoṣam eti na tu tat tasya kṣudhā-śāntaye .
+siṃho jambukam aṅkam āgatam api tyaktvā nihanti dvipaṃ
+sarvaḥ kṛcchra-gato 'pi vāñchanti janaḥ sattvānurūpaṃ phalam .. bharst_1.30 ..
+lāṅgūla-cālanam adhaś-caraṇāvapātaṃ
+bhūmau nipatya vadanodara-darśanaṃ ca .
+śvā piṇḍadasya kurute gaja-puṅgavas tu
+dhīraṃ vilokayati cāṭu-śataiś ca bhuṅkte .. bharst_1.31 ..
+parivartini saṃsāre
+mṛtaḥ ko vā na jāyate .
+sa jāto yena jātena
+yāti vaṃśaḥ samunnatim .. bharst_1.32 ..
+kusuma-stavakasyeva
+dvayī vṛttir manasvinaḥ .
+mūrdhni vā sarva-lokasya
+śīryate vana eva vā .. bharst_1.33 ..
+santy anye 'pi bṛhaspati-prabhṛtayaḥ sambhāvitāḥ pañcaṣās
+tān praty eṣa viśeṣa-vikrama-rucī rāhur na vairāyate .
+dvāv eva grasate divākara-niśā-prāṇeśvarau bhāskarau
+bhrātaḥ parvaṇi paśya dānava-patiḥ śīrṣāvaśeṣākṛtiḥ .. bharst_1.34 ..
+vahati bhuvana-śreṇiṃ śeṣaḥ phaṇāphalaka-sthitāṃ
+kamaṭha-patinā madhye-pṛṣṭhaṃ sadā sa ca dhāryate .
+tam api kurute kroḍādhīnaṃ payodhir anādarād
+ahaha mahatāṃ niḥsīmānaś caritra-vibhūtayaḥ .. bharst_1.35 ..
+varaṃ pakṣa-cchedaḥ samadamaghavan-mukta-kuliśaprahārair
+udgacchad-bahula-dahanodgāra-gurubhiḥ .
+tuṣārādreḥ sūnor ahaha pitari kleśa-vivaśe
+na cāsau sampātaḥ payasi payasāṃ patyur ucitaḥ .. bharst_1.36 ..
+siṃhaḥ śiśur api nipatati
+mada-malina-kapola-bhittiṣu gajeṣu .
+prakṛtir iyaṃ sattvavatāṃ
+na khalu vayas tejaso hetuḥ .. bharst_1.37 ..
+jātir yātu rasātalaṃ guṇa-gaṇais tatrāpy adho gamyatāṃ
+śīlaṃ śaila-taṭāt patatv abhijanaḥ sandahyatāṃ vahninā .
+śaurye vairiṇi vajram āśu nipatatv artho 'stu naḥ kevalaṃ
+yenaikena vinā guṇas tṛṇa-lava-prāyāḥ samastā ime .. bharst_1.38 ..
+dhanam arjaya kākutstha
+dhana-mūlam idaṃ jagat .
+antaraṃ nābhijānāmi
+nirdhanasya mṛtasya ca .. bharst_1.39 ..
+tānīndriyāṇy avikalāni tad eva nāma
+sā buddhir apratihatā vacanaṃ tad eva .
+arthoṣmaṇā virahitaḥ puruṣaḥ kṣaṇena
+so 'py anya eva bhavatīti vicitram etat .. bharst_1.40 ..
+yasyāsti vittaṃ sa naraḥ kulīnaḥ
+sa paṇḍitaḥ sa śrutavān guṇajñaḥ .
+sa eva vaktā sa ca darśanīyaḥ
+sarve guṇāḥ kāñcanam āśrayanti .. bharst_1.41 ..
+daurmantryān nṛpatir vinaśyati yatiḥ saṅgāt suto lālanāt
+vipro 'nadhyayanāt kulaṃ kutanayāc chīlaṃ khalopāsanāt .
+hrīr madyād anavekṣaṇād api kṛṣiḥ snehaḥ pravāsāśrayān
+maitrī cāpraṇayāt samṛddhir anayāt tyāga-pramādād dhanam .. bharst_1.42 ..
+dānaṃ bhogo nāśas tisro
+gatayo bhavanti vittasya .
+yo na dadāti na bhuṅkte
+tasya tṛtīyā gatir bhavati .. bharst_1.43 ..
+maṇiḥ śāṇollīḍhaḥ samara-vijayī heti-dalito
+mada-kṣīṇo nāgaḥ śaradi saritaḥ śyāna-pulināḥ .
+kalā-śeṣaś candraḥ surata-mṛditā bāla-vanitā
+tan-nimnā śobhante galita-vibhavāś cārthiṣu narāḥ .. bharst_1.44 ..
+parikṣīṇaḥ kaścit spṛhayati yavānāṃ prasṛtaye
+sa paścāt sampūrṇaḥ kalayati dharitrīṃ tṛṇa-samām .
+ataś cānaikāntyād guru-laghutayā 'rtheṣu dhaninām
+avasthā vastūni prathayati ca saṅkocayati ca .. bharst_1.45 ..
+rājan dudhukṣasi yadi kṣiti-dhenum etāṃ
+tenādya vatsam iva lokam amuṃ puṣāṇa
+tasmiṃś ca samyag aniśaṃ paripoṣyamāṇe
+nānā-phalaiḥ phalati kalpalateva bhūmiḥ .. bharst_1.46 ..
+satyānṛtā ca paruṣā priya-vādinī ca
+hiṃsrā dayālur api cārthaparā vadānyā .
+nitya-vyayā pracura-nitya-dhanāgamā ca
+vārāṅganeva nṛpa-nītir aneka-rūpā .. bharst_1.47 ..
+ājñā kīrtiḥ pālanaṃ brāhmaṇānāṃ
+dānaṃ bhogo mitra-saṃrakṣaṇaṃ ca
+yeṣām ete ṣaḍguṇā na pravṛttāḥ
+ko 'rthas teṣāṃ pārthivopāśrayeṇa .. bharst_1.48 ..
+yad dhātrā nija-bhāla-paṭṭa-likhitaṃ stokaṃ mahad vā dhanaṃ
+tat prāpnoti marusthale 'pi nitarāṃ merau tato nādhikam .
+tad dhīro bhava vittavatsu kṛpaṇāṃ vṛttiṃ vṛthā sā kṛthāḥ
+kūpe paśya payonidhāv api ghaṭo gṛhṇāti tulyaṃ jalam .. bharst_1.49 ..
+tvam eva cātakādhāro '
+sīti keṣāṃ na gocaraḥ .
+kim ambhoda-varāsmākaṃ
+kārpaṇyoktaṃ pratīkṣase .. bharst_1.50 ..
+re re cātaka sāvadhāna-manasā mitra kṣaṇaṃ śrūyatām
+ambhodā bahavo vasanti gagane sarve 'pi naitādṛśāḥ .
+kecid vṛṣṭibhir ārdrayanti vasudhāṃ garjanti kecid vṛthā
+yaṃ yaṃ paśyasi tasya tasya purato mā brūhi dīnaṃ vacaḥ .. bharst_1.51 ..
+akaruṇatvam akāraṇa-vigrahaḥ
+paradhane parayoṣiti ca spṛhā .
+sujana-bandhujaneṣv asahiṣṇutā
+prakṛti-siddham idaṃ hi durātmanām .. bharst_1.52 ..
+durjanaḥ parihartavyo
+vidyayā 'lakṛto 'pi san .
+maṇinā bhūṣitaḥ sarpaḥ
+kim asau na bhayaṅkaraḥ .. bharst_1.53 ..
+jāḍyaṃ hrīmati gaṇyate vrata-rucau dambhaḥ śucau kaitavaṃ
+śūre nirghṛṇatā munau vimatitā dainyaṃ priyālāpini .
+tejasviny avaliptatā mukharatā vaktary aśaktiḥ sthire
+tat ko nāma guṇo bhavet sa guṇināṃ yo durjanair nāṅkitaḥ .. bharst_1.54 ..
+lobhaś ced aguṇena kiṃ piśunatā yady asti kiṃ pātakaiḥ
+satyaṃ cet tapasā ca kiṃ śuci mano yady asti tīrthena kim .
+saujanyaṃ yadi kiṃ guṇaiḥ sumahimā yady asti kiṃ maṇḍanaiḥ
+sad-vidyā yadi kiṃ dhanair apayaśo yady asti kiṃ mṛtyunā .. bharst_1.55 ..
+śaśī divasa-dhūsaro galita-yauvanā kāminī
+saro vigata-vārijaṃ mukham anakṣaraṃ svākṛteḥ .
+prabhur dhana-parāyaṇaḥ satata-durgataḥ sajjano
+nṛpāṅgaṇa-gataḥ khalo manasi sapta śalyāni me .. bharst_1.56 ..
+na kaścic caṇḍa-kopānām
+ātmīyo nāma bhūbhujām .
+hotāram api juhvānaṃ
+spṛṣṭo vahati pāvakaḥ .. bharst_1.57 ..
+maunomūkaḥ pravacana-paṭur bāṭulo jalpako vā
+dhṛṣṭaḥ pārśve vasati ca sadā dūrataś cāpragalbhaḥ .
+kṣāntyā bhīrur yadi na sahate prāyaśo nābhijātaḥ
+sevādharmaḥ parama-gahano yoginām apy agamyaḥ .. bharst_1.58 ..
+udbhāsitākhila-khalasya viśṛṅkhalasya
+prāg-jāta-vistṛta-nijādhama-karma-vṛtteḥ .
+daivād avāpta-vibhavasya guṇa-dviṣo 'sya
+nīcasya gocara-gataiḥ sukham āpyate .. bharst_1.59 ..
+ārambha-gurvī kṣayiṇī krameṇa
+laghvī purā vṛddhimatī ca paścāt .
+dinasya pūrvārdha-parārdha-bhinnā
+chāyeva maitrī khala-saj-janānām .. bharst_1.60 ..
+mṛga-mīna-sajjanānāṃ tṛṇa-jala-santoṣa-vihita-vṛttīnām .
+lubdhaka-dhīvara-piśunā niṣkāraṇa-vairiṇo jagati .. bharst_1.61 ..
+vāñchā sajjana-saṅgame para-guṇe prītir gurau namratā
+vidyāyāṃ vyasanaṃ sva-yoṣiti ratir lokāpavādād bhayam .
+bhaktiḥ śūlini śaktir ātma-damane saṃsarga-muktiḥ khale
+yeṣv ete nivasanti nirmala-guṇās tebhyo narebhyo namaḥ .. bharst_1.62 ..
+vipadi dhairyam athābhyudaye kṣamā
+sadasi vākya-paṭutā yudhi vikramaḥ .
+yaśasi cābhirucir vyasanaṃ śrutau
+prakṛti-siddham idaṃ hi mahātmanām .. bharst_1.63 ..
+pradānaṃ pracchannaṃ gṛham upagate sambhrama-vidhiḥ
+priyaṃ kṛtvā maunaṃ sadasi kathanaṃ cāpy upakṛteḥ .
+anutseko lakṣmyām anabhibhava-gandhāḥ para-kathāḥ
+satāṃ kenoddiṣṭaṃ viṣamam asidhārā-vratam idam .. bharst_1.64 ..
+kare ślāghyas tyāgaḥ śirasi guru-pāda-praṇayitā
+mukhe satyā vāṇī vijayi bhujayor vīryam atulam .
+hṛdi svacchā vṛttiḥ śrutim adhigataṃ ca śravaṇayor
+vināpy aiśvaryeṇa prakṛti-mahatāṃ maṇḍanam idam .. bharst_1.65 ..
+sampatsu mahatāṃ cittaṃ
+bhavaty utpala-komalam .āpatsu ca mahāśailaśilā-
+saṅghāta-karkaśam .. bharst_1.66 ..
+santaptāyasi saṃsthitasya payaso nāmāpi na jñāyate
+muktākāratayā tad eva nalinī-patra-sthitaṃ rājate .
+svātyāṃ sāgara-śukti-madhya-patitaṃ tan-mauktikaṃ jāyate
+prāyeṇādhama-madhyamottama-guṇaḥ saṃsargato jāyate .. bharst_1.67 ..
+prīṇāti yaḥ sucaritaiḥ pitaraṃ sa putro
+yad bhartur eva hitam icchati tat kalatram .
+tan mitram āpadi sukhe ca sama-kriyaṃ yad
+etat trayaṃ jagati puṇya-kṛto labhante .. bharst_1.68 ..
+eko devaḥ keśavo vā śivo vā
+hy ekaṃ mitraṃ bhūpatir vā yatir vā .
+eko vāsaḥ pattane vā vane vā
+hy ekā bhāryā sundarī vā darī vā .. bharst_1.69 ..
+namratvenonnamantaḥ para-guṇa-kathanaiḥ svān guṇān khyāpayantaḥ
+svārthān sampādayanto vitata-pṛthutarārambha-yatnāḥ parārthe .
+kṣāntyaivākṣepa-rukṣākṣara-mukhara-mukhān durjanān dūṣayantaḥ
+santaḥ sāścarya-caryā jagati bahu-matāḥ kasya nābhyarcanīyāḥ .. bharst_1.70 ..
+bhavanti namrās taravaḥ phalodgamair
+navāmbubhir dūrāvalambino ghanāḥ .
+anuddhatāḥ sat-puruṣāḥ samṛddhibhiḥ
+svabhāva eṣa paropakāriṇām .. bharst_1.71 ..
+śrotraṃ śrutenaiva na kuṇḍalena
+dānena pāṇir na tu kaṅkaṇena .
+vibhāti kāyaḥ karuṇa-parāṇāṃ
+paropakārair na tu candanena .. bharst_1.72 ..
+pāpān nivārayati yojayate hitāya
+guhyaṃ nigūhati guṇān prakaṭīkaroti .
+āpad-gataṃ ca na jahāti dadāti kāle
+san-mitra-lakṣaṇam idaṃ pravadanti santaḥ .. bharst_1.73 ..
+padmākaraṃ dinakaro vikacīkaroti
+candrp volāsayati kairava-cakravālam .
+nābhyarthito jaladharo 'pi jalaṃ dadāti
+santaḥ svayaṃ parahite vihitābhiyogāḥ .. bharst_1.74 ..
+eke sat-puruṣāḥ parārtha-ghaṭakāḥ svārthaṃ parityajanti ye
+sāmānyās tu parārtham udyama-bhṛtaḥ svārthāvirodhena ye .
+te 'mī mānuṣa-rākṣasāḥ parahitaṃ svārthāya nighnanti ye
+ye tu ghnanti nirarthakaṃ parahitaṃ te ke na jānīmahe .. bharst_1.75 ..
+kṣīreṇātmagatodakāya hi guṇā dattā purā te 'khilā
+kṣīrottāpam avekṣya tena payasā svātmā kṛśānau hutaḥ .
+gantuṃ pāvakam unmanas tad abhavad dṛṣṭvā tu mitrāpadaṃ
+yuktaṃ tena jalena śāmyati satāṃ maitrī punas tv īdṛśī .. bharst_1.76 ..
+itaḥ svapiti keśavaḥ kulam itas tadīya-dviṣām
+itaś ca śaraṇārthināṃ śikhariṇāṃ gaṇāḥ śerate .
+ito 'pi baḍavānalaḥ saha samasta-saṃvartakaiṛ
+aho vitatam ūrjitaṃ bhara-sahaṃ sindhor vapuḥ .. bharst_1.77 ..
+tṛṣṇāṃ chindhi bhaja kṣamāṃ jahi madaṃ pāpe ratiṃ mā kṛthāḥ
+satyaṃ brūhy anuyāhi sādhu-padavīṃ sevasva vidvaj-janam .
+mānyān mānaya vidviṣo 'py anunaya prakhyāpaya praśrayaṃ
+kīrtiṃ pālaya duḥkhite kuru dayām etat satāṃ ceṣṭitam .. bharst_1.78 ..
+manasi vacasi kāye puṇya-pīyūṣa-pūrṇās
+tribhuvanam upakāra-śreṇibhiḥ prīṇayantaḥ .
+para-guṇa-paramāṇūn parvatīkṛtya nityaṃ
+nija-hṛdi vikasantaḥ santa santaḥ kiyantaḥ .. bharst_1.79 ..
+kiṃ tena hema-giriṇā rajatādriṇā vā
+yatrāśritāś ca taravas taravas ta eva .
+manyāmahe malayam eva yad-āśrayeṇa
+kaṅkola-nimba-kaṭujā api candanāḥ syuḥ .. bharst_1.80 ..
+ratnair mahārhais tutuṣur na devā
+na bhejire bhīma-viṣeṇa bhītim .
+sudhāṃ vinā na parayur virāmaṃ
+na niścitārthād viramanti dhīrāḥ .. bharst_1.81 ..
+kvacit pṛthvīśayyaḥ kvacid api ca paraṅka-śayanaḥ
+kvacic chākāhāraḥ kvacid api ca śālyodana-ruciḥ .
+kvacit kanthādhārī kvacid api ca divyāmbaradharo
+manasvī kāryārthī na gaṇayati duḥkhaṃ na ca sukham .. bharst_1.82 ..
+aiśvaryasya vibhūṣaṇaṃ sujanatā śauryasya vāk-saṃyamo
+jñānasyopaśamaḥ śrutasya vinayo vittasya pātre vyayaḥ .
+akrodhas tapasaḥ kṣamā prabhavitur dharmasya nirvājatā
+sarveṣām api sarva-kāraṇam idaṃ śīlaṃ paraṃ bhūṣaṇam .. bharst_1.83 ..
+nindantu nīti-nipuṇā yadi vā stuvantu
+lakṣmīḥ samāviśatu gacchatu vā yatheṣṭham .
+adyaiva vā maraṇam astu yugāntare vā
+nyāyyāt pathaḥ pravicalanti padaṃ na dhīrāḥ .. bharst_1.84 ..
+bhagnāśasya karaṇḍa-piṇḍita-tanor mlānendriyasya kṣudhā
+kṛtvākhur vivaraṃ svayaṃ nipatito naktaṃ mukhe bhoginaḥ .
+tṛptas tat-piśitena satvaram asau tenaiva yātaḥ yathā
+lokāḥ paśyata daivam eva hi nṛṇāṃ vṛddhau kṣaye kāraṇam .. bharst_1.85 ..
+ālasyaṃ hi manuṣyāṇāṃ
+śarīrastho mahān ripuḥ .
+nāsty udyama-samo bandhuḥ
+kurvāṇo nāvasīdati .. bharst_1.86 ..
+chinno 'pi rohati tar kṣīṇo 'py upacīyate punaś candraḥ .
+iti vimṛśantaḥ santaḥ santapyante na duḥkheṣu .. bharst_1.87 ..
+netā yasya bṛhaspatiḥ praharaṇaṃ vajraṃ surāḥ sainikāḥ
+svargo durgam anugrahaḥ kila harer airāvato vāraṇaḥ .
+ity aiśvarya-balānvito 'pi balabhid bhagnaḥ paraiḥ saṅgare
+tad vyaktaṃ nanu daivam eva śaraṇaṃ dhig dhig vṛthā pauruṣam .. bharst_1.88 ..
+karmāyattaṃ phalaṃ puṃsāṃ
+buddhiḥ karmānusāriṇī .
+tathāpi sudhiyā bhāvyaṃ
+suvicāryaiva kurvatā .. bharst_1.89 ..
+khalv āto divaseśvarasya kiraṇaiḥ santāḍito mastake
+vāñchan deśam anātapaṃ vidhi-vaśāt tālasya mūlaṃ gataḥ .
+tatrāpy asya mahāphalena patatā bhagnaṃ saśabdaṃ śiraḥ
+prāyo gacchati yatra bhāgya-rahitas tatraiva yānty āpadaḥ .. bharst_1.90 ..
+ravi-niśākarayor graha-pīḍanaṃ
+gaja-bhujaṅgamayor api bandhanam .
+matimatāṃ ca vilokya daridratāṃ
+vidhir aho balavān iti me matiḥ .. bharst_1.91 ..
+sṛjati tāvad aśeṣa-guṇakaraṃ
+puruṣa-ratnam alaṅkaraṇaṃ bhuvaḥ .
+tad api tat-kṣaṇa-bhaṅgi karoti
+ced ahaha kaṣṭam apaṇḍitatā vidheḥ .. bharst_1.92 ..
+patraṃ naiva yadā karīra-viṭape doṣo vasantasya kim
+nolūko 'py avaokate yadi divā sūryasya kiṃ dūṣaṇam .
+dhārā naiva patanti cātaka-mukhe meghasya kiṃ dūṣaṇam
+yat pūrvaṃ vidhinā lalāṭa-likhitaṃ tan mārjituṃ kaḥ kṣamaḥ .. bharst_1.93 ..
+namasyāmo devān nanu hatavidhes te 'pi vaśagā
+vidhir vandyaḥ so 'pi pratiniyata-karmaika-phaladaḥ .
+phalaṃ karmāyattaṃ yadi kim amaraiḥ kiṃ ca vidhinā
+namas tat-karmabhyo vidhir api na yebhyaḥ prabhavati .. bharst_1.94 ..
+brahmā yena kulālavan niyamito brahmāḍa-bhāṇḍodare
+viṣṇur yena daśāvatāra-gahane kṣipto mahā-saṅkaṭe .
+rudro yena kapāla-pāṇi-puṭake bhikṣāṭanaṃ kāritaḥ
+sūryo bhrāmyati nityam eva gagane tasmai namaḥ karmaṇe .. bharst_1.95 ..
+naivākṛtiḥ phalati naivaa kulaṃ na śīlaṃ
+vidyāpi naiva na ca yatna-kṛtāpi sevā .
+bhāgyāni pūrva-tapasā khalu sañcitāni
+kāle phalanti puruṣasya yathaiva vṛkṣāḥ .. bharst_1.96 ..
+vane raṇe śatru-jalāgni-madhye
+mahārṇave parvata-mastake vā .
+suptaṃ pramattaṃ viṣama-sthitaṃ vā
+rakṣanti puṇyāni purākṛtāni .. bharst_1.97 ..
+yā sādhūṃś ca khalān karoti viduṣo mūrkhān hitān dveṣiṇaḥ
+pratyakṣaṃ kurute parīkṣam amṛtaṃ hālāhalaṃ tat-kṣaṇāt .
+tām ārādhaya sat-kriyāṃ bhagavatīṃ bhoktuṃ phalaṃ vāñchitaṃ
+he sādho vyasanair guṇeṣu vipuleṣv āsthāṃ vṛthā mā kṛthāḥ .. bharst_1.98 ..
+guṇavad aguṇavad vā kurvatā kārya-jātaṃ
+pariṇatir avadhāryā yatnataḥ paṇḍitena .
+atirabhasa-kṛtānāṃ karmaṇām āvipatter
+bhavati hṛdaya-dāhī śalya-tulyo vipākaḥ .. bharst_1.99 ..
+sthālyāṃ vaidūryamayyāṃ pacati tilakaṇāṃś candanair indhanaughaiḥ
+sauvarṇair lāṅgalāgrair vilikhati vasudhām arka-mūlasya hetoḥ .
+kṛtvā karpūra-khaṇḍān vṛttim iha kurute kodravāṇāṃ samantāt
+prāpyemāṃ karm-bhūmiṃ na carati manujo yas topa manda-bhāgyaḥ .. bharst_1.100 ..
+majjatv ambhasi yātu meru-śikharaṃ śatruṃ jayatv āhave
+vāṇijyaṃ kṛṣi-sevane ca sakalā vidyāḥ kalāḥ śikṣatām .
+ākāśaṃ vipulaṃ prayātu khagavat kṛtvā prayatnaṃ paraṃ
+nābhāvyaṃ bhavatīha karma-vaśato bhāvyasya nāśaḥ kutaḥ .. bharst_1.101 ..
+bhīmaṃ vanaṃ bhavati tasya puraṃ pradhānaṃ
+sarvo janaḥ svajanatām upayāti tasya .
+kṛtsnā ca bhūr bhavati sannidhi-ratna-pūrṇā
+yasyāsti pūrva-sukṛtaṃ vipulaṃ narasya .. bharst_1.102 ..
+ko lābho guṇisaṅgamaḥ kim asukhaṃ prājñetaraiḥ saṅgatiḥ
+kā hāniḥ samaya-cyutir nipuṇatā kā dharma-tattve ratiḥ .
+kaḥ śūro vijitendriyaḥ priyatamā kā 'nuvratā kiṃ dhanaṃ
+vidyā kiṃ sukham apravāsa-gamanaṃ rājyaṃ kim ājñā-phalam .. bharst_1.103 ..
+apriya-vacana-daridraiḥ priya-vacana-dhanāḍhyaiḥ sva-dāra-parituṣṭaiḥ .
+para-parivāda-nivṛttaiḥ kvacit kvacin maṇḍitā vasudhā .. bharst_1.104 ..
+kadarthitasyāpi hi dhairya-vṛtter
+na śakyate dhairya-guṇaḥ pramārṣṭum .
+adhomukhasyāpi kṛtasya vahner
+nādhaḥ śikhā yāti kadācid eva .. bharst_1.105 ..
+kāntākaṭākṣa-viśikhā na lunanti yasya
+cittaṃ na nirdahati kipa-kṛśānutāpaḥ .
+karṣanti bhūri-viṣayāś ca na lobha-pāśair
+loka-trayaṃ jayati kṛtsnam idaṃ sa dhīraḥ .. bharst_1.106 ..
+ekenāpi hi śūreṇa
+pādākrāntaṃ mahītalam .
+kriyate bhāskareṇaiva
+sphāra-sphurita-tejasā .. bharst_1.107 ..
+vahnis tasya jalāyate jala-nidhiḥ kulyāyate tat-kṣaṇān
+meruḥ svalpa-śilāyate mṛgapatiḥ sadyaḥ kuraṅgāyate .
+vyālo mālya-guṇāyate viṣa-rasaḥ pīyūṣa-varṣāyate
+yasyāṅge 'khila-loka-vallabhatamaṃ śīlaṃ samunmīlati .. bharst_1.108 ..
+lajjā-guṇaugha-jananīṃ jananīm iva svām
+atyanta-śuddha-hṛdayām anuvartamānām .
+tejasvinaḥ sukham asūn api santyajanati
+satya-vrata-vyasanino na punaḥ pratijñām .. bharst_1.109 ..
+
+śṛṅgāra-śatakam
+bhartṛhareḥ
+
+śambhu-svayambhu-harayo hariṇekṣaṇānāṃ
+yenākriyanta satataṃ gṛha-kumbha-dāsāḥ .
+vācām agocara-caritra-vicitritāya
+tasmai namo bhagavate makara-dhvajāya .. bharst_2.1 ..
+smitena bhāvena ca lajjayā bhiyā
+parāṇmukhair ardha-kaṭākṣa-vīkṣaṇaiḥ .
+vacobhir īrṣyā-kalahena līlayā
+samasta-bhāvaiḥ khalu bandhanaṃ striyaḥ .. bharst_2.2 ..
+bhrū-cāturyāt kuṣcitākṣāḥ kaṭākṣāḥ
+snigdhā vāco lajjitāntāś ca hāsāḥ .
+līlā-mandaṃ prasthitaṃ ca sthitaṃ ca
+strīṇām etad bhūṣaṇaṃ cāyudhaṃ ca .. bharst_2.3 ..
+kvacit sa-bhrū-bhaṅgaiḥ kvacid api ca lajjā-parigataiḥ
+kvacid bhūri-trastaiḥ kvacid api ca līlā-vilalitaiḥ .
+kumārīṇām etair madana-subhagair netra-valitaiḥ
+sphuran-nīlābjānāṃ prakara-parikīrṇā iva diśaḥ .. bharst_2.4 ..
+vaktraṃ candra-vikāsi paṅkaja-parīhāsa-kṣame locane
+varṇaḥ svarṇam apākariṣṇur alinī-jiṣṇuḥ kacānāṃ cayaḥ .
+bakṣojāv ibha-kumbha-vibhrama-harau gurvī nitamba-sthalī
+vācāṃ hāri ca mārdavaṃ yuvatīṣu svābhāvikaṃ maṇḍanam .. bharst_2.5 ..
+smita-kiñcin-mugdhaṃ sarala-taralo dṛṣṭi-vibhavaḥ
+parispando vācām abhinava-vilāsokti-sarasaḥ .
+gatānām ārambhaḥ kisalayita-līlā-parikaraḥ
+spṛśantyās tāruṇyaṃ kim iva na hi ramyaṃ mṛgadṛśaḥ .. bharst_2.6 ..
+draṣṭavyeṣu kim uttamaṃ mṛgadṛśaḥ prema-prasannaṃ mukhaṃ
+ghrātaveṣv api kiṃ tad-āsya-pavanaḥ śravyeṣu kiṃ tad-vacaḥ .
+kiṃ svādyeṣu tad-oṣṭha-pallava-rasaḥ spṛśyeṣu kiṃ tad-vapurdhyeyaṃ
+kiṃ nava-yauvane sahṛdayaiḥ sarvatra tad-vibhramāḥ .. bharst_2.7 ..
+etāś calad-valaya-saṃhati-mekhalotthajhaṅkāra-
+nūpura-parājita-rāja-haṃsyaḥ .
+kurvanti kasya na mano vivaśaṃ taruṇyo
+vitrasta-mugdha-hariṇī-sadṛśaiḥ kaṭākṣaiḥ .. bharst_2.8 ..
+kuṅkuma-paṅka-kalaṅkita-dehā
+gaura-payodhara-kampita-hārā .
+nūpura-haṃsa-raṇat-padmā
+kaṃ na vaśīkurute bhuvi rāmā .. bharst_2.9 ..
+nūnaṃ hi te kavi-varā viparīta-vāco
+ye nityam āhur abalā iti kāminīs tāḥ .
+yābhir vilolitara-tāraka-dṛṣṭi-pātaiḥ
+śakrādayo 'pi vijitās tv abalāḥ kathaṃ tāḥ .. bharst_2.10 ..
+nūnam ājñā-karas tasyāḥ subhruvo makara-dhvajaḥ .
+yatas tan-netra-sañcāra-sūciteṣu pravartate .. bharst_2.11 ..
+keśāḥ saṃyaminaḥ śruter api paraṃ pāraṃ gate locane
+antar-vaktram api svabhāva-śuci-bhīḥ kīrṇaṃ dvijānāṃ gaṇaiḥ .
+muktānāṃ satatādhivāsa-rucirau vakṣoja-kumbhāv imāvitthaṃ
+tanvi vapuḥ praśāntam api terāgaṃ karoty eva naḥ .. bharst_2.12 ..
+mugdhe dhānuṣkatā keyam apūrvā tvayi dṛśyate .
+yayā vidhyasi cetāṃsi guṇair eva na sāyakaiḥ .. bharst_2.13 ..
+sati pradīpe saty agnau satsu tārāravīnduṣu .
+vinā me mṛga-śāvākṣyā tamo-bhūtam idaṃ jagat .. bharst_2.14 ..
+udvṛttaḥ stana-bhāra eṣa tarale netre cale bhrū-late
+rāgādhiṣṭhitam oṣṭha-pallavam idaṃ kurvantu nāma vyathām .
+saubhāgyākṣara-mālikeva likhitā puṣpāyudhena svayaṃ
+madhyasthāpi karoti tāpam adhikaṃ romāvaliḥ kena sā .. bharst_2.15 ..
+mukhena candra-kāntena mahānīlaiḥ śiroruhaiḥ .
+karābhyāṃ padmarāgābhyāṃ reje ratnamayīva sā .. bharst_2.16 ..
+guruṇā stana-bhāreṇa mukha-candreṇa bhāsvatā .
+śanaiś-carābhyāṃ pādābhyāṃ reje grahamayīva sā .. bharst_2.17 ..
+tasyāḥ stanau yadi ghanau jaghanaṃ ca hāri
+vaktraṃ ca cāru tava citta kim ākulatvam .
+puṇyaṃ kuruṣva yadi teṣu tavāsti vāñchā
+puṇyair vinā na hi bhavanti samīhitārthāḥ .. bharst_2.18 ..
+ime tāruṇya-śrī-nava-parimalāḥ prauḍha-suratapratāpa-
+prārambhāḥ smara-vijaya-dāna-pratibhuvaḥ .
+ciraṃ cetaś corā abhinava-vikāraika-guravo
+vilāsa-vyāpārāḥ kim api vijayante mṛga-dṛśām .. bharst_2.19 ..
+praṇaya-madhurāḥ premodgārā rasāśrayatāṃ gatāḥ
+phaṇiti-madhurā mugdha-prāyāḥ prakāśita-sammadāḥ .
+prakṛti-subhagā visrambhārdrāḥ smarodaya-dāyinī
+rahasi kim api svairālāpā haranti mṛgīdṛśām .. bharst_2.20 ..
+viśramya viśramya vana-drumāṇāṃ
+chāyāsu tanvī vicacāra kācit .
+stanottarīyeṇa karoddhṛtena
+nivārayantī śaśino mayūkhān .. bharst_2.21 ..
+adarśane darśana-mātra-kāmā
+dṛṣṭvā pariṣvaṅga-sukhaika-lolā .
+āliṅgitāyāṃ punar āyatākṣyāmāśāsmahe
+vigrahayor abhedam .. bharst_2.22 ..
+mālatī śirasi jṛmbhaṇaṃ mukhe
+candanaṃ vapuṣi kuṅkumāvilam .
+vakṣasi priyatamā madālasā
+svarga eṣa pariśiṣṭa āgamaḥ .. bharst_2.23 ..
+prāṅ mām eti manāg anāgata-rasaṃ jātābhilāṣāṃ tataḥ
+savrīḍaṃ tad anu ślathodyamam atha pradhvasta-dhairyaṃ punaḥ .
+premārdraṃ spṛhaṇīya-nirbhara-rahaḥ krīḍā-pragalbhaṃ tato
+niḥsaṅgāṅga-vikarṣaṇādhika-sukha-ramyaṃ kula-strī-ratam .. bharst_2.24 ..
+urasi nipatitānāṃ srasta-dhammillakānāṃ
+mukulita-nayanānāṃ kiñcid-unmīlitānām .
+upari surata-kheda-svinna-gaṇḍa-sthalānāmadhara-
+madhu vadhūnāṃ bhāgyavantaḥ pibanti .. bharst_2.25 ..
+āmīlita-nayanānāṃ yaḥ
+surataraso 'nu saṃvidaṃ bhāti .
+mithurair mitho 'vadhāritamavitatham
+idam eva kāma-nirbarhaṇam .. bharst_2.26 ..
+idam anucitam akramaś ca puṃsāṃ
+yad iha jarāsv api manmathā vikārāḥ .
+tad api ca na kṛtaṃ nitambinīnāṃ
+stana-patanāvadhi jīvitaṃ rataṃ vā .. bharst_2.27 ..
+rājas-tṛṣṇāmburāśer na hi jagati gataḥ kaścid evāvasānaṃ
+ko vārtho 'rthaiḥ prabhūtaiḥ sva-vapuṣi galite yauvane sānurāge .
+gacchāmaḥ sadma yāvad vikasita-nayanendīvarālokinīnāmākramyākramya
+rūpaṃ jhaṭiti na jarayā lupyate preyasīnām .. bharst_2.28 ..
+rāgasyāgāram ekaṃ naraka-śata-mahā-duḥkha-samprāpti-heturmohasyotpatti-
+bījaṃ jaladhara-paṭalaṃ jñāna-tārādhipasya .
+kandarpasyaika-mitraṃ prakaṭita-vividha-spaṣṭa-doṣa-prabandhaṃ
+loke 'smin na hy artha-vraja-kula-bhavana-yauvanād anyad asti .. bharst_2.29 ..
+śṛṅgāra-druma-nīrade prasṛmara-krīḍā-rasa-srotasi
+pradyumna-priya-bāndhave catura-vāṅ-muktā-phalodanvati .
+tanvī-netra-cakora-pāvana-vidhau saubhāgya-lakṣmī-nidhau
+dhanyaḥ ko 'pi na vikriyāṃ kalayati prāpte nave yauvane .. bharst_2.30 ..
+saṃsāre 'sminn asāre kunṛpati-bhavana-dvāra-sevā-kalaṅkavyāsaṅga-
+vyasta-dhairyaṃ katham amala-dhiyo mānasaṃ saṃvidadhyuḥ .
+yady etāḥ prodyad-indu-dyuti-nicaya-bhṛto na syur ambhoja-netrāḥ
+preṅkhat-kāñcī-kalāpāḥ stana-bhara-vinaman-madhya-bhājas taruṇyaḥ .. bharst_2.31 ..
+siddhādhyāsita-kandare hara-vṛṣa-skandhāvarugṇa-drume
+gaṅgā-dhauta-śilā-tale himavataḥ sthāne sthite śreyasi .
+kaḥ kurvīta śiraḥ praṇāma-malinaṃ mlānaṃ manasvī jano
+yad-vitrasta-kuraṅga-śāva-nayanā na syuḥ smarāstraṃ striyaḥ .. bharst_2.32 ..
+saṃsāra tava paryanta-padavī na davīyasī .
+antarā dustarā na syur yadi te madirekṣaṇām .. bharst_2.33 ..
+diśa vana-hariṇībhyo vaṃśa-kāṇḍa-cchavīnāṃ
+kavalam upala-koṭi-cchinna-mūlaṃ kuśānām .
+śaka-yuvati-kapolāpāṇḍutāmbūla-vallīdalam
+aruṇa-nakhāgraiḥ pāṭitaṃ vā vadhūbhyaḥ .. bharst_2.34 ..
+asārāḥ sarve te virati-virasāḥ pāpa-viṣayā
+jugupsyantāṃ yad vā nanu sakala-doṣāspadam iti .
+tathāpy etad-bhūmau nahi para-hitāt puṇyam adhikaṃ
+na cāsmin saṃsāre kuvalaya-dṛśo ramyam aparam .. bharst_2.35 ..
+etat-kāma-phalo loke yad dvayor eka-cittatā .
+anya-citta-kṛte kāme śavayor iva saṅgamaḥ .. bharst_2.351 ..
+mātsaryam utsārya vicārya kāryamāryāḥ
+samaryādam idaṃ vadantu .
+sevyā nitambāḥ kim u bhūdharāṇāmata
+smara-smera-vilāsinīnām .. bharst_2.36 ..
+saṃsāre svapna-sāre pariṇati-tarale dve gatī paṇḍitānāṃ
+tattva-jñānāmṛtāmbhaḥ-plava-lalita-dhiyāṃ yātu kālaḥ kathañcit .
+no cen mugdhāṅganānāṃ stana-jaghana-ghanābhoga-sambhoginīnāṃ
+sthūlopastha-sthalīṣu sthagita-karatala-sparśa-līlodyamānām .. bharst_2.37 ..
+āvāsaḥ kriyatāṃ gaṅge pāpa-hāriṇi vāriṇi .
+stana-dvaye taruṇyā vā manohāriṇi hāriṇi .. bharst_2.38 ..
+kim iha bahubhir uktair yukti-śūnyaiḥ pralāpairdvayam
+iha puruṣāṇāṃ sarvadā sevanīyam .
+abhinava-mada-līlā-lālasaṃ sundarīṇāṃ
+stana-bhara-parikhinnaṃ yauvanaṃ vā vanaṃ vā .. bharst_2.39 ..
+satyaṃ janā vacmi na pakṣa-pātāl
+lokeṣu saptasv api tathyam etat .
+nānyan manohāri nitambinībhyo
+duḥkhaika-hetur na ca kaścid anyaḥ .. bharst_2.40 ..
+kāntety utpala-locaneti vipula-śroṇī-bharety unnamatpīnottuṅga-
+payodhareti samukhāmbhojeti subhrūr iti .
+dṛṣṭvā mādyati modate 'bhiramate prastauti vidvān api
+pratyakṣāśuci-bhastrikāṃ striyam aho mohasya duśceṣṭitam .. bharst_2.41 ..
+smṛtā bhavati tāpāya dṛṣṭā conmāda-kāriṇī .
+spṛṣṭā bhavati mohāya sā nāma dayitā katham .. bharst_2.42 ..
+tāvad evāmṛtamayī yāval locana-gocarā .
+cakṣuṣ-pathād atītā tu viṣād apy atiricyate .. bharst_2.43 ..
+nāmṛtaṃ na viṣaṃ kiñcid etāṃ muktvā nitambinīm .
+saivāmṛta-latā raktā viraktā viṣa-vallarī .. bharst_2.44 ..
+āvartaḥ saṃśayānām avinaya-bhuvanaṃ paṭṭaṇaṃ sāhasānāṃ
+doṣāṇāṃ sannidhānaṃ kapaṭa-śata-mayaṃ kṣetram apratyayānām .
+svarga-dvārasya vighno naraka-pura-mukha sarvamāyākaraṇḍaṃ
+strī-yantraṃ kena sṛṣṭaṃ viṣam amṛtamayaṃ prāṇi-lokasya pāśaḥ .. bharst_2.45 ..
+no satyena mṛgāṅka eṣa vadanī-bhūto na cendīvaradvandvaṃ
+locanatāṃ gata na kanakair apy aṅga-yaṣṭiḥ kṛtā .
+kintv evaṃ kavibhiḥ pratārita-manās tattvaṃ vijānann api
+tvaṅ-māṃsāsthi-mayaṃ vapur mṛga-dṛśāṃ mando janaḥ sevate .. bharst_2.46 ..
+līlāvatīnāṃ sahajā vilāsāsta
+eva mūḍhasya hṛdi sphuranti .
+rāgo nalinyā hi nisarga-siddhastatra
+bhranty eva vṛthā ṣaḍ-aṅghriḥ .. bharst_2.47 ..
+sammohayanti madayanti viḍambayanti
+nirbhartsyanti ramayanti viṣādayanti .
+etāḥ praviśya sadayaṃ hṛdayaṃ narāṇāṃ
+kiṃ nāma vāma-nayanā na samācaranti .. bharst_2.471 ..
+yad etat pūrṇendu-dyuti-haram udārākṛti paraṃ
+mukhābjaṃ tanvaṅgyāḥ kila vasati yatrādhara-madhu .
+idaṃ tat kiṃ pāka-druma-phalam idānīm atirasavyatīte 'smin
+kāle viṣam iva bhaviṣyty asukhadam .. bharst_2.48 ..
+unmīlat-trivalī-taraṅga-nilayā prottuṅga-pīna-stanadvandvenodgata-
+cakravāka-yugalā vaktrāmbujodbhāsinī .
+kāntākāra-dharā nadīyam abhitaḥ krūrātra nāpekṣate
+saṃsārārṇava-majjanaṃ yadi tadā dūreṇa santyajyatām .. bharst_2.49 ..
+jalpanti sārdham anyena paśyanty anyaṃ savibhramāḥ .
+hṛd-gataṃ cintayanty anyaṃ priyaḥ ko nāma yoṣitām .. bharst_2.50 ..
+madhu tiṣṭhati vāci yoṣitāṃ hṛdi hālāhalam eva kevalam .
+ataeva nipīyate 'dharo hṛdayaṃ muṣṭibhir eva tāḍyate .. bharst_2.51 ..
+apasara sakhe dūrād asmāt kaṭākṣa-viṣānalāt
+prakṛti-viṣamād yoṣit-sarpād vilāsa-phaṇābhṛtaḥ .
+itara-phaṇinā daṣṭaḥ śakyaś cikitsitum auṣadhaiścatur-
+vanitābhogi-grastaṃ hi mantriṇaḥ .. bharst_2.52 ..
+vistāritaṃ makara-ketana-dhīvareṇa
+strī-sañjñitaṃ baḍiśam atra bhavāmbu-rāśau .
+yenācirāt tad-adharāmiṣa-lola-martya-
+matsyān vikṛṣya vipacaty anurāga-vahnau .. bharst_2.53 ..
+kāminī-kāya-kāntāre kuca-parvata-durgame .
+mā sañcara manaḥ pāntha tatrāste smara-taskaraḥ .. bharst_2.54 ..
+vyādīrgheṇa calena vaktra-gatinā tejasvinā bhoginā
+nīlābja-dyutināhinā param ahaṃ dṛṣṭo na tac-cakṣuṣā .
+dṛṣṭe santi cikitsakā diśi diśi prāyeṇa darmārthino
+mugdhākṣkṣaṇa-vīkṣitasya na hi me vaidyo na cāpy auṣadham .. bharst_2.55 ..
+iha hi madhura-gītaṃ nṛtyam etad-raso 'yaṃ
+sphurati parimalo 'sau sparśa eṣa stanānām .
+iti hata-paramārthair indriyair bhrāmyamāṇaḥ
+sva-hita-karaṇa-dhūrtaiḥ pañcabhir vañcito 'smi .. bharst_2.56 ..
+na gamyo mantrāṇāṃ na ca bhavati bhaiṣajya-viṣayo
+na cāpi pradhvaṃsaṃ vrajati vividhaiḥ śāntika-śataiḥ .
+bhramāveśād aṅge kam api vidadhad bhaṅgam asakṛt
+smarāpasmāro 'yaṃ bhramayati dṛśaṃ ghūrṇayati ca .. bharst_2.57 ..
+jāty-andhāya ca durmukhāya ca jarājīrṇā khilāṅgāya ca
+grāmīṇāya ca duṣkulāya ca galat-kuṣṭhābhibhūtāya ca .
+yacchantīṣu manoharaṃ nija-vapu-lakṣmī-lava-śraddhayā
+paṇya-strīṣu viveka-kalpa-latikāśa-strīṣu rājyeta kaḥ .. bharst_2.58 ..
+veśyāsau madana-jvālā
+rūpe 'ndhana-vivardhitā .
+kāmibhir yatra hūyante
+yauvanāni dhanāni ca .. bharst_2.59 ..
+kaś cumbati kula-puruṣo veśyādhara-pallavaṃ manojñam api .
+cārabhaṭa-cora-ceṭaka-naṭa-viṭa-niṣṭhīvana-śarāvam .. bharst_2.60 ..
+dhanyās ta eva dhavalāyata-locanānāṃ
+tāruṇya-darpa-ghana-pīna-payodharāṇām .
+kṣāmodaropari lasat-trivalī-latānāṃ
+dṛṣṭvākṛtiṃ vikṛtim eti mano na yeṣām .. bharst_2.61 ..
+bāle līlā-mukulitam amī mantharā dṛṣṭi-pātāḥ
+kiṃ kṣipyante virama-virama vyartha eṣa śramas te .
+sampraty anye vayam uparataṃ bālyam āsthā vanānte
+kṣīṇo mohas tṛṇam iva jagaj-jālam ālokayāmaḥ .. bharst_2.62 ..
+iyaṃ bālā māṃ praty anavaratam indīvara-dalaprabhā
+cīraṃ cakṣuḥ kṣipati kim abhipretam anayā .
+gato moho 'smākaṃ smara-śabara-bāṇa-vyatikarajvara-
+jvālā śāntā tad api na varākī viramati .. bharst_2.63 ..
+kiṃ kandarpa karaṃ kadarthayasi re kodaṇḍa-ṭaṅkāritaṃ
+re re kokila komalaṃ kala-ravaṃ kiṃ vā vṛthā jalpasi .
+mugdhe snigdha-vidagdha-cāru-madhurair lolaiḥ kaṭākṣair alaṃ
+cetaś cumbita-candra-cūḍa-caraṇa-dhyānāmṛtaṃ vartate .. bharst_2.64 ..
+virahe 'pi saṅgamaḥ khalu
+parasparaṃ saṅgataṃ mano yeṣām .
+hṛdayam api vighaṭṭitaṃ cet
+saṅgī virahaṃ viśeṣayati .. bharst_2.65 ..
+kiṃ gatena yadi sā na jīvati
+prāṇiti priyatamā tathāpi kim .
+ity udīkṣya nava-megha-mālikāṃ
+na prayāti pathikaḥ sva-mandiram .. bharst_2.66 ..
+viramata budhā yoṣit-saṅgāt sukhāt kṣaṇa-bhaṅgurāt
+kuruta karuṇā-maitrī-prajñā-vadhū-jana-saṅgamam .
+na khalu narake hārākrāntaṃ ghana-stana-maṇḍalaṃ
+śaraṇam athavā śroṇī-bimbaṃ raṇan-maṇi-mekhalam .. bharst_2.67 ..
+yadā yogābhyāsa-vyasana-kṛśayor ātma-manasoravicchinnā
+maitrī sphurati kṛtinas tasya kim u taiḥ .
+priyāṇām ālāpair adhara-madhubhir vaktra-vidhubhiḥ
+saniśvāsāmodaiḥ sakuca-kalaśāśleṣa-surataiḥ .. bharst_2.68 ..
+yadāsīd ajñānaṃ smara-timira-sañcāra-janitaṃ
+tadā dṛṣṭa-nārī-mayam idam aśeṣaṃ jagad iti .
+idānīm asmākaṃ paṭutara-vivekāñjana-juṣāṃ
+samībhūtā dṛṣṭis tribhuvanam api brahma manute .. bharst_2.69 ..
+tāvad eva kṛtinām api sphuratyeṣa
+nirmala-viveka-dīpakaḥ .
+yāvad eva na kuraṅga-cakṣuṣāṃ
+tāḍyate caṭula-locanāñcalaiḥ .. bharst_2.70 ..
+vacasi bhavati saṅga-tyāgam uddiśya vārtā
+śruti-mukhara-mukhānāṃ kevalaṃ paṇḍitānām .
+jaghanam aruṇa-ratna-granthi-kāñcī-kalāpaṃ
+kuvalaya-nayanānāṃ ko vihātuṃ samarthaḥ .. bharst_2.71 ..
+sva-para-pratārako 'sau
+nindati yo 'līka-paṇḍito yuvatīḥ .
+yasmāt tapaso 'pi phalaṃ
+svargaḥ svarge 'pi cāpsarasaḥ .. bharst_2.72 ..
+mattebha-kumbha-dalane bhuvi santi dhīrāḥ
+kecit pracaṇḍa-mṛga-rāja-vadhe 'pi dakṣāḥ .
+kintu bravīmi balināṃ purataḥ prasahya
+kandarpa-darpa-dalane viralā manuṣyāḥ .. bharst_2.73 ..
+san-mārge tāvad āste prabhavati ca naras tāvad evendriyāṇāṃ
+lajjāṃ tāvad vidhatte vinayam api samālambate tāvad eva .
+bhrū-cāpākṛṣṭa-muktāḥ śravaṇa-patha-gatā nīla-pakṣmāṇa ete
+yāval līlāvatīnāṃ hṛdi na dhṛtimuṣo dṛṣṭi-bāṇāḥ patanti .. bharst_2.74 ..
+unmatta-prema-saṃrambhād
+ārabhante yad-aṅganāḥ .
+tatra pratyūham ādhātuṃ
+brahmāpi khalu kātaraḥ .. bharst_2.75 ..
+tāvan mahattvaṃ pāṇḍityaṃ
+kulīnatvaṃ vivekitā .
+yāvaj jvalati nāṅgeṣu
+hataḥ pañceṣu-pāvakaḥ .. bharst_2.76 ..
+śāstrajño 'pi praguṇi-tanayo 'tyānta-bādhāpi bāḍhaṃ
+saṃsāre 'smin bhavati viralo bhājanaṃ sad-gatīnām .
+yenaitasmin niraya-nagara-dvāram udghāṭayantī
+vāmākṣīṇāṃ bhavati kuṭilā bhrū-latā kuñcikeva .. bharst_2.77 ..
+kṛśaḥ kāṇaḥ khañjaḥ śravaṇa-rahitaḥ puccha-vikalo
+vraṇī pūya-klinnaḥ kṛmi-kula-śatair āvṛta-tanuḥ .
+kṣudhā kṣāmo jīrṇaḥ piṭharaka-kapālārpita-galaḥ
+śunīm anveti śvā hatam api ca hanty eva madanaḥ .. bharst_2.78 ..
+strī-mudrāṃ kusumāyudhasya jayinīṃ sarvārtha-sampat-karīṃ
+ye mūḍhāḥ pravihāya yānti kudhiyo mithyā-phalānveṣiṇaḥ .
+te tenaiva nihatya nirdayataraṃ nagnīkṛtā muṇḍitāḥ
+kecit pañca-śikhī-kṛtāś ca jaṭilāḥ kāpālikāś cāpare .. bharst_2.79 ..
+viśvāmitra-parāśara-prabhṛtayo vātāmbu-parṇāśanāste 'pi
+strī-mukha-paṅkajaṃ sulalitaṃ dṛṣṭvaiva mohaṃ gatāḥ .
+śālyannaṃ sa-ghṛtaṃ payo-dadhi-yutaṃ ye bhuñjate mānavāsteṣām
+indriya-nigraho yadi bhaved vindhyaḥ plavet sāgare .. bharst_2.80 ..
+parimala-bhṛto vātāḥ śākhā navāṅkura-koṭayo
+madhura-vidhurotkaṇṭhā-bhājaḥ priyā pika-pakṣiṇām .
+virala-virasa-svedodgārā vadhū-vadanendavaḥ
+prasarati madhau dhātryāṃ jāto na kasya guṇodayaḥ .. bharst_2.81 ..
+madhur ayaṃ madhurair api kokilā
+kala-ravair malayasya ca vāyubhiḥ .
+virahiṇaḥ prahiṇasti śarīriṇo
+vipadi hanta sudhāpi viṣāyate .. bharst_2.82 ..
+āvāsaḥ kila-kiñcitasya dayitā-pārśve vilāsālasāḥ
+karṇe kokila-kāminī-kala-ravaḥ smero latā-maṇḍapaḥ .
+goṣṭhī sat-kavibhiḥ samaṃ katipayair mugdhāḥ sudhāṃśoḥ karāḥ
+keṣāñcit sukhayanti cātra hṛdayaṃ caitre vicitrāḥ kṣapāḥ .. bharst_2.83 ..
+pāntha strī-virahānalāhuti-kalām ātanvatī mañjarīmākandeṣu
+pikāṅganābhir adhunā sotkaṇṭham ālokyate .
+apy ete nava-pāṭalā-parimala-prāg-bhāra-pāṭac-carā
+vānti-klānti-vitāna-tānava-kṛtaḥ śrīkhaṇḍa-śailānilāḥ .. bharst_2.84 ..
+prathitaḥ praṇayavatīnāṃ
+tāvat padam ātanotu hṛdi mānaḥ .
+bhavati na yāvac candanataru-
+surabhir malaya-pavamānaḥ .. bharst_2.85 ..
+sahakāra-kusuma-kesaranikara-
+bharāmoda-mūrcchita-dig-ante .
+madhura-madhura-vidhura-madhupe
+madhau bhavet kasya notkaṇṭhā .. bharst_2.86 ..
+acchāccha-candana-rasārdratarā mṛgākṣyo
+dhārā-gṛhāṇi kusumāni ca kaumudī ca .
+mando marut sumanasaḥ śuci harmya-pṛṣṭhaṃ
+grīṣme madaṃ ca madanaṃ ca vivardhayanti .. bharst_2.87 ..
+srajo hṛdy āmodā vyajana-pavanaś candra-kiraṇāḥ
+parāgaḥ kāsāro malayaja-rajaḥ śīdhu viśadam .
+śuciḥ saudhotsaṅgaḥ pratanu vasanaṃ paṅkaja-dṛśo
+nidāgha-rtāv etad vilasati labhante sukṛtinaḥ .. bharst_2.88 ..
+sudhā-śubhraṃ dhāma sphurad-amala-raśmiḥ śaśadharaḥ
+priyā-vaktrāmbhojaṃ malayaja-rajaś cātisurabhiḥ .
+srajo hṛdyāmodās tad idam akhilaṃ rāgiṇi jane
+karoty antaḥ kṣobhaṃ na tu viṣaya-saṃsarga-vimukhe .. bharst_2.89 ..
+taruṇī-veṣoddīpita-kāmā
+vikasaj-jātī-puṣpa-sugandhiḥ .
+unnata-pīna-payodhara-bhārā
+prāvṛṭ tanute kasya na harṣam .. bharst_2.90 ..
+viyad-upacita-meghaṃ bhūmayaḥ kandalinyo
+nava-kuṭaja-kadambāmodino gandhavāhāḥ .
+śikhi-kula-kala-kekārāvaramyā vanāntāḥ
+sukhinam asukhinaṃ vā sarvam utkaṇṭhayanti .. bharst_2.91 ..
+upari ghanaṃ ghana-paṭalaṃ
+tiryag girayo 'pi nartita-mayūrāḥ .
+kṣitir api kandala-dhavalā
+dṛṣṭiṃ pathikaḥ kva pātayati .. bharst_2.92 ..
+ito vidyud-vallī-vilasitam itaḥ ketaki-taroḥ
+sphuran gandhaḥ prodyaj-jalada-ninada-sphūrjitam itaḥ .
+itaḥ keki-krīḍā-kala-kala-ravaḥ pakṣmala-dṛśāṃ
+kathaṃ yāsyanty ete viraha-divasāḥ sambhṛta-rasāḥ .. bharst_2.93 ..
+asūci-sañcāre tamasi nabhasi prauḍha-jaladadhvani-
+prājñammanye patati pṛṣatānāṃ ca nicaye .
+idaṃ saudāminyāḥ kanaka-kamanīyaṃ vilasitaṃ
+mudaṃ ca mlāniṃ ca prathayati pathi svaira-sudṛśām .. bharst_2.94 ..
+āsāreṇa na harmyataḥ priyatamair yātuṃ bahiḥ śakyate
+śītotkampa-nimittam āyata-dṛśā gāḍhaṃ samāliṅgyate .
+jātāḥ śīkara-śītalāś ca marutor atyanta-kheda-cchido
+dhanyānāṃ bata durdinaṃ sudinatāṃ yāti priyā-saṅgame .. bharst_2.95 ..
+ardhaṃ suptvā niśāyāḥ sarabhasa-suratāyāsa-sanna-ślathāṅgaprodbhūtāsahya-
+tṛṣṇo madhu-mada-nirato harmya-pṛṣṭhe vivikte .
+sambhoga-klānta-kāntā-śithila-bhuja-latā-varjitaṃ karkarīto
+jyotsnābhinnāccha-dhāraṃ pibati na salilaṃ śāradaṃ manda-puṇyaḥ .. bharst_2.96 ..
+hemante dadhi-dugdha-sarpir aśanā māñjiṣṭha-vāso-bhṛtaḥ
+kāśmīra-drava-sāndra-digdha-vapuṣaś chinnā vicitrai rataiḥ .
+vṛttoru-stana-kāminojana-kṛtāśleṣā gṛhābhyantare
+tāmbūlī-dala-pūga-pūrita-mukhā dhanyāḥ sukhaṃ śerate .. bharst_2.97 ..
+praduyat-prauḍha-priyaṅgu-dyuti-bhṛti vikasat-kunda-mādyad-dvirephe
+kāle prāleya-vāta-pracala-vilasitodāra-mandāra-dhāmni .
+yeṣāṃ no kaṇṭha-lagnā kṣaṇam api tuhina-kṣoda-dakṣā mṛgākṣī
+tesām āyāma-yāmā yama-sadana-samā yāminī yāti yūnām .. bharst_2.98 ..
+cumbanto gaṇḍa-bhittīr alakavati mukhe sītkṛtāny ādadhānā
+vakṣaḥ-sūtkañcukeṣu stana-bhara-pulakodbhedam āpādayantaḥ .
+ūrū-nākampayantaḥ pṛthu-jaghana-taṭāt sraṃsayanto 'ṃśukāni
+vyaktaṃ kāntā-janānāṃ viṭa-carita-bhṛtaḥ śaiśirā vānti vātāḥ .. bharst_2.99 ..
+keśānākulayan dṛśo mukulayan vāso balād ākṣipannātanvan
+pulakodgamaṃ prakaṭayann āvega-kampaṃ śanaiḥ .
+bāraṃ bāram udāra-sītkṛta-kṛto danta-cchadān pīḍayan
+prāyaḥ śaiśira eṣa samprati marut kāntāsu kāntāyate .. bharst_2.100 ..
+yady asya nāsti ruciraṃ tasmiṃs tasya spṛhā manojñe 'pi .
+ramaṇīye 'pi sudhāṃśau na manaḥ-kāmaḥ sarojinyāḥ .. bharst_2.101 ..
+vairāgye sañcaraty eko nītau bhramati cāparaḥ .
+śṛṅgāre ramate kaścid bhuvi bhedāḥ parasparam .. bharst_2.102 ..
+iti śubhaṃ bhūyāt .
+
+vairāgya-śatakam
+bhartṛhareḥ
+cūḍottaṃsita-candra-cāru-kalikā-cañcac-chikhā-bhāsvaro
+līlā-dagdha-vilola-kāma-śalabhaḥ śreyo-daśāgre sphuran .
+antaḥ-sphūrjad-apāra-moha-timira-prāg-bhāram uccāṭayan
+śvetaḥ-sadmani yogināṃ vijayate jñāna-pradīpo haraḥ .. bharst_3.1 ..
+bhrāntaṃ deśam aneka-durga-viṣamaṃ prāptaṃ na kiñcit phalaṃ
+tyaktvā jāti-kulābhimānam ucitaṃ sevā kṛtā niṣphalā .
+bhuktaṃ māna-vivarjitaṃ para-gṛheṣv āśaṅkayā kākavat
+tṛṣṇe jṛmbhasi pāpa-karma-piśune nādyāpi santuṣyasi .. bharst_3.2 ..
+utkhātaṃ nidhi-śaṅkayā kṣiti-talaṃ dhmātā girer dhātavo
+nistīrṇaḥ saritāṃ patir nṛpatayo yatnena santoṣitāḥ .
+mantrārādhana-tat-pareṇa manasā nītāḥ śmaśāne niśāḥ
+prāptaḥ kāṇa-varāṭako 'pi na mayā tṛṣṇe sakāmā bhava .. bharst_3.3 ..
+khalālāpāḥ sauḍhāḥ katham api tad-ārādhana-parairnigṛhyāntar-
+bāṣpaṃ hasitam api śūnyena manasā .
+kṛto vitta-stambha-pratihata-dhiyām añjalir api
+tvam āśe moghāśe kima aparam ato nartayasi mām .. bharst_3.4 ..
+amīṣāṃ prāṇānāṃ tulita-visinī-patra-payasāṃ
+kṛte kiṃ nāsmābhir vigalita-vivekair vyavasitam .
+yad-āḍhyānām agre draviṇa-mada-niḥsañjña-manasāṃ
+kṛtaṃ māva-vrīḍair nija-guṇa-kathā-pātakam api .. bharst_3.5 ..
+kṣāntaṃ na kṣamayā gṛhocita-sukhaṃ tyaktaṃ na santoṣataḥ
+soḍho duḥsaha-śīta-tāpa-pavana-kleśo na taptaṃ tapaḥ .
+dhyātaṃ vittam ahar-niśaṃ nityamita-prāṇair na śambhoḥ padaṃ
+tat-tat-karma kṛtaṃ yad eva munibhis tais taiḥ phalair vañcitāḥ .. bharst_3.6 ..
+bhogā na bhuktā vayam eva bhuktās
+tapo na taptaṃ vayam eva taptāḥ .
+kālo na yāto vayam eva yātāstṛṣṇā
+na jīrṇā vayam eva jīrṇāḥ .. bharst_3.7 ..
+balibhir mukham ākrāntaṃ palitenāṅkitaṃ śiraḥ .
+gātrāṇi śithilāyante tṛṣṇaikā taruṇāyate .. bharst_3.8 ..
+viveka-vyākośe vidadhati same śāmyati tṛṣā
+pariṣvaṅge tuṅge prasaratitarāṃ sā pariṇatā .
+jarājīrṇaiśvarya-grasana-gahanākṣepa-kṛpaṇastṛṣāpātraṃ
+yasyāṃ bhavati marutām apy adhipatiḥ .. bharst_3.81 ..
+nivṛttā bhogecchā puruṣa-bahu-māno 'pi galitaḥ
+samānāḥ svar-yātāḥ sapadi suhṛdo jīvita-samāḥ .
+śanair yaṣṭy utthānaṃ ghana-timira-ruddhe ca nayane
+aho mūḍhaḥ kāyas tad api maraṇāpāya-cakitaḥ .. bharst_3.9 ..
+āśā nāma nadī manoratha-jalā tṛṣṇā-taraṅgākulā
+rāga-grāhavatī vitarka-vihagā dhairya-druma-dhvaṃsinī .
+mohāvarta-sudustarātigahanā prottuṅga-cintā-taṭī
+tasyāḥ para-gatā viśuddham alaso nandanti yogīśvarāḥ .. bharst_3.10 ..
+na saṃsārotpannaṃ caritam anupaśyāmi kuśalaṃ
+vipākaḥ puṇyānāṃ janayati bhayaṃ me vimṛśataḥ .
+mahadbhiḥ puṇyaughaiś cira-parigṛhītāś ca viṣayā
+mahānto jāyante vyasanam iva dātuṃ viṣayiṇām .. bharst_3.11 ..
+avaśyaṃ yātāraś cirataram uṣitvāpi viṣayā
+viyoge ko bhedas tyajati na jano yat svayam amūn .
+vrajantaḥ svātantryād atula-paritāpāya manasaḥ
+svayaṃ tyaktā hy ete śama-sukham anantaṃ vidadhati .. bharst_3.12 ..
+brahma-jñāna-viveka-nirmala-dhiyaḥ kurvanty aho duṣkaraṃ
+yan muñcanty upabhoga-bhāñjy api dhanāny ekāntato niḥspṛhāḥ .
+samprātān na purā na samprati na ca prāptau dṛḍha-pratyayān
+vāñchā-mātra-parigrahān api paraṃ tyaktuṃ na śaktā vayam .. bharst_3.13 ..
+dhanyānāṃ giri-kandareṣu vasatāṃ jyotiḥ paraṃ dhyāyatāmānandāśru-
+jalaṃ pibanti śakunā niḥśaṅkam aṅkeśayāḥ .
+asmākaṃ tu manorathoparacita-prāsāda-vāpī-taṭakrīḍā-
+kānana-keli-kautuka-juṣām āyuḥ paraṃ kṣīyate .. bharst_3.14 ..
+bhikṣā-śataṃ tad api nīrasam eka-bāraṃ
+śayyā ca bhūḥ parijano nija-deha-mātram .
+vastraṃ viśīrṇa-śata-khaṇḍa-mayī ca kanthā
+hā hā tathāpi viṣayā na parityajanti .. bharst_3.15 ..
+stanau māṃsa-granthī kanaka-kalaśāv ity upamitī
+mukhaṃ śleṣmāgāraṃ tad api ca śaśāṅkena tulitam .
+sravan-mūtra-klinnaṃ kari-vara-śira-spardhi jaghanaṃ
+muhur nindyaṃ rūpaṃ kavi-jana-viśeṣair guru-kṛtam .. bharst_3.16 ..
+eko rāgiṣu rājate priyatamā-dehārdha-hārī haro
+nīrāgeṣu jano vimukta-lalanāsaṅgo na yasmāt paraḥ .
+durvāra-smara-bāṇa-pannaga-viṣa-vyābiddha-mugdho janaḥ
+śeṣaḥ kāma-viḍambitān na viṣayān bhoktuṃ na moktuṃ kṣamaḥ .. bharst_3.17 ..
+ajānan dāhātmyaṃ patatu śalabhas tīvra-dahane
+sa mīno 'py ajñānād baḍiśa-yutam aśnātu piśitam .
+vijānanto 'py ete vayam iha viyaj jāla-jaṭilān
+na muñcāmaḥ kānām ahaha gahano moha-mahimā .. bharst_3.18 ..
+tṛṣā śuṣyaty āsye pibati salilaṃ śīta-madhuraṃ
+kṣudhārtaḥ śālyannaṃ kavalayati māṃsādi-kalitam .
+pradīpte kāmāgnau sudṛḍhataram āliṅgati vadhūṃ
+pratīkāraṃ vyādhaḥ sukham iti viparyasyati janaḥ .. bharst_3.19 ..
+tuṅgaṃ veśma sutāḥ satām abhimatāḥ saṅkhyātigāḥ sampadaḥ
+kalyāṇī dayitā vayaś ca navam ity ajñāna-mūḍho janaḥ .
+matvā viśvam anaśvaraṃ niviśate saṃsāra-kārā-gṛhe
+sandṛśya kṣaṇa-bhaṅguraṃ tad akhilaṃ dhanyas tu sannyasyati .. bharst_3.20 ..
+dīnā dīna-mukhaiḥ sadaiva śiśukairākṛṣṭa-jīrṇāmbarā
+krośadbhiḥ kṣudhitair niranna-vidhurā dṛśyā na ced gehinī .
+yācñā-bhaṅga-bhayena gadgada-gala-truṭyad-vilīnākṣaraṃ
+ko dehīti vadet sva-dagdha-jaṭharasyārthe manasvī pumān .. bharst_3.21 ..
+abhimata-mahāmāna-granthi-prabheda-paṭīyasī
+gurutara-guṇa-grāmābhoja-sphuṭojjvala-candrikā .
+vipula-vilal-lajjā-vallī-vitāna-kuṭhārikā
+jaṭhara-piṭharī duspureyaṃ karoti viḍambanam .. bharst_3.22 ..
+puṇye grāme vane vā mahati sita-paṭac-channa-pālī kapāliṃ
+hy ādāya nyāya-garbha-dvija-huta-huta-bhug dhūma-dhūmropakaṇṭhe .
+dvāraṃ dvāraṃ praviṣṭo varam udara-darī-pūraṇāya kṣudhārto
+mānī prāṇaiḥ sanātho na punar anudinaṃ tulya-kulyesu dīnaḥ .. bharst_3.23 ..
+gaṅgā-taraṅga-kaṇa-śīkara-śītalāni
+vidyādharādhyuṣita-cāru-śilā-talāni .
+sthānāni kiṃ himavataḥ pralayaṃ gatāni
+yat sāvamāna-para-piṇḍa-ratā manuṣyāḥ .. bharst_3.24 ..
+kiṃ kandāḥ kandarebhyaḥ pralayam upagatā nirjharā vā giribhyaḥ
+pradhvastā vā tarubhyaḥ sarasa-gala-bhṛto valkalinyaś ca śākhāḥ .
+vīkṣyante yan mukhāni prasabham apagata-praśrayāṇāṃ khalānāṃ
+duḥkhāpta-svalpa-vitta-smaya-pavana-vaśānartita-bhrū-latāni .. bharst_3.25 ..
+puṇyair mūla-phalais tathā praṇayinīṃ vṛttiṃ kuruṣvādhunā
+bhū-śayyāṃ nava-pallavair akṛpaṇair uttiṣṭha yāvo vanam .
+kṣudrāṇām aviveka-mūḍha-manasāṃ yatreśvarāṇāṃ sadā
+vitta-vyādhi-vikāra-vihvala-girāṃ nāmāpi na śrūyate .. bharst_3.26 ..
+phalaṃ svecchā-labhyaṃ prativanam akhedaṃ kṣitiruhāṃ
+payaḥ sthāne sthāne śiśira-madhuraṃ puṇya-saritām .
+mṛdu-sparśā śayyā sulalita-latā-pallava-mayī
+sahante santāpaṃ tad api dhanināṃ dvāri kṛpaṇāḥ .. bharst_3.27 ..
+ye vartante dhana-pati-puraḥ prārthanā-duḥkha-bhājo
+ye cālpatvaṃ dadhati viṣayākṣepa-paryāpta-buddheḥ .
+teṣām antaḥ-sphurita-hasitaṃ vāsarāṇi smareyaṃ
+dhyāna-cchede śikhari-kuhara-grāva-śayyā-niṣaṇṇaḥ .. bharst_3.28 ..
+ye santoṣa-nirantara-pramuditas teṣāṃ na bhinnā mudo
+ye tv anye dhana-lubdha-saṅkala-dhiyas tesāṃ na tṛṣṇāhatā .
+itthaṃ kasya kṛte kutaḥ sa vidhinā kīdṛk-padaṃ sampadāṃ
+svātmany eva samāpta-hema-mahimā merur na me rocate .. bharst_3.29 ..
+bhikṣāhāram adainyam apratisukhaṃ bhīticchidaṃ sarvato
+durmātsarya-madābhimāna-mathanaṃ duḥkhaugha-vidhvaṃsanam .
+sarvatrānvaham aprayatna-sulabhaṃ sādhu-priyaṃ pāvanaṃ
+śambhoḥ satram avāyam akṣaya-nidhiṃ śaṃsanti yogīśvarāḥ .. bharst_3.30 ..
+bhoge rogamayaṃ kule cyuti-bhayaṃ vitte nṛpālād bhayaṃ
+māne dhainya-bhayaṃ bale ripu-bhayaṃ rūpe jarāya bhayam .
+śāstre vādibhayaṃ guṇe khala-bhayaṃ kāye kṛtāntād bhayaṃ
+sarvaṃ vastu bhayānvitaṃ bhuvi nṝṇāṃ vairāgyam evābhayam .. bharst_3.31 ..
+ākrāntaṃ maraṇena janma jarasā cātyujjvalaṃ yauvanaṃ
+santoṣo dhana-lipsayā śama-mukhaṃ prauḍhāṅganā-vibhramaiḥ .
+lokair matsaribhir guṇā vana-bhuvo vyālair nṛpā durjanair
+asthairyeṇa vibhūtayo 'py apahatā grastaṃ na kiṃ kena vā .. bharst_3.32 ..
+ādhi-vyādhi-śatair janasya vividhair ārogyam unmūlyate
+lakṣmīr yatra patanti tatra vivṛta-dvārā iva vyāpadaḥ .
+jātaṃ jātam avaśyam āśu vivaśaṃ mṛtyuḥ karoty ātmasāt
+tat kiṃ tena niraṅkuśena vidhinā yan nirmitaṃ susthiram .. bharst_3.33 ..
+bhogās tuṅgataraṅga-bhaṅga-taralāḥ prāṇāḥ kṣaṇa-dhvaṃsinaḥ
+stokāny eva dināni yauvana-sukhaṃ sphūrtiḥ priyāsu sthitā .
+tat-saṃsāram asāram eva nikhilaṃ buddhvā budhā bodhakā
+lokānugraha-peśalena manasā yatnaḥ samādhīyatām .. bharst_3.34 ..
+bhogā megha-vitāna-madhya-vilasat-saudāminī-cañcalā
+āyur vāyu-vighaṭṭitābja-paṭalī-līnāmbuvad bhaṅguram .
+līlā yauvana-lālasās tanubhṛtām ity ākalayya drutaṃ
+yoge dhairya-samādhi-siddhi-sulabhe buddhiṃ vidadhvaṃ budhāḥ .. bharst_3.35 ..
+āyuḥ kallola-lolaṃ katipaya-divasa-sthāyinī yauvana-śrīr
+arthāḥ saṅkalpa-kalpā ghana-samaya-taḍid-vibhramā bhoga-pūgāḥ .
+kaṇṭhāśleṣopagūḍha tad api ca na ciraṃ yat priyābhaḥ praṇītaṃ
+brahmaṇy āsakta-cittā bhavata bhavamayāmbhodhi-pāraṃ tarītum .. bharst_3.36 ..
+kṛcchreṇāmedhya-madhye niyamita-tanubhiḥ sthīyate garbha-vāse
+kāntā-viśleṣa-duḥkha-vyatikara-viṣamo yauvane copabhogaḥ .
+vāmākṣīṇām avajñā-vihasita-vasatir vṛddha-bhāvo 'nyasādhuḥ
+saṃsāre re manuṣyā vadata yadi sukhaṃ svalpam apy asti kiñcit .. bharst_3.37 ..
+vyāghrīva tiṣṭhati jarā paritarjayantī
+rogāś ca śatrava iva praharanti deham .
+āyuḥ parisravanti bhinna-ghaṭā-divāmbho
+lokas tathāpy ahitam ācaratīti citram .. bharst_3.38 ..
+bhogā bhaṅgura-vṛttayo bahuvidhās tair eva cāyaṃ bhavastat
+kasyeha kṛte paribhramata re lokāḥ kṛtaṃ ceṣṭataiḥ .
+āśā-pāśa-śatāpaśānti-viśadaṃ cetaḥ-samādhīyatāṃ
+kāmotpatti-vaśāt svadhāmani yadi śraddeyam asmad-vacaḥ .. bharst_3.39 ..
+sakhe dhanyāḥ kecit truṭita-bhava-bandha-vyatikarā
+vanānte cittāntar-viṣam aviṣayāśīt-viṣa-gatāḥ .
+śarac-candra-jyotsnādhavala-gaganābhoga-subhagāṃ
+nayante ye rātriṃ sukṛta-caya-cintaika-śaraṇāḥ .. bharst_3.391 ..
+brahmendrādi-marud-gaṇāṃs tṛṇa-kaṇān yatra sthito manyate
+yat-svādād virasā bhavanti vibhavās trailokya-rājyādayaḥ .
+bhogaḥ ko 'pi sa eva eka paramo nityodito jṛmbhate
+bhoḥ sādho kṣaṇa-bhaṅgure tad itare bhoge ratiṃ mā kṛthāḥ .. bharst_3.40 ..
+sā ramyā nagarī mahān sa nṛpatiḥ sāmanta-cakraṃ ca tat
+pārśve tasya ca sā vidagdha-pariṣat tāś candra-bimbānanāḥ .
+udvṛttaḥ sa rāja-putra-nivahas te vandinas tāḥ kathāḥ
+sarvaṃ yasya vaśād agāt smṛti-pathaṃ kālāya tasmai namaḥ .. bharst_3.41 ..
+yatrānekaḥ kvacid api gṛhe tatra tiṣṭhaty athaiko
+yatrāpy ekas tad anu bahavas tatra naiko 'pi cānte .
+itthaṃ nayau rajani-divasau lolayan dvāv ivākṣau
+kālaḥ kalyo bhuvana-phalake kraḍati prāṇi-śāraiḥ .. bharst_3.42 ..
+ādityasya gatāgatair aharahaḥ saṅkṣīyate jīvitaṃ
+vyāpārair bahu-kārya-bhāra-gurubhiḥ kālo 'pi na jñāyate .
+dṛṣṭvā janma-jarā-vipatti-maraṇaṃ trāsaś ca notpadyate
+pītvā mohamayīṃ pramāda-madirām unmatta-bhūtaṃ jagat .. bharst_3.43 ..
+rātriḥ saiva punaḥ sa eva divaso matvā mudhā jantavo
+dhāvanty udyaminas tathaiva nibhṛta-prārabdha-tat-tat-kriyāḥ .
+vyāpāraiḥ punar-ukta-bhūta-viṣayair itthaṃ vidhenāmunā
+saṃsāreṇa kadarthitā vayam aho mohān na lajjāmahe .. bharst_3.44 ..
+na dhyānaṃ padam īśvarasya vidhivat saṃsāra-vicchittaye
+svarga-dvāra-kapāṭa-pāṭana-paṭur dharmo 'pi nopārjitaḥ .
+nārī-pīna-payodharoru-yugalaṃ svapne 'pi nāliṅgitaṃ
+mātuḥ kevalam eva yauvana-vana-cchede kuṭhārā vayam .. bharst_3.45 ..
+nābhyastā prativādi-vṛnda-damanī vidyā vinītocitā
+khaḍgāgraiḥ kari-kumbha-pīṭha-dalanair nākaṃ na nītaṃ yaśaḥ .
+kāntākomala-pallavādhara-rasaḥ pīto na candrodaye
+tāruṇyaṃ gatam eva niṣphalam aho śūnyālaye dīpavat .. bharst_3.46 ..
+vidyā nādhigatā kalaṅka-rahitā vittaṃ ca nopārjitaṃ
+śuśrūṣāpi samāhitena manasā pitror na sampāditā .
+ālolāyata-locanāḥ priyatamāḥ svapne 'pi nāliṅgitāḥ
+kālo 'yaṃ para-piṇḍa-lolupatayā kākair iva preryate .. bharst_3.47 ..
+vayaṃ yebhyo jātāś cira-parigatā eva khalu te
+samaṃ yaiḥ saṃvṛddhāḥ smṛti-viṣayatāṃ te 'pi gamitāḥ .
+idānīm ete smaḥ pratidivasam āsanna-patanā
+gatās tulyāvasthāṃ sikatilanadī-tīra-tarubhiḥ .. bharst_3.48 ..
+āyur varṣa-śataṃ nṝṇāṃ parimitaṃ rātrau tad-ardhaṃ gataṃ
+tasyārdhasya parasya cārdham aparaṃ bālatva-vṛddhatvayoḥ .
+śeṣaṃ vyādhi-viyoga-duḥkha-sahitaṃ sevādibhir nīyate
+jīve vārita-raṅga-cañcalatare saukhyaṃ kutaḥ prāṇinām .. bharst_3.49 ..
+kṣaṇaṃ bālo bhūtvā kṣaṇam pai yuvā kāma-rasikaḥ
+kṣaṇaṃ vittair hīnaḥ kṣaṇam api ca sampūrṇa-vibhavaḥ .
+jarā-jīrṇair aṅgair naṭa iva balī-maṇḍita-tanūr
+naraḥ saṃsārānte viśati yamadhānīya-vanikām .. bharst_3.50 ..
+tvaṃ rājā vayam apy upāsita-guru-prajñābhimānonnatāḥ
+khyātas tvaṃ vibhavair yaśāṃsi kavayo dikṣu pratanvanti naḥ .
+itthaṃ māna-dhanāti-dūram ubhayor apy āvayor antaraṃ
+yady asmāsu parāṅmukho 'si vayam apy ekāntato niḥspṛhā .. bharst_3.51 ..
+arthānām īśiṣe tvaṃ vayam api ca girām īśmahe yāvad arthaṃ
+śūras tvaṃ vādi-darpa-vyupaśamana-vidhāva-kṣayaṃ pāṭavaṃ naḥ .
+sevante tvāṃ dhanāḍhyā matimalahatayemām api śrotu-kāmāmayy
+apy āsthā na te cet tvayi mama nitarām eva rājann anāsthā .. bharst_3.52 ..
+vayam iha parituṣṭā valkalais tvaṃ dukūlaiḥ
+sama iha paritoṣo nirviśeṣo viśeṣaḥ .
+sa tu bhavatu daridro yasya tṛṣṇā viśālā
+manasi ca parituṣṭe ko 'rthavān ko daridraḥ .. bharst_3.53 ..
+phalam alam aśanāya svādu pānāya toyaṃ
+kṣitir api śayanārthaṃ vāsase valkalaṃ ca .
+nava-ghana-madhupāna-bhrānta-sarvendriyāṇāmavinayam
+anumantuṃ notsahe durjanānām .. bharst_3.54 ..
+aśnīmahi vayaṃ bhikṣām āśāvāso vasīmahi .
+śayīmahi mahī-pṛṣṭhe kurvīmahi kim īśvaraiḥ .. bharst_3.55 ..
+na naṭā nā viṭā na gāyakā na ca sabhyetara-vāda-cuñcavaḥ .
+nṛpam īkṣitum atra ke vayaṃ stana-bhārān amitā na yoṣitaḥ .. bharst_3.56 ..
+vipula-hṛdayair īśair etaj jagaj janitaṃ purā
+vidhṛtam aparair dattaṃ cānyair vijitya tṛṇaṃ yathā .
+iha hi bhuvanāny anyair dhīrāś caturdaśa bhuñjate
+katipaya-pura-svāmye puṃsāṃ ka eṣa mada-jvaraḥ .. bharst_3.57 ..
+abhuktāyāṃ yasyāṃ kṣaṇam api na yātaṃ nṛpa-śatair
+dhuvas tasyā lābhe ka iva bahumānaḥ kṣiti-bhṛtām .
+tad-aṃśasyāpy aṃśe tad-avaya-leśe 'pi patayo
+viṣāde kartavye vidadhati jaḍāḥ pratyuta mudam .. bharst_3.58 ..
+mṛt-piṇḍo jala-rekhayā bala-yatiḥ sarvo 'py ayaṃ nanv aṇuḥ
+svāṃśīkṛtya sa eva saṅgara-śatai rājñāṃ gaṇā bhuñjate .
+ye dadyur dadato 'thavā kim aparaṃ kṣudrā daridraṃ bhṛśaṃ
+dhig dhik tān puruṣādhamān dhanakaṇān vāñchanti tebhyo 'pi ye .. bharst_3.59 ..
+sa jātaḥ ko 'py āsīn madana-ripuṇā mūrdhni dhavalaṃ
+kapālaṃ yasyoccair vinihitam alaṅkāra-vidhaye .
+nṛbhiḥ prāṇa-trāṇa-pravaṇa-matibhiḥ kaiścid adhunā
+namadbhiḥ kaḥ puṃsām ayam atula-darpa-jvara-bharaḥ .. bharst_3.60 ..
+pareṣāṃ cetāṃsi pratidivasam ārādhya bahudhā
+prasādaṃ kiṃ netuṃ viśasi hṛdaya kleśa-kalitam .
+prasanne tvayy antaḥ-savayamudita-cintāmaṇi-gaṇo
+viviktaḥ saṅkalpaḥ kim abhilaṣitaṃ puṣyati na te .. bharst_3.61 ..
+satyām eva trilokī-sariti hara-śiraś cumbinīvac chaṭāyāṃ
+sad-vṛttiṃ kalpayantyāṃ baṭa-viṭapa-bhavair valkalaiḥ sat-phalaiś ca .
+ko 'yaṃ vidvān vipatti-jvara-janita-rujātīva-duḥkhāsikānāṃ
+vaktraṃ vīkṣeta duḥsthe yadi hi na vibhṛyāt sve kuṭumbe 'nukampām .. bharst_3.611 ..
+paribhramasi kiṃ mudhā kvacana citta viśrāmyatāṃ
+svayaṃ bhavati yad yathā bhavati tat tathā nānyathā .
+atītam ananusmarann api ca bhāvya-saṅkalpayannatarkita-
+samāgamānubhavāmi bhoganāham .. bharst_3.62 ..
+etasmād viramendriyārtha-gahanādāyāsakād āśrayaśreyo-
+mārgam aśeṣa-duḥkha-śamana-vyāpāra-dakṣaṃ kṣaṇāt .
+svātmībhāvam upaihi santyaja nijāṃ kallola-lolaṃ gatiṃ
+mā bhūyo bhaja bhaṅgurāṃ bhava-ratiṃ cetaḥ prasīdādhunā .. bharst_3.63 ..
+mohaṃ mārjaya tām upārjaya ratiṃ candrārdha-cūḍāmaṇau
+cetaḥ svarga-taraṅgiṇī-taṭa-bhuvām āsaṅgam aṅgīkuru .
+ko vā vīciṣu budbudeṣu ca taḍil-lekhāsu ca śrīṣu ca
+jvālāgreṣu ca pannageṣu sarid-vegeṣu ca ca-pratyayaḥ .. bharst_3.64 ..
+cetaś cintaya mā ramāṃ sakṛd imām asthāyinīm āsthayā
+bhūpāla-bhrukuṭī-kuṭī-viharaṇa-vyāpāra-paṇyāṅganām .
+kanthā-kañcukinaḥ praviśya bhavana-dvārāṇi vārāṇasīrathyā-
+paṅktiṣu pāṇi-pātra-patitāṃ bhikṣām apekṣāmahe .. bharst_3.65 ..
+agre gītaṃ sarasa-kavayaḥ pārśvayor dākṣiṇātyāḥ
+paścāl līlāvalaya-raṇitaṃ cāmara-grāhiṇīnām .
+yady asty evaṃ kuru bhava-rasāsvādane lampaṭatvaṃ
+no cec cetaḥ praviśa sahasā nirvikalpe samādhau .. bharst_3.66 ..
+prāptāḥ śriyaḥ sakala-kāma-dudhās tataḥ kiṃ
+nyastaṃ padaṃ śirasi vidviṣatāṃ tataḥ kim .
+sampāditāḥ praṇayino vibhavais tataḥ kiṃ
+kalpaṃ sthitās tanubhṛtāṃ tanavas tataḥ kim .. bharst_3.67 ..
+bhaktir bhave maraṇa-janma-bhayaṃ hṛdi-sthaṃ
+sneho na bandhuṣu na manmathajā vikārāḥ .
+saṃsarja doṣa-rahitā vijayā vanāntā
+vairāgyam asti kim itaḥ paramarthanīyam .. bharst_3.68 ..
+tasmād anantam ajaraṃ paramaṃ vikāsi
+tad brahma cintaya kim ebhir asad-vikalpaiḥ .
+yasyānuṣaṅgiṇa ime bhuvanādhipatyabhogādayaḥ
+kṛpaṇa-loka-matā bhavanti .. bharst_3.69 ..
+pātālam āviśasi yāsi nabho vilaṅghya
+diṅ-maṇḍalaṃ bhramasi mānasa cāpalena .
+bhrāntyāpi jātu vimalaṃ katham ātmanīnaṃ
+na brahma saṃsarasi virvṛtimm eṣi yena .. bharst_3.70 ..
+kiṃ vedaiḥ smṛtibhiḥ purāṇa-paṭhanaiḥ śāstrair mahā-vistaraiḥ
+svarga-grāma-kuṭī-nivāsa-phaladaiḥ karma-kriyā-vibhramaiḥ .
+muktvaikaṃ bhava-duḥkha-bhāra-racanā-vidhvaṃsa-kālānalaṃ
+svātmānanda-pada-praveśa-kalanaṃ śesair vāṇig-vṛttibhiḥ .. bharst_3.71 ..
+nāyaṃ te samayo rahasyam adhunā nidrāti nātho yadi
+sthitvā drakṣyati kupyati prabhur iti dvāreṣu yeṣāṃ vacaḥ .
+cetas tān apahāya yāhi bhavanaṃ devasya viśveśitur
+nirdauvārika-nirdayokty-aparuṣaṃ niḥsoma-śarma-pradam .. bharst_3.711 ..
+yato meruḥ śrīmān nipatati yugāntāgni-valitaḥ
+samudrāḥ śuṣyanti pracura-makara-grāha-nilayāḥ .
+dharā gacchaty antaṃ dharaṇi-dhara-pādair api dhṛtā
+śarīre kā vārtā karikalabha-karṇāgra-capale .. bharst_3.72 ..
+gātraṃ saṅkucitaṃ gatir vigalitā bhraṣṭā ca dantāvalir
+dṛṣṭir nakṣyati vardhate vadhiratā vaktraṃ ca lālāyate .
+vākyaṃ nādriyate ca bāndhava-jano bhāryā na śuśrūṣate
+hā kaṣṭaṃ puruṣasya jīrṇa-vayasaḥ putro 'py amitrāyate .. bharst_3.73 ..
+varṇaṃ sitaṃ śirasi vīkṣya śiroruhāṇāṃ
+sthānaṃ jarā-paribhavasya tadā pumāṃsam .
+āropitāṃsthi-śatakaṃ parihṛtya yānti
+caṇḍāla-kūpam iva dūrataraṃ taruṇyaḥ .. bharst_3.74 ..
+yāvat svastham idaṃ śarīram arujaṃ yāvac ca dūre jarā
+yāvac cendriya-śaktir apratihatā yāvat kṣayo nāyuṣaḥ .
+ātma-śreyasi tāvad eva viduṣā kāryaḥ prayatno mahān
+sandīpte bhavane tu kūpa-khananaṃ pratyudyamaḥ kīdṛśaḥ .. bharst_3.75 ..
+tapasyantaḥ santaḥ kim adhinivasāmaḥ sura-nadīṃ
+guṇodārān dārān uta paricarāmaḥ savinayam .
+pibāmaḥ śāstraughānuta-vividha-kāvyāmṛta-rasān
+na vidmaḥ kiṃ kurmaḥ katipaya-nimeṣāyuṣi jane .. bharst_3.76 ..
+durārādhyāś cāmī turaga-cala-cittāḥ kṣitibhujo
+vayaṃ tu sthūlecchāḥ sumahati phale baddha-manasaḥ .
+jarā dehaṃ mṛtyur harati dayitaṃ jīvitam idaṃ
+sakhe nānyac chreyo jagati viduṣe 'nyatra tapasaḥ .. bharst_3.77 ..
+māne mlāyini khaṇḍite ca vasuni vyarthe prayāte 'rthini
+kṣīṇe bandhu-jane gate parijane naṣṭe śanair yauvane .
+yuktaṃ kevalam etad eva sudhiyāṃ yaj jahnu-kanyā-payaḥpūtāgrāva-
+girīndra-kandara-taṭī-kuñje nivāsaḥ kvacit .. bharst_3.78 ..
+ramyāś candra-marīcayas tṛṇavatī ramyā vanānta-sthalī
+ramyaṃ sādhu-samāgamāgata-sukhaṃ kāvyeṣu ramyāḥ kathāḥ .
+kopopāhita-bāṣpa-bindu-taralaṃ ramyaṃ priyāyā mukhaṃ
+sarvaṃ ramyam anityatām upagate citte na kiñcit punaḥ .. bharst_3.79 ..
+ramyaṃ harmya-talaṃ na kiṃ vasataye śravyaṃ na geyādikaṃ
+kiṃ vā prāṇa-samāsamāgama-sukhaṃ naivādhika-prītaye .
+kintu bhrānta-pataṅga-kṣapavanavyālola-dīpāṅkuracchāyā-
+cañcalam ākalayya sakalaṃ santo vanāntaṃ gatāḥ .. bharst_3.80 ..
+ā saṃsārāt tribhuvanam idaṃ cinvatāṃ tāt tādṛṅnaivāsmākaṃ
+nayana-padavīṃ śrotra-mārgaṃ gato vā .
+yo 'yaṃ dhatte viṣaya-kariṇo gāḍha-gūḍhābhimānakṣīvasyāntaḥ-
+karaṇa-kariṇaḥ saṃyamālāna-līlām .. bharst_3.81 ..
+yad etat svacchandaṃ viharaṇam akārpaṇyam aśanaṃ
+sahāryaiḥ saṃvāsaḥ śrutam upaśamaika-vrata-phalam .
+mano manda-spandaṃ bahir api cirasyāpi vimṛśanna
+jāne kasyaiṣā pariṇatir udārasya tapasaḥ .. bharst_3.82 ..
+jīrṇā eva manorathāś ca hṛdaye yātaṃ ca tad yauvanaṃ
+hantāṅgeṣu guṇāś bandhya-phalatāṃ yātā guṇajñair vinā .
+kiṃ yuktaṃ sahasābhyupaiti balavān kālaḥ kṛtānto 'kṣamī
+hā jñātaṃ madanāntakāṅghri-yugalaṃ muktvāsti nānyo gatiḥ .. bharst_3.83 ..
+maheśvare vā jagatām adhīśvare
+janārdane vā jagad-antarātmani .
+na vastu-bheda-pratipattir asti me
+tathāpi bhaktis taruṇendu-śekhare .. bharst_3.84 ..
+sphurat-sphāra-jyotsnādhavalita-tale kvāpi puline
+sukhāsīnāḥ śānta-dhvantisu rajanīṣu dyu-saritaḥ .
+bhavābhogodvignāḥ śiva śiva śivety uccavacasaḥ
+kadā yāsyāmo 'targata-bahula-bāṣpākula-daśām .. bharst_3.85 ..
+mahādevo devaḥ sarid api ca saiṣā sura-saridguhā
+evāgāraṃ vasanam api tā eva haritaḥ .
+suhṛdā kālo 'yaṃ vratm idam adainya-vratam idaṃ
+kiyad vā vakṣyāmo vaṭa-viṭapa evāstu dayitā .. bharst_3.- ..
+vitīrṇe sarvasve taruṇa-karuṇā-pūrṇa-hṛdayāḥ
+smarantaḥ saṃsāre viguṇa-pariṇāmāṃ vidhi-gatim .
+vayaṃ puṇyāraṇye pariṇata-śarac-candra-kiraṇās
+triyāmā nesyāmo hara-caraṇa-cintaika-śaraṇāḥ .. bharst_3.86 ..
+kadā vārāṇasyām amara-taṭinī-rodhasi vasan
+vasānaḥ kaupīnaṃ śirasi nidadhāno 'ñjali-puṭam .
+aye gaurīnātha tripurahara śambho trinayana
+prasīdetyākrośan nimiṣam iva neṣyāmi divasān .. bharst_3.87 ..
+udyāneṣu vicitra-bhojana-vidhis tīvrātitīvraṃ tapaḥ
+kaupīnāvaraṇaṃ suvastram amitaṃ bhikṣāṭanaṃ maṇḍanam .
+āsannaṃ maraṇaṃ ca maṅgala-samaṃ yasyāṃ samutpadyate
+tāṃ kāśīṃ parihṛtya hanta vibudhair anyatra kiṃ sthīyate .. bharst_3.- ..
+snātvā gāṅgaiḥ payobhiḥ śuci-kusuma-phalair arcayitvā vibho tvā
+dhyeye dhyānaṃ niveśya kṣiti-dhara-kuhara-grāva-paryaṅka-mūle .
+ātmārāmaḥ phalāśī guru-vacana-ratas tvat-prasādāt smarāre
+duḥkhaṃ mokṣye kadāhaṃ sama-kara-caraṇe puṃsi sevāsamuttham .. bharst_3.88 ..
+ekākī niḥspṛhaḥ śāntaḥ pāṇipātro digambaraḥ .
+kadā śambho bhaviṣyāmi karma-nirmūlana-kṣamaḥ .. bharst_3.89 ..
+pāṇiṃ pātrayatāṃ nisarga-śucinā bhaikṣeṇa santuṣyatāṃ
+yatra kvāpi niṣīdatāṃ bahu-tṛṇaṃ viśvaṃ muhuḥ paśyatām .
+atyāge 'pi tanor akhaṇḍa-paramānandāvabodha-spṛśā
+madhvā ko 'pi śiva-prasāda-sulabhaḥ sampatsyate yoginām .. bharst_3.90 ..
+kaupīnaṃ śata-khaṇḍa-jarjarataraṃ kanthā punas tādṛśī
+naiścintyaṃ nirapekṣa-bhaikṣyam aśanaṃ nidrā śmaśāne vane .
+svātantryeṇa niraṅkuśaṃ viharaṇaṃ svāntaṃ praśāntaṃ sadā
+sthairyaṃ yoga-mahotsave 'pi ca yadi trailokya-rājyena kim .. bharst_3.91 ..
+brahmāṇḍaṃ maṇḍalī-mātraṃ kiṃ lobhāya manasvinaḥ .
+śapharī-sphurtenābdhiḥ kṣubdho na khalu jāyate .. bharst_3.92 ..
+mātar lakṣmi bhajasva kañcid aparaṃ mat-kāṅkṣiṇī mā sma bhūr
+bhogeṣu spṛhayālavas tava vaśe kā niḥspṛhāṇām asi .
+sadyaḥ syūta-palāśa-patra-puṭikā-pātraiḥ pavitrī-kṛtair
+bhikṣā-vastubhir eva samprati vayaṃ vṛttiṃ samīhāmahe .. bharst_3.93 ..
+mahā-śayyā pṛthvī vipulam upadhānaṃ bhuja-latāṃ
+vitānaṃ cākāśaṃ vyajanam anukūlo 'yam anilaḥ .
+śarac-candro dīpo virati-vanitā-saṅga-muditaḥ
+sukhī śāntaḥ śete munir atanu-bhūtir nṛpa iva .. bharst_3.94 ..
+bhikṣāsī jana-madhya-saṅga-rahitaḥ svāyatta-ceṣṭaḥ sadā
+hānā-dāna-virakta-mārga-nirataḥ kaścit tapasvī sthitaḥ .
+rathyākīrṇa-viśīrṇa-jīrṇa-vasanaḥ samprāpta-kanthāsano
+nirmāno nirahaṅkṛtiḥ śama-sukhābhogaika-baddha-spṛhaḥ .. bharst_3.95 ..
+caṇḍālaḥ kim ayaṃ dvijātir athavā śūdro 'tha kiṃ tāpasaḥ
+kiṃ vā tattva-viveka-peśala-matir yogīśvaraḥ ko 'pi kim .
+ity utpanna-vikalpa-jalpa-mukharair ābhāṣyamāṇā janair
+na kruddhāḥ pathi naiva tuṣṭa-manaso yānti svayaṃ yoginaḥ .. bharst_3.96 ..
+hiṃsā-śūnyam ayatna-labhyam aśanaṃ dhātrā marut-kalpitaṃ
+vyālānaṃ paśavas tṛṇāṅkura-bhujas tuṣṭāḥ sthalī-śāyinaḥ .
+saṃsārārṇava-laṅghana-kṣama-dhiyāṃ vṛttiḥ kṛtā sā nṛṇāṃ
+tām anveṣayatāṃ prayānti satataṃ sarvaṃ samāptiṃ guṇāḥ .. bharst_3.97 ..
+gaṅgā-tīre hima-giri-śilā-baddha-padmāsanasya
+brahma-dhyānābhyasana-vidhinā yoga-nidrāṃ gatasya .
+kiṃ tair bhāvyaṃ mama sudivasair yatra te nirviśaṅkāḥ
+kaṇḍūyante jaraṭha-hariṇāḥ svāṅgam aṅge madīye .. bharst_3.98 ..
+jīrṇāḥ kanthā tataḥ kiṃ sitam amala-paṭaṃ paṭṭa-sūtraṃ tataḥ kiṃ
+ekā bhāryā tataḥ kiṃ haya-kari-sugaṇair āvṛto vā tataḥ kim .
+bhaktaṃ bhuktaṃ tataḥ kiṃ kadaśanam athavā vāsarānte tataḥ kiṃ
+vyakta-jyotir na vāntarmathita-bhava-bhayaṃ vaibhavaṃ vā tataḥ kim .. bharst_3.- ..
+pāṇiḥ pātraṃ pavitraṃ bhramaṇa-parigataṃ bhaikṣyam akṣayyam annaṃ
+vistīrṇaṃ vastram āśā-daśakam acapalaṃ talpam asvalpam urvīm .
+yeṣāṃ niḥsaṅgatāṅgī-karaṇa-pariṇata-svānta-santoṣiṇas te
+dhanyāḥ sannyasta-dainya-vyatikara-nikarāḥ karma nirmūlayanti .. bharst_3.99 ..
+trailokyādhipatitvam eva virasaṃ yasmin mahāśāsane
+tal labdhvāsana-vastra-māna-ghaṭane bhoge ratiṃ mā kṛthāḥ .
+bhogaḥ ko 'pi sa eka eva paramo nityoditā jṛmbhane
+yat-svādād virasā bhavanti visayās trailokya-rājyādayaḥ .. bharst_3.991 ..
+mātar medini tāta māruti sakhe tejaḥ subandho jala
+bhrātar vyoma nibaddha eṣa bhavatām antyaḥ praṇāmāñjaliḥ .
+yuṣmat-saṅga-vaśopajāta-sukṛta-sphāra-sphuran-nirmalajñānāpāsta-
+samasta-moha-mahimā līne para-brahmaṇi .. bharst_3.100 ..
+śayyā śaila-śilā-gṛhaṃ giri-guhā vastraṃ taruṇāṃ tvacaḥ
+sāraṅgāḥ suhṛdo nanu kṣiti-ruhāṃ vṛttiḥ phalaiḥ komalaiḥ .
+yesāṃ nirjharam ambu-pānam ucitaṃ ratyai tu vidyāṅganā
+manye te parameśvarāḥ śirasi yari baddho na sevāñjaliḥ .. bharst_3.1001 ..
+dhairyaṃ yasya pitā kṣamā ca jananī śāntiś ciraṃ gehinī
+satyaṃ mitram idaṃ dayā ca bhaginī bhrātā manaḥ-saṃyamaḥ .
+śayyā bhūmi-talaṃ diśo 'pi vasanaṃ jñānāmṛtaṃ bhojanaṃ
+hy ete yasya kuṭumbino vada sakhe kasmād bhayaṃ yoginaḥ .. bharst_3.1002 ..
+aho vā hāre vā balavati ripau vā suhṛdi vā
+maṇau vā loṣṭhe vā kusuma-śayane vā dṛṣadi vā .
+tṛṇe vā straiṇe vā mama sama-dṛśo yānti divasāḥ
+kvacit puṇyāraṇye śiva śiva śiveti pralapataḥ .. bharst_3.1003 ..

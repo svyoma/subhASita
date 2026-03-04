@@ -1,0 +1,1870 @@
++++ title = "Ksemendra: Darpadalana, plain text"
+
++++
+
+Intro
+Ksemendra: Darpadalana, plain text
+
+Ksemendra: Darpadalana
+Based on the ed. by Durgaparasad and Kashinath Pandurang Parab, Bombay 1890,
+Kâvyamâlâ : a Collection of Old and Rare Sanskrit Kâvyas ... [= 'collective' Kavyamala series],
+Part VI, pp. 66-118.
+
+Input by members of the Rasala team
+
+PLAIN TEXT VERSION
+
+THIS GRETIL TEXT FILE IS FOR REFERENCE PURPOSES ONLY!
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.
+
+Text converted to Unicode (UTF-8).
+(This file is to be used with a UTF-8 font and your browser's VIEW configuration
+set to UTF-8.)
+
+description:multibyte sequence:
+long a ā
+long A Ā
+long i ī
+long I Ī
+long u ū
+long U Ū
+vocalic r ṛ
+vocalic R Ṛ
+long vocalic r ṝ
+vocalic l ḷ
+vocalic L Ḷ
+long vocalic l ḹ
+velar n ṅ
+velar N Ṅ
+palatal n ñ
+palatal N Ñ
+retroflex t ṭ
+retroflex T Ṭ
+retroflex d ḍ
+retroflex D Ḍ
+retroflex n ṇ
+retroflex N Ṇ
+palatal s ś
+palatal S Ś
+retroflex s ṣ
+retroflex S Ṣ
+anusvara ṃ
+visarga ḥ
+long e ē
+long o ō
+l underbar ḻ
+r underbar ṟ
+n underbar ṉ
+k underbar ḵ
+t underbar ṯ
+
+Unless indicated otherwise, accents have been dropped in order
+to facilitate word search.
+
+For a comprehensive list of GRETIL encodings and formats see:
+http://gretil.sub.uni-goettingen.de/gretil/gretdiac.pdf
+and
+http://gretil.sub.uni-goettingen.de/gretil/gretdias.pdf
+
+For further information see:
+
+pāṭhaḥ
+darpadalanam
+
+prathamo vicāraḥ
+
+praśāntāśeṣavighnāya darpasarpāpasarpaṇāt .
+satyāmṛtanidhānāya svaprakāśavikāsine .. kdarp_1.1 ..
+
+saṃsāravyatirekāya hṛtotsekāya cetasaḥ .
+praśamāmṛtasekāya vivekāya namo namaḥ .. kdarp_1.2 ..
+(yugmam)
+
+kṣemendraḥ suhṛdāṃ prītyā darpadoṣacikitsakaḥ .
+svāsthyāya kurute yatnaṃ madhuraiḥ sūktibheṣajaiḥ .. kdarp_1.3 ..
+
+kulaṃ vittaṃ śrutaṃ rūpaṃ śauryaṃ dānaṃ tapastathā .
+prādhānyena manuṣyāṇāṃ saptaite madahetavaḥ .. kdarp_1.4 ..
+
+ahaṅkārābhibhūtānāṃ bhūtānāmiva dehinām .
+hitāya darpadalanaṃ kriyate mohaśāntaye .. kdarp_1.5 ..
+
+kulaṃ kulaṃ kalayatāṃ mohānmithyābhimāninām .
+lagnaḥ ko 'yaṃ na jānīmaḥ stabdhagrīvāgrahagrahaḥ .. kdarp_1.6 ..
+
+kulasya kamalasyeva mūlamanviṣyate yadi .
+doṣapaṅkaprastāntas tadāvaśyaṃ prakāśate .. kdarp_1.7 ..
+
+yathā jātyaturaṅgasya na śakyajjātya(?)mucyate .
+tathā guṇavataḥ sūnur nirguṇastatkulodbhavaḥ .. kdarp_1.8 ..
+
+ekaścetpūrvapuruṣaḥ kule yajvā bahuśrutaḥ .
+aparaḥ pāpakṛnmūrkhaḥ kulaṃ kasyānurvartatām .. kdarp_1.9 ..
+
+loke kulaṃ kulaṃ tāvad yāvatpūrvasamanvayaḥ .
+guṇaprabhāve vicchinne samāptaṃ sakalaṃ kulam .. kdarp_1.10 ..
+
+kulābhimānaḥ kasteṣāṃ jaghanyasthānajanmanām .
+kulakūlaṅkaṣā yeṣāṃ jananyo nimnagāḥ striyaḥ .. kdarp_1.11 ..
+
+kulīnasya kulīnasya navadāridryalajjayā .
+kiṃ kulenākulīnāgre yāñcādainyapralāpinaḥ .. kdarp_1.12 ..
+
+guṇavatkulajāto 'pi nirguṇaḥ kena pūjyate .
+dogdhrīkulodbhavā dhenur vandhyā kasyopayujyate .. kdarp_1.13 ..
+
+svayaṃ kulakṛtastasmād vicārya tyajyatāṃ madaḥ .
+guṇādhīnaṃ kulaṃ jñātvā guṇeṣvādhīyatāṃ matiḥ .. kdarp_1.14 ..
+
+mūlānveṣaṇacintyamānamaniśaṃ nāstyeva puṃsāṃ kulaṃ strīṇāṃ yatra paramparaiva tanute santānatantukramam .
+etāsāṃ kṛtakaprapañcaracanālajjāvatīnāṃ puraḥ saṃsaktasmararūḍhagūḍhacaritaṃ tattvena jānāti kaḥ .. kdarp_1.15 ..
+
+kulābhimānābharaṇasya mātā pitāmahī vā prapitāmahī vā .
+yoṣitsvabhāvena yadi praduṣṭā tadeṣa doṣaḥ kulamūlaghātaḥ .. kdarp_1.16 ..
+
+sūryavaṃśe triśaṅkuryaś caṇḍālo 'bhūnmahīpatiḥ .
+dilīparaghurāmādyāḥ kṣitipāstatkulodbhavāḥ .. kdarp_1.17 ..
+
+bhūbhujāṃ somavaṃśyānāṃ yaḥ pūrvapuruṣo budhaḥ .
+gurutalpe sa candrasya jāto jagati viśrutaḥ .. kdarp_1.18 ..
+
+kanyāyāstanayaḥ karṇaḥ kṣetrajāḥ pāṇḍunandanāḥ .
+sāmānyakulacarcābhiḥ kimanyābhiḥ prayojanam .. kdarp_1.19 ..
+
+mathurāyāmabhūtpūrvaṃ brāhmaṇaḥ śrīmatāṃ varaḥ .
+yajvā śrutanidhirnāma śrutimānviśrutaśrutaḥ .. kdarp_1.20 ..
+
+tasya muktālatā nāma prāṃśuvaṃśasamudbhavā .
+babhūva vallabhā patnī lāvaṇyalalitākṛtiḥ .. kdarp_1.21 ..
+
+tasyāṃ tasyābhavatkāntaḥ suvṛttaḥ saguṇāgraṇīḥ .
+putrastejonidhirnāma vidyāvimaladarpaṇaḥ .. kdarp_1.22 ..
+
+sa dhīmānvedavidvādī kaviḥ sarvakalālayaḥ .
+sabhāsu viduṣāṃ cakre lajjayāvanataṃ śiraḥ .. kdarp_1.23 ..
+
+taṃ darpadoṣajvaritaṃ grīvāstambhayutaṃ rahaḥ .
+praśamāya pitā snehāt pathyaṃ vaktuṃ pracakrame .. kdarp_1.24 ..
+
+putra mithyābhimānena kiṃ prayāto 'si mūḍhatām .
+yanmadadviradārūḍhaḥ pūjyapūjāsu lajjase .. kdarp_1.25 ..
+
+nāstyupāyaḥ sa saṃsāre darpaśvabhranipātinām .
+mūḍhānāṃ kriyate yena kṣanaṃ hastāvalambanam .. kdarp_1.26 ..
+
+kaṣṭaṃ kenopadiṣṭaste vinaṣṭavinayasmṛteḥ .
+madaḥ sādhujanāviṣṭaḥ kulavidyādhanodbhavaḥ .. kdarp_1.27 ..
+
+asthiraḥ kulasambandhaḥ sadā vidyāvivādinī .
+mado mohāya mithyaiva muhūrtanidhanaṃ dhanam .. kdarp_1.28 ..
+
+etadeva kulīnatvam etadeva guṇārjanam .
+yatsadaiva satāṃ satsu vinayāvanataṃ śiraḥ .. kdarp_1.29 ..
+
+dayaiva viditā vidyā satyamevākṣayaṃ dhanam .
+akalaṅkavivekānāṃ śīlamevāmalaṃ kulam .. kdarp_1.30 ..
+
+abhogasubhagā bhūtir adainyadhavalaṃ kulam .
+adarpaviśadā vidyā bhavatyunnatacetasām .. kdarp_1.31 ..
+
+dveṣaḥ kasya na doṣāya prītiḥ kasya na bhūtaye .
+darpaḥ kasya na pātāya nonnatyai kasya namratā .. kdarp_1.32 ..
+
+tyāginā kiṃ daridreṇa kiṃ kulīnena pāpinā .
+tuṣṭena kiṃ kadaryeṇa darpāndhena budhena kim .. kdarp_1.33 ..
+
+vairāyate suhṛdbhāvaḥ pradānaṃ haraṇāyate .
+darpabhūtābhibhūtasya vidyā maurkhyaśatāyate .. kdarp_1.34 ..
+
+guṇināṃ matsaraḥ śatrur lubdhānāmatiyācakaḥ .
+sarva eva sadarpāṇāṃ na kaścitpriyavādinām .. kdarp_1.35 ..
+
+tasmātkāryastvayā putra nāhaṅkāraḥ kadācana .
+darpodgrīvaḥ kilogreṇa mohagrāheṇa gṛhyate .. kdarp_1.36 ..
+
+vaṃśenonnatiśālinā guṇagaṇenāntaścamatkāriṇā rūpeṇātimanohareṇa mahatā vittena vṛttena vā .
+rohanmohamahātarurmadamayaḥ sañjāyate yaḥ sadā tasyādau dṛḍharūḍhamūladalane kāryo 'bhiyogastvayā .. kdarp_1.37 ..
+
+guṇeṣvanādaraṃ putra prāptaśrīrapi mā kṛthāḥ .
+sampūrṇo 'pi ghaṭaḥ kūpād guṇacchinnaḥ patatyadhaḥ .. kdarp_1.38 ..
+
+kulābhimānaṃ tyaja saṃvṛttāgraṃ dhanābhimānaṃ tyaja dṛṣṭanaṣṭam .
+vidyābhimānaṃ tyaja paṇyarūpaṃ rūpābhimānaṃ tyaja kālalehyam .. kdarp_1.39 ..
+
+putra prayatnena vibodhito 'si na muñcasi tvaṃ yadi darpamoham .
+tadeṣa te yāsyati śalyabhāvaṃ tīvrābhitāpaprasavo 'bhimānaḥ .. kdarp_1.40 ..
+
+vibhūtinalinīgajaḥ sujanamānabhaṅgaśani- nipātapathadaiśikaḥ sukṛtacitradhūmodgamaḥ .
+parāśayanavajvaraścaritacandrabimbāmbudaḥ sadā samadacetasāṃ guṇavināśaheturmadaḥ .. kdarp_1.41 ..
+
+anityateyaṃ yadi nityatā syāt sarvaṃ na pāke virasaṃ yadi syāt .
+kulārthavidyādikṛto 'bhimānas tadaiṣa te syānna viḍambanīyaḥ .. kdarp_1.42 ..
+
+ahaṃ vādī vidyāparicayaguruḥ sarvaviduṣām ahaṃ mānī vāṇīprasaraparipākena sukaviḥ .
+ahaṃ līlāhaṃsaḥ kuvalayadṛśāṃ mānasacaraḥ karotyantaḥ puṃsāmiti madapiśācaḥ paricayam .. kdarp_1.43 ..
+
+lakṣmīḥ kṣaṇakṣayavatī parirakṣitāpi kāyo 'pyapāyanicayasya nikāya eva .
+sambhogayogasukhasaṅgatirapyatathyā mithyābhimānakalanāghana eṣa śāpaḥ .. kdarp_1.44 ..
+
+ityukto 'pyasakṛtpitrā līlāmīlitalocanaḥ .
+sa yayau mattahastīva vegādagaṇitāṅkuśaḥ .. kdarp_1.45 ..
+
+pādena kṣitimālikhanti samadāḥ kopoṣṇaniḥśvāsinas tiryagjihmanirīkṣaṇairvidadhati bhrūbhaṅgabhīmaṃ mukham .
+sasvedāṅgulikandalīnikaṣaṇaistāmyallalāṭatvacaḥ kampante hitamantravādasamaye bhūtābhibhūtā iva .. kdarp_1.46 ..
+
+sa kadācidvarāśveṣu sthiteṣu javakautukāt .
+pratasthe kharamāruhya vayasyagṛhamutsave .. kdarp_1.47 ..
+
+tena tīkṣṇapratodena codyamānaḥ punaḥ punaḥ .
+kharastīvravyathārto 'bhūt prakṣaratkṣatajokṣitaḥ .. kdarp_1.48 ..
+
+srutākṣaḥ kathitakleśaḥ svasvanocitasañjñayā .
+so 'vadatsammukhāyātāṃ gardabhīṃ jananīṃ nijām .. kdarp_1.49 ..
+
+mātarbrāhmaṇaputro 'yaṃ paśya māmadhamāśayaḥ .
+vidārayanpratodena vahantaṃ hantumudyataḥ .. kdarp_1.50 ..
+
+kiṃ karomi yamenāhaṃ labdho 'nena durātmanā .
+avaṭe pātayāmyenaṃ tanuṃ śvabhre kṣipāmi vā .. kdarp_1.51 ..
+
+ityārtarāviṇaṃ putraṃ sāśrunetrātha gardabhī .
+tamuvāca sasantāpaṃ snehasaṅkrantatadyathā .. kdarp_1.52 ..
+
+vahainaṃ durmadaṃ putra sahasva viṣamāṃ vyathām .
+asya nāstyeva hṛdaye dāruṇe karuṇākaṇaḥ .. kdarp_1.53 ..
+
+raudraḥ śūdreṇa jāto 'yaṃ brāhmaṇyāṃ brahmavarjitaḥ .
+paraduḥkhaṃ na jānāti caṇḍaṃ caṇḍālaceṣṭitaḥ .. kdarp_1.54 ..
+
+dayādaridraṃ hṛdayaṃ vacaḥ krakacakarkaśam .
+yonisaṅkarajātānām etatpratyakṣalakṣaṇam .. kdarp_1.55 ..
+
+navanītopamā vāṇī karuṇākomalaṃ manaḥ .
+ekabījaprajātānāṃ bhavatyavanataṃ śiraḥ .. kdarp_1.56 ..
+
+raṭati kaṭukāṭopaṃ kopādakāraṇavairavān spṛśati na dayāṃ dainyāpanne vijātitayā śaṭhaḥ .
+kṣaṇarasikatālolaḥ sevāśritānavamanyate guṇiṣu kurute garvodgārānakharvagalaḥ khalaḥ .. kdarp_1.57 ..
+
+iti duḥsahamākarṇya gardabhīvacanaṃ dvijaḥ .
+sarvaprāṇisvanābhijñaḥ sammohābhihato 'patat .. kdarp_1.58 ..
+
+sa labdhasañjñaḥ sucirān meruśṛṅgādiva cyutaḥ .
+tatyāja sahasā darpaṃ naṣṭākhilakulonnatiḥ .. kdarp_1.59 ..
+
+sammūrcchito viṣeṇeva sa gatvā māturantikam .
+yathāśrutaṃ nivedyāsyai sarvaṃ papraccha tāṃ rahaḥ .. kdarp_1.60 ..
+
+tanutyāgapravṛttena pṛṣṭā sā tena śāpitā .
+adhomukhī tamavadad vailakṣyalulitākṣaraiḥ .. kdarp_1.61 ..
+
+lajjākaramasatkarma kathaṃ tatkathayāmi te .
+saṃsārādapi sāścaryaṃ gahanaṃ strīviceṣṭitam .. kdarp_1.62 ..
+
+api kuñjarakarṇāgrād api pippalapallavāt .
+api vidyudvilasitād vilolaṃ lalanāmanaḥ .. kdarp_1.63 ..
+
+na bādhyante guṇaiḥ patyur na lakṣyante parīkṣakaiḥ .
+na dhanena nivāryante śīlatyāgodyatāḥ striyaḥ .. kdarp_1.64 ..
+
+dhanayauvanasañjāta- darpakāluṣyaviplavāḥ .
+kenonnataparibhraṣṭā vāryante nimnagāḥ striyaḥ .. kdarp_1.65 ..
+
+dehapradāḥ prāṇaharā narāṇāṃ bhīrusvabhāvāḥ praviśanti vahnim .
+krūrāḥ paraṃ pallavapeśalāṅgyo mugdhā vidagdhānapi vañcayanti .. kdarp_1.66 ..
+
+ahaṃ pura rajaḥsnātā kāle kusumulāñchane .
+ekākinī puṣpavane yauvanonmādinī sthitā .. kdarp_1.67 ..
+
+vratadīkṣāpare patyau serṣyeva vinatānanā .
+unnatastanavinyasta- hastā ciramacintayam .. kdarp_1.68 ..
+
+etāḥ śvasanasotkampāḥ sajṛmbhāḥ ṣaṭpadasvanaiḥ .
+sotkaṇṭhamiva gāyanti latāḥ puṣparajakhalāḥ .. kdarp_1.69 ..
+
+udbhinnayauvanākrāntā priyabhogaviyoginī .
+vrataśeṣajuṣaḥ patyur doṣeṇaivāsmi niṣphalā .. kdarp_1.70 ..
+
+iti cintākṣaṇe tasmiṃl lagnābhimukhadarpaṇaḥ .
+nāpitaḥ parihāsākhyaḥ śīlaśatrurivāyayau .. kdarp_1.71 ..
+
+sa māmekākinīṃ dṛṣṭvā naṣṭasaṃvṛttikātarām .
+pasparśotkampinīṃ pāda- nakhagrahaṇalīlayā .. kdarp_1.72 ..
+
+tatrāhaṃ vṛttakartavyā nīcasaṅgamalajjayā .
+adhomukhī cyutaṃ śīlaṃ vīkṣamāṇeva mūrcchitā .. kdarp_1.73 ..
+
+avidūre carantī sā kharī sarvaṃ dadarśa tat .
+gūḍhagarbhapradaṃ caitat karma me kulapātakam .. kdarp_1.74 ..
+
+āstāṃ kimanayā putra guptavṛttāntacarcayā .
+saṃvṛttānyeva śobhante śarīrāṇi kulāni ca .. kdarp_1.75 ..
+
+iti māturvacaḥ śrutvā yātaḥ sa sahasāndhatām .
+jātimānāvapatanān nirjīvita ivābhavat .. kdarp_1.76 ..
+
+atha gatvā nirāhāraḥ sa kailāsāṭṭāhāsinīm .
+āśāṃ brāhmaṇyabaddhāśaś cacāra suciraṃ tapaḥ .. kdarp_1.77 ..
+
+tasyogratapasā tuṣṭaḥ svayameva śatakratuḥ .
+brāhmaṇyaṃ yācamānasya na dadau durlabhaṃ bhuvi .. kdarp_1.78 ..
+
+punaḥ punaḥ sa tapasā santāpitajagattrayaḥ .
+sahasrākṣavarātprāpa devatvaṃ na tu vipratām .. kdarp_1.79 ..
+
+chandodevābhidhāno 'tha so 'bhavadbhuvi viśrutaḥ .
+pratyabdamekadivase hy arcanīyo mṛgīdṛśām .. kdarp_1.80 ..
+
+sammohapātālaviśālasarpas tasmānna kāryaḥ kulajātidarpaḥ .
+śamakṣamādānadayāśrayāṇāṃ śīlaṃ viśālaṃ kulamāmananti .. kdarp_1.81 ..
+
+mātā na yasyāstyavivekarāśiḥ punarbhavābdhirjanako na yasya .
+yasya prasaktā dayitā na tṛṣṇā sa eva loke kuśalī kulīnaḥ .. kdarp_1.82 ..
+
+dvitīyo vicāraḥ
+
+dhanena darpaḥ kimayaṃ narāṇāṃ lakṣmīkaṭākṣāñcalacañcalena .
+yatkandharābaddhamapi prayāti naikaṃ padaṃ kālagatasya paścāt .. kdarp_2.1 ..
+
+surakṣitaṃ tiṣṭhati nirnimittam arakṣitaṃ tiṣṭhati daivayogāt .
+sthitaṃ kadaryasya ca copayuktam unmattanṛttopamameva vittam .. kdarp_2.2 ..
+
+karmoktinarmanirmāṇaiḥ prātaḥ prātaḥ pradhāvatām .
+dhanaṃ dhanaṃ pralapatāṃ nidhanaṃ vismṛtaṃ nṛṇām .. kdarp_2.3 ..
+
+vicchāyayornirvyayayoḥ kaṣṭakliṣṭakalatrayoḥ .
+viśeṣaḥ kleśadoṣasya kaḥ kadaryadaridrayoḥ .. kdarp_2.4 ..
+
+ye dhanādānasannaddhā nekṣante nidhanāvadhim .
+nindanto lubdhatāṃ teṣām ante 'nye bhuñjate dhanam .. kdarp_2.5 ..
+
+uktaṃ parasyāmiṣatām anuktaṃ yātyadṛśyatām .
+hṛdaye śalyatāṃ dhatte nidhane dhanināṃ dhanam .. kdarp_2.6 ..
+
+dhanena jīviteneva kaṇṭhasthena nirīkṣate .
+paryante 'pyaprakāśena bandhūnāṃ mukhamāturaḥ .. kdarp_2.7 ..
+
+yadarjitaṃ parikleśair arjitaṃ yanna bhujyate .
+vibhajyate yadante 'nyaḥ kasyacinmāstu taddhanam .. kdarp_2.8 ..
+
+vidyā vivādāya dhanaṃ madāya prajñāprakarṣaḥ paravañcanāya .
+atyunnatirlokaparābhavāya yeṣāṃ prakāśastimiraṃ hi teṣām .. kdarp_2.9 ..
+
+aśāntāntastṛṣṇā dhanalavaṇavārivyatikarair gatacchāyaḥ kāyaściravirasarūkṣāśanatayā .
+anidrā mando 'gnirnṛpasalilacaurānalabhayāt kadaryāṇāṃ kaṣṭaṃ sphuṭamadhanakaṣṭādapi param .. kdarp_2.10 ..
+
+śrāvastyāṃ sārthavāho 'bhūd arthanātha ivāparaḥ .
+nando nāma nirānandaḥ kīrtanenārthināmapi .. kdarp_2.11 ..
+
+sa kadaryaḥ sadā sarva- janasyodvegaduḥsahaḥ .
+mūrdhaśāyī nidhānānāṃ kālavyāla ivābhavat .. kdarp_2.12 ..
+
+kṛtvā samastaṃ divasaṃ dhanānāṃ nidhānakumbhīgaṇanāvidhānam .
+sa lājapeyāpalamānaśīlam aśnāti rātrāvudaraṃ saśūlam (?) .. kdarp_2.13 ..
+
+nirvyañjanaṃ nirlavaṇaṃ vinaṣṭam amṛṣṭapākaṃ viniviṣṭakaṣṭam .
+adṛṣṭahāsaṃ vyayasannirodhāt tasyābhavadveśma saśokamūkam .. kdarp_2.14 ..
+
+vicchāyaṃ niḥsukhānandaṃ nirdīpaṃ jalavarjitam .
+tasya kaṣṭaṃ kadaryasya paralokamabhūdgṛham .. kdarp_2.15 ..
+
+sa bhaktasañcaye nityam abhaktaḥ santatāmayaiḥ .
+suvarṇavānvivarṇo 'bhūt sampūrṇaścintayā kṛśaḥ .. kdarp_2.16 ..
+
+puṇyaprāpyā matirnāma dhanarddhiriva rūpiṇī .
+bhāryābhūttadayogyasya tasya daivaviparyayāt .. kdarp_2.17 ..
+
+sadā pracchādya sā bhartuś cakārātithisatkriyām .
+tena vyayavivādeṣu śoṣitā kalahāgninā .. kdarp_2.18 ..
+
+tasyāṃ tasyābhavatsūnuḥ saguṇaścandanābhidhaḥ .
+pitrā lobhāndhakāreṇa nītaḥ padma ivānyatām .. kdarp_2.19 ..
+
+kadācitsvagṛhadvāri dṛṣṭvā labdhānnamarthinam .
+cakāra kalahaṃ nandaḥ patnyā śoṇitapātanam .. kdarp_2.20 ..
+
+so 'vadatkopadaṣṭauṣṭhaḥ śvasanbhāryāmadhomukhīm .
+tatsparsapāpaṃ stanayoḥ kṣālayantīmivāśrubhiḥ .. kdarp_2.21 ..
+
+mama dāsyati ko bhikṣāṃ tvatpāṇikṣīṇasampadaḥ .
+dāridryajananī yasya sthitā tvaṃ durbhagā gṛhe .. kdarp_2.22 ..
+
+striyo yatra pragalbhante bharturācchādya kartṛtām .
+gṛhaṃ bhavatyavaśyaṃ tad- āspadaṃ paramāpadām .. kdarp_2.23 ..
+
+gṛhamekaṃ gṛhasthasya gṛhāṇāṃ śatamarthinaḥ .
+bhāryābharjitavittasya naṣṭā gṛhapatergatiḥ .. kdarp_2.24 ..
+
+tṛptidaṃ darśanenāpi jantorjīvitajīvitam .
+draviṇaṃ yena rakṣanti svakāyaṃ bhakṣayanti te .. kdarp_2.25 ..
+
+jīvannapyakriyo niḥsvaḥ śavo 'pyarthena sakriyaḥ .
+dāridryaṃ maraṇaṃ loke dhanamāyuḥ śarīriṇām .. kdarp_2.26 ..
+
+etadevārthasāmarthyaṃ pratyakṣeṇopalakṣyate .
+yatskandhabandhe jīvadbhiḥ śavaḥ śibikayohyate .. kdarp_2.27 ..
+
+prayacchasi kimarthibhyas tvamannaṃ kleśasañcitam .
+dīyate yatkila prāptyai tatprāptaṃ kiṃ na rakṣyate .. kdarp_2.28 ..
+
+putradārādisambandhaḥ puṃsāṃ dhananibandhanaḥ .
+kṣīṇātputrāḥ palāyante dārā gacchanti cānyataḥ .. kdarp_2.29 ..
+
+paṇḍitāḥ kavayaḥ śūrāḥ kalāvantastapasvinaḥ .
+vaidyasyeva savittasya vīkṣante mukhamāturāḥ .. kdarp_2.30 ..
+
+iti tasya vacaḥ śrutvā kṛpaṇasyārthaniṣkṛpam .
+sā tamūce samucitaṃ sattvasyābhijanasya ca .. kdarp_2.31 ..
+
+santaḥ kurvanti yatnena dharmasyārthe dhanārjanam .
+dharmācāravinīnānāṃ draviṇaṃ malasañcayaḥ .. kdarp_2.32 ..
+
+yatkarotyaruciṃ kleśaṃ tṛṣṇaṃ mohaṃ prajāgaram .
+na taddhanaṃ kadaryāṇāṃ hṛdayavyādhireva tat .. kdarp_2.33 ..
+
+vardhate yo dhanavyādhiḥ sukhabhogaviyogakṛt .
+tasyāśu śamanaṃ pathaṃ rājavaidyacikitsayā .. kdarp_2.34 ..
+
+lobhānnābhūdgṛhe yasya kadācitkaścidutsavaḥ .
+nṛtyanti paṭahaistasya nidhane dhanabhāginaḥ .. kdarp_2.35 ..
+
+kaṇācāmatuṣāṅgārān yatnena parirakṣasi .
+mūṣakāpahṛtaṃ koṣe ratnarāśiṃ na paśyasi .. kdarp_2.36 ..
+
+dhanena darpaḥ ko nāma yatkṣaṇena vinaśyati .
+rakṣyamāṇaṃ vyayenaiva bhakṣyamāṇamupaplavaiḥ .. kdarp_2.37 ..
+
+vicāryamāṇastattvena daivādhīnatayā nṛṇām .
+na kasyāñcidavasthāyāṃ dhanalobhaḥ praśasyate .. kdarp_2.38 ..
+
+kalau kāle khale mitre putre durvyasanānvite .
+taskareṣu pravṛddheṣu lubdhe rājñi dhanena kim .. kdarp_2.39 ..
+
+ṛṇikaiḥ kalahairnityam acchinnaguṇanāgateḥ .
+dānadviṣo 'napatyasya mandāgneśca dhanena kim .. kdarp_2.40 ..
+
+sahasāsāditārthasya rājadrohādipātakaiḥ .
+bhayādavyayaśīlasya śalyeneva dhanena kim .. kdarp_2.41 ..
+
+ghorapratigrahagrāma- grastodagraguṇaujasaḥ .
+tadvibhāgānabhijñasya dhūrtāptasya dhanena kim .. kdarp_2.42 ..
+
+rātrisevāvasannasya śītavātātapasthiteḥ .
+prabhudṛṣṭiprahṛṣṭasya kaṣṭārhasya dhanena kim .. kdarp_2.43 ..
+
+prabhūtalābhalobhena prayuktārthasya sarvataḥ .
+bhūrjadṛṣṭena tuṣṭasya naṣṭabuddherdhanena kim .. kdarp_2.44 ..
+
+malaśīlasya vaṇija- sthūtkṛtasya jugupsayā .
+laśunasyāśuceḥ pāka- gandheneva dhanena kim .. kdarp_2.45 ..
+
+kāṅkṣitenāpyalabdhena bhogārhe navayauvane .
+jarājīrṇaśarīrasya bhāreṇeva dhanena kim .. kdarp_2.46 ..
+
+pravrajyātyaktagehasya janagauravapūjayā .
+dhanasaṅghaṭitārthasya bandheneva dhanena kim .. kdarp_2.47 ..
+
+śiśoraṅkuśaśūnyasya pātitasyāpathe viṭaiḥ .
+kṣaṇakṣayopayogena svapneneva dhanena kim .. kdarp_2.48 ..
+
+bhāryayā svairacāriṇyā grāmasthasya niyoginaḥ .
+prasabhaṃ bhujyamānena pāpāptena dhanena kim .. kdarp_2.49 ..
+
+śiṣyasampāditāśeṣa- bhogavastrādisampadaḥ .
+gurordambhena siddhasya sañcitena dhanena kim .. kdarp_2.50 ..
+
+rājakoṣaniyuktasya cauryacihnena kevalam .
+vyayena śaṅkanīyasya vadheneva dhanena kim .. kdarp_2.51 ..
+
+ajñātabhāvicaurādi- doṣairnityavināśinā .
+hāsyaikahetunā loke gaṇakasya dhanena kim .. kdarp_2.52 ..
+
+piṭakasyeva pūrṇasya pīḍanīyasya bhūbhujā .
+niṣpākaśākabhojyasya grāmīṇasya dhanena kim .. kdarp_2.53 ..
+
+kalamākrāntaviśvasya maṣīkṛṣṇasya bhoginaḥ .
+āsannabandhanasyānte divirasya dhanena kim .. kdarp_2.54 ..
+
+gṛhiṇīvigrahograsya muhustṛṇa upekṣayā (?) .
+kopopavāsaniḥśvāsa- santaptasya dhanena ki .. kdarp_2.55 ..
+
+malinasya kuvastrasya svalpāśanaparasya ca .
+dāridryādhikakaṣṭasya kadaryasya dhanena kim .. kdarp_2.56 ..
+
+nirdhanāḥ sukhino dṛṣṭāḥ sadhanāścātiduḥkhitāḥ .
+sukhaduḥkhodaye jāntor daivādhīne dhanena kim .. kdarp_2.57 ..
+
+samāneṣu vyatīteṣu svajane śūnyacetasaḥ .
+virasāsārasaṃsāra- viraktasya dhanena kim .. kdarp_2.58 ..
+
+yathāvāptopayuktārtha- niścintasya vipaścitaḥ .
+atyalpaparituṣṭasya santuṣṭasya dhanena kim .. kdarp_2.59 ..
+
+bālastṛṇe ca kanake ca samānadṛṣṭir iṣṭaṃ na vetti viṣayeṣvaviśeṣabuddhiḥ .
+vittena koṣaparipoṣasahena tasmin kāle vivekavikalo vada kiṃ karoti .. kdarp_2.60 ..
+
+prāṇādhikasya suhṛdastaruṇījanasya putrasya vā guṇanidheḥ sahasā viyoge .
+śokena śocati yadā vivaśaḥ śarīrī ratnācalairapi tadā vada kiṃ karoti .. kdarp_2.61 ..
+
+nārthaṃ śṛṇoti na punaḥ sthitimīhate vā sparśaṃ na vetti na rasaṃ na tathādhivāsam .
+vṛddhaḥ prayāti pavanena yadā jaḍatvaṃ bhogairdhanena ca tadā vada kiṃ karoti .. kdarp_2.62 ..
+
+rogārditaḥ spṛśati naiva dṛśāpi bhojyaṃ tīvravyathaḥ spṛhayate maraṇāya jantuḥ .
+sarvauṣadheṣu viphaleṣu yadā virauti dhānyairdhanena ca tadā vada kiṃ karoti .. kdarp_2.63 ..
+
+nidrācchedasakhedabāndhavajanaḥ sodvegavaidyojjhitaḥ pākakvāthakadarthitaḥ parijanaistandrībhayātkṣobhitaḥ .
+bhagnasvāsthyamanorathaḥ priyatamāvaṣṭabdhapādadvayaḥ paryante vapuṣaḥ karoti puruṣaḥ kiṃ śalyatulyairdhanaiḥ .. kdarp_2.64 ..
+
+alaṅkṛtaḥ kāñcanakoṭimūlyair mahārharatnairgajavājivāhaiḥ .
+nimeṣamātraṃ labhate na jīvaṃ kālena kāle śikhayā gṛhītaḥ .. kdarp_2.65 ..
+
+niścetanaḥ kāṣṭhasamānakāyas tyaktaḥ kṣaṇātputrakalatramitraiḥ .
+bhubhāśubhaprāktanakarmabhāgī yatnāptaratnairvada kiṃ karoti .. kdarp_2.66 ..
+
+tasmātprabhūtavibhavodbhavavibhrameṇa bhūtābhibhūta iva mā bhava sābhimānaḥ .
+etāḥ śriyaḥ prabalalobhaghanāndhakāra- vidyullatāparicitāḥ sahasaiva yānti .. kdarp_2.67 ..
+
+naṣṭe lajjitavittanāthavibhave sāmrājyabhoge purā śrūyante nalarāmapāṇḍutanayāḥ kaṣṭaṃ praviṣṭā vanam .
+śakraḥ śrīvirahe viveśa nalinīnālāntaralaṃ hriyā kasyāsthā vividhāvadhānavidhinā niḥsannidhāne dhane .. kdarp_2.68 ..
+
+ityukto 'pyasakṛtpatnyā svalobhānna cacāla saḥ .
+svabhāvaḥ sarvabhūtānāṃ sahajaḥ kena vāryate .. kdarp_2.69 ..
+
+tataḥ sa kāle lobhena bhiṣagbhaiṣajyavarjitaḥ .
+koṣe nidhānakumbheṣu līnapṛṣṭo vyapadyata .. kdarp_2.70 ..
+
+adattabhuktamutsṛjya dhanaṃ sucirarakṣitam .
+mūṣakā iva gacchanti kadaryāḥ svakṣaye kṣayam .. kdarp_2.71 ..
+
+tasya yātasya nirayaṃ nināya nṛpatirdhanam .
+paryante rājagāminyo lubdhānāṃ dhanasampadaḥ .. kdarp_2.72 ..
+
+tatsūnoścandanasyātha śeṣārthenāpi bhūyasā .
+babhūva bhūrisambhāra- bhogavyayamahotsavaḥ .. kdarp_2.73 ..
+
+mā kaścinnāma nandasya mandāgneriha bhāṣatām .
+bhogabhaṅgabhayeneti prātastatrābavījjanaḥ .. kdarp_2.74 ..
+
+dhigdhigdhanaṃ kunidhanaṃ nandasyevātmabādhanam .
+dīyatāṃ bhujyatāṃ sarvam ityūcuḥ puravāsinaḥ .. kdarp_2.75 ..
+
+tataḥ kāle mate bāhya- koṣṭhadvārāntavāsinī .
+vṛddhāndhā suṣuve putraṃ caṇḍālī khaṇḍikābhidhā .. kdarp_2.76 ..
+
+andhaḥ kubjaḥ kṛśaḥ khañjaḥ kuṣṭhī sthūlagalagrahaḥ .
+samūha iva duḥkhānāṃ sa tasyāstanayo 'bhavat .. kdarp_2.77 ..
+
+tadapuṇyaiḥ parikṣīṇe mātuḥ kṣīre sa niścalaḥ .
+kṛpayā bāndhavastrībhiḥ śunīkṣīreṇa vardhitaḥ .. kdarp_2.78 ..
+
+etadeva viruddhānāṃ vaicitryaṃ pūrvakarmāṇām .
+kṛcchrāvasannā jīvantiṃ vipadyante yadīśvarāḥ .. kdarp_2.79 ..
+
+vraṇaiḥ sa pūtikalila- klāmyatkṛmikulairvṛtaḥ .
+pakvaṇe kuṇapākāras tasthau klinnatṛṇāstare .. kdarp_2.80 ..
+
+tasminnapyativātsalyāt putrāsthāṃ jananī sthirām .
+babandha vāsanālīnaḥ snehamoho hi duḥsahaḥ .. kdarp_2.81 ..
+
+sa vardhamānaḥ śanakaiḥ smaśānāṅgāradhūsaraḥ .
+pakvaṇograpiśācānām apyudvegakaro 'bhavat .. kdarp_2.82 ..
+
+yaṣṭīniṣaṇṇagamanaḥ kuṣṭakledajugupsitaḥ .
+sa jagāma pathā yena prayayau tena nāparaḥ .. kdarp_2.83 ..
+
+atrāntare candanasya pituḥ śrāddhadine mahān .
+babhūvārthisamūhānna- dāne kalakalasvanaḥ .. kdarp_2.84 ..
+
+tataḥ karparamādāya sa caṇḍālaśiśuḥ śanaiḥ .
+ācāmayācakaḥ kṛcchrād dvārāgrabhuvamāyayau .. kdarp_2.85 ..
+
+taṃ dṛṣṭvā candanaḥ saudhād viprāṇāṃ mārgadūṣaṇam .
+nivāryatāmayaṃ prāptas tūrṇamityavadatkrudhā .. kdarp_2.86 ..
+
+prabhubhrūbhaṅgabhītena laguḍenāhatastataḥ .
+dvārapālena sāvartaḥ sa kapota ivābhavat .. kdarp_2.87 ..
+sa nirbhinnalalāṭāsthi- prakṣaratkṣatajokṣitaḥ .
+kṣaṇaṃ sammūrcchitaḥ prāpa kleśabhogāya jīvitam .. kdarp_2.88 ..
+
+adūravartinī śrutvā caṇḍālī tadyathāravam .
+upasṛtya śuśocārtā spṛśantī tasya śoṇitam .. kdarp_2.89 ..
+
+kena niṣkaruṇenedaṃ darśitaṃ bata pauruṣam .
+praklinnakāyavikale yenāsminsubhaṭāyitam .. kdarp_2.90 ..
+
+kāyāpāpamayīṃ duḥkha- daśāṃ dṛṣṭvāsya duḥsahām .
+vairāgyāvasare kena krauryamevaṃvidhaṃ kṛtam .. kdarp_2.91 ..
+
+ārtimevaṃvidhāmasya hṛdayakledinīmimām .
+vilokya kuryātkaḥ pāpaṃ pāpaṃ hi padamāpadām .. kdarp_2.92 ..
+
+yadyanena mahatpāpaṃ na kṛtaṃ pūrvajanmani .
+taducyatāṃ sphuratkaṣṭā dṛṣṭā kasyedṛśī daśā .. kdarp_2.93 ..
+
+ye dṛśyante vipatkleśa- viśeṣaviṣamavyathāḥ .
+ta eva guravaḥ pāpa- vāpasya (?) karaṇe nṛṇām .. kdarp_2.94 ..
+
+karuṇārheṣu śūrāṇām upakāriṣu vairiṇām .
+vañcakānāmapāpeṣu pāpasaṅkhyāṃ karoti kaḥ .. kdarp_2.95 ..
+
+tāraṃ rodiṣi kiṃ putra sahasvāghātajāṃ rujam .
+aśarmakarmanirmāṇaṃ marmacchedi śarīriṇām .. kdarp_2.96 ..
+
+iti tasyāṃ pralāpinyāṃ prekṣavāpte jane jinaḥ .
+anāthabandhuḥ karuṇā- sindhustenāyayau pathā .. kdarp_2.97 ..
+
+bhavabhramāsaktapariśramāṇāṃ rāgādidoṣairupatāpitānām .
+āśvāsanenāmṛtasodareṇa limpanniva dyāṃ dyuticandanena .. kdarp_2.98 ..
+
+dṛṣṭvā tamāpadgatamugraroga- bhagnaṃ nimagnaṃ vyasane vivignam .
+vyalambatārdraḥ karuṇārasena tattāpaśāntyai bhagavāñjinendraḥ .. kdarp_2.99 ..
+
+tatsannidhānena muhūrtamātraṃ sa nirvyathaḥ svāsthyamivāsasāda .
+nihanti pāpaṃ kuśalaṃ prasūte sandarśanaṃ sattvahitāśayānām .. kdarp_2.100 ..
+
+jñātvātha candanaḥ prāptaṃ bhagavantaṃ tathāgatam .
+vikasatkusumasmeraṃ pūjāmādāya niryayau .. kdarp_2.101 ..
+
+bhagavānapi sāścarya- prabhāvādudgataṃ bhuvaḥ .
+haimaṃ kamalamāruhya tasthau paryaṅkalīlayā .. kdarp_2.102 ..
+
+praṇataṃ caraṇālīnaṃ pūjāvyagrakaraṃ puraḥ .
+babhāṣe bhagavānprīto bhikṣusaṃsadi candanam .. kdarp_2.103 ..
+
+kimayaṃ yācamāno 'pi varākastāḍitaḥ krudhā .
+kṛtaṃ na kṛpaṇe kasmāt karuṇākomalaṃ manaḥ .. kdarp_2.104 ..
+
+dayārdrāḥ sarvasattveṣu bhavanti vimalāśayāḥ .
+evaṃvidhānāṃ duḥkhānāṃ kāraṇaṃ kaluṣaṃ manaḥ .. kdarp_2.105 ..
+
+kṛtakrūrāpakāreṣu vidveṣaparuṣeṣvapi .
+bhavanti santaḥ kleśoṣma- śoṣiteṣu na karkaśāḥ .. kdarp_2.106 ..
+
+kliṣṭaḥ kaṣṭaṃ kadaryo 'yaṃ lobhenāparajanmani .
+apradānodyatenādya kāyakleśena pīḍitaḥ .. kdarp_2.107 ..
+
+eṣa nandastava pitā pūrṇārthamalasañcayāt .
+āvṛtaḥ pāparogeṇa caṇḍālatvamupāgataḥ .. kdarp_2.108 ..
+
+janmāntare 'pyato 'nyasmin rogayogānmumūrṣaṇā .
+suvarṇaṃ dattametena tenāyaṃ sadhano 'bhavat .. kdarp_2.109 ..
+
+antyakleśadaśāyāṃ yan mumūrṣuḥ samprayacchati .
+taccābhogyaṃ bhavatyasya lobhādanyeṣu janmasu (?) .. kdarp_2.110 ..
+
+datta na vittaṃ karuṇānimittaṃ lobhapravṛttaṃ kṛtameva cittam .
+yaiḥ sañcayosāharasaiḥ pranṛttaṃ śocanti te pātakamātmavṛttam .. kdarp_2.111 ..
+
+ityuktvā bhagavānpuṇyāṃ vidadhe dharmadeśanām .
+yayā kleśaprahāṇārham arhattvaṃ prāpa candanaḥ .. kdarp_2.112 ..
+
+tasmānna darpaḥ puruṣeṇa kāryaḥ pravardhamānena dhanodayena .
+adānabhogopahataṃ hi vittaṃ puṃsāṃ paratreha ca durnimittam .. kdarp_2.113 ..
+
+tṛtīyo vicāraḥ
+
+saṃsāradoṣapraśamaikahetuḥ karoti vidyā yadi darpamoham .
+tadandakārāya bhavatyavaśyaṃ sābhre nabhasyaṃśumatoṃśumālā .. kdarp_3.1 ..
+
+śikṣābhyāsena suvyaktaṃ paṭhantyapi vihaṅgamāḥ .
+ka eṣa vidyayā darpaḥ kaṣṭaprāptaikadeśayā .. kdarp_3.2 ..
+
+sā vidyā yā madaṃ hanti sā śrīryārthiṣu varṣati .
+dharmānusāriṇī yā ca sā buddhirabhidhīyate .. kdarp_3.3 ..
+
+yo vidyāgururāyāti laghutāṃ śīlaviplavāt .
+tasmai paṇḍitamūrkhāya viparītātmane namaḥ .. kdarp_3.4 ..
+
+vidyāṃ prāpya kṛtaṃ yena vidveṣakaluṣaṃ manaḥ .
+tenātmā hanta mūrkheṇa snātvā pāṃsūtkarairvṛtaḥ .. kdarp_3.5 ..
+
+vidyā śrīriva lobhena dveṣeṇāyāti nindyatām .
+bhāti namratayaivaiṣā lajjayeva kulāṅganā .. kdarp_3.6 ..
+
+spṛhaṇīyā satāṃ tāvad vidyā santoṣaśālinī .
+yāvanna pārthivāsthāna- paṇyasthāne prasāritā .. kdarp_3.7 ..
+
+sadguṇāḥ śucayastāvad yāvadvādena śodhakaiḥ .
+prakṣālya na parīkṣyante khalairbhūpālasaṃsadi .. kdarp_3.8 ..
+
+aśmāpyahṛdayo yasya guṇasāraṃ parīkṣate .
+ucitaiva suvarṇasya tasyāgnipatane ruciḥ .. kdarp_3.9 ..
+
+kavibhirnṛpasevāsu citrālaṅkārahāriṇī .
+vāṇī veśyeva lobhena paropakaraṇīkṛtā .. kdarp_3.10 ..
+
+vādibhiḥ kalahodarka- tarkasamparkakarkaśā .
+vāṇī krakacadhāreva dharmamūle nipātitā .. kdarp_3.11 ..
+
+sādhutejovadhāyaiva tārkikaiḥ karkaśīkṛtā .
+vāṇī vivādibhiḥ krūraiḥ saunikairiva kartarī .. kdarp_3.12 ..
+
+śīlaṃ naiva bibharti kīrtivimale dhatte na dharme dhiyaṃ mātsaryeṇa manīṣiṇāṃ pratanute pāruṣyadoṣaṃ girā .
+tarkoktyā paralokakarma nayati prāyeṇa sandigdhatāṃ yastasyāphalaśāstrapāṭanapaṭormūḍhasya kiṃ vidyayā .. kdarp_3.13 ..
+
+ye saṃsatsu vivādinaḥ parayaśaḥśalyena śūlākulāḥ kurvanti svaguṇastavena guṇināṃ yatnādguṇācchādanam .
+teṣāṃ roṣakaṣāyitodaradṛśāṃ dveṣoṣṇaniḥśvāsināṃ dīptā ratnaśikheva kṛṣṇaphaṇināṃ vidyā janodvegabhūḥ .. kdarp_3.14 ..
+
+śocyatāṃ yātyaśīlena vidveṣeṇāpavitratām .
+darpaśāpahatā vidyā naśyatyeva sahāyuṣā .. kdarp_3.15 ..
+
+tapovane munivarau mānyau munimanīṣiṇām .
+purā raibhyabharadvājau suhṛdau cakratuḥ sthitim .. kdarp_3.16 ..
+
+putrāvabhūtāṃ raibhyasya vidyāvimaladarpaṇau .
+spṛhaṇīyau guṇajñānāṃ sarvāvasuparāvasū .. kdarp_3.17 ..
+
+bharadvājasya putro 'bhūd yavakrītābhidhaḥ sutāḥ .
+bhavantavidyāḥ prāyeṇa pitṛpraṇayalālitāḥ .. kdarp_3.18 ..
+
+sa yuvā raibhyatanayau sarvatra śrutiviśrutau .
+paśyannātmani sāsūyaḥ paścāttāpākulo 'bhavat .. kdarp_3.19 ..
+
+sa gatvā jāhnavītīraṃ nirāhārakṛśaściram .
+cacāra niścalatanus tīvraṃ vidyāptaye tapaḥ .. kdarp_3.20 ..
+
+taṃ tapastāpitātmānaṃ svayametya śatakratuḥ .
+uvāca mithyānirbandhaḥ ko 'yaṃ te muniputraka .. kdarp_3.21 ..
+
+anadhītā gurumukhāt kathaṃ vidyādhigamyate .
+anabhyāsena pāṇḍityaṃ nabhaḥkusumaśekharaḥ .. kdarp_3.22 ..
+
+adhunā vidyayā kiṃ te vidyārhaṃ śaiśavaṃ gatam .
+yatphalaṃ kila vidyāyās tasminnavahito bhava .. kdarp_3.23 ..
+
+śīlaṃ parahitāsaktir anutsekaḥ kṣamā dhṛtiḥ .
+alobhaśceti vidyāyāḥ paripākojjvalaṃ phalam .. kdarp_3.24 ..
+
+vivekarahitā vidyā dveṣaroṣoṣmaśoṣitā .
+darpāśaninipātena hatā vallīva niṣphalā .. kdarp_3.25 ..
+
+etadarthaṃ śrute buddhiṃ karoti dveṣadūṣitaḥ .
+yadvivādaiḥ kariṣyāmi mānamlāniṃ manīṣiṇām .. kdarp_3.26 ..
+
+tyaktvā praśamasantoṣau vidyāyāḥ prathamaṃ phalam .
+nānāviparyayapathair gacchantyarthaphalārthinaḥ .. kdarp_3.27 ..
+
+upakārāya yā puṃsāṃ na parasya na cātmanaḥ .
+patrasañcayasambhāraiḥ kiṃ tayā bhāravidyayā .. kdarp_3.28 ..
+
+anyāyaḥ prauḍhavādena nīyate nyāyatāṃ yayā .
+nyāyaścānyāyatāṃ lobhāt kiṃ tayā kṣadravidyayā .. kdarp_3.29 ..
+
+svajihvāstutibhirnityaṃ patnīvodghāṭitāṃśukā .
+kriyate yā sabhāmadhye kiṃ tayā dhṛṣṭavidyayā .. kdarp_3.30 ..
+
+anuṣṭhānena rahitā pāṭhamātreṇa kevalam .
+rañjayatyeva yā lokaṃ kiṃ tayā śukavidyayā .. kdarp_3.31 ..
+
+gopyate yā śrutajñasya mūrkhasyāgre prakāśyate .
+na dīyate ca śiṣyebhyaḥ kiṃ tayā śaṭhavidyayā .. kdarp_3.32 ..
+
+parotkarṣaṃ samācchādya vikrayāya prasāryate .
+yā muhurdhanināmagre kiṃ tayā paṇyavidyayā .. kdarp_3.33 ..
+
+na tīryate yayā ghoraḥ saṃsāramakarākaraḥ .
+nityaṃ cittānubandhinyā kiṃ tayā mohavidyayā .. kdarp_3.34 ..
+
+nityābhyāsaprayāsena jīvitaṃ kṣīyate yayā .
+trivargasyoparodhena kiṃ tayā kaṣṭavidyayā .. kdarp_3.35 ..
+
+na vivekocitāṃ buddhiṃ na vairāgyamayaṃ manaḥ .
+sampādayati yā puṃsāṃ kiṃ tayā jaḍavidyayā .. kdarp_3.36 ..
+
+śaucāśaucavivādena tyaktā (?) śrotriyatā yayā .
+mithyābhimānayoginyā kiṃ tayā dambhavidyayā .. kdarp_3.37 ..
+
+paramātsaryaśalyena vyathā sañjāyate yayā .
+sukhanidrāpahāriṇyā kiṃ tayā śūlavidyayā .. kdarp_3.38 ..
+
+parasūktāpahāreṇa svasṛbhāṣitavādinā .
+utkarṣaḥ khyāpyate yasyāḥ kiṃ tayā cauravidyayā .. kdarp_3.39 ..
+
+anabhyāsahatotsāhā pareṇa paribhūyate .
+yā lajjājananī jāḍyāt kiṃ tayā mandavidyayā .. kdarp_3.40 ..
+
+lobhaḥ prabhūtavittasya rāgaḥ pravrajitasya ca .
+na yayā śāntimāyāti kiṃ tayālīkavidyayā .. kdarp_3.41 ..
+
+yayā bhūpatimāśritya pareṣāṃ guṇanindakaḥ .
+dānamānonnatiṃ hanti kiṃ tayā doṣavidyayā .. kdarp_3.42 ..
+
+gṛhe dhārādhiruḍhāpi sabhāyāṃ na pravartate .
+pratibhābhaṅgasaṅgādyā kiṃ tayā mūkavidyayā .. kdarp_3.43 ..
+
+caṇḍaṃ piṇḍārthināṃ dveṣa- piśunānāṃ śunāmiva .
+yayā sañjāyate yuddhaṃ kiṃ tayā vadhavidyayā .. kdarp_3.44 ..
+
+vismṛtā yāvaliptasya kaṇṭhe kṛtagatāgatā .
+jīvavṛttiriva kṣīṇā kiṃ tayā mṛtavidyayā .. kdarp_3.45 ..
+
+rasāyanī jarājīrṇaś cirarogī yayā bhiṣak .
+dhātuvādī daridraśca kiṃ tayā hāsyavidyayā .. kdarp_3.46 ..
+
+yayā mugdhamṛgāḥ kūṭaiḥ pīḍyante tīvramārgaṇaiḥ .
+āśāpāśāvalambinyā kiṃ tayā lubdhavidyayā .. kdarp_3.47 ..
+
+paropatāpaḥ kriyate vaśyādikuhakairyayā .
+yantratantrānusāriṇyā kiṃ tayā vyājavidyayā .. kdarp_3.48 ..
+
+gururgarvātkavirdveṣād yatirbhogaparigrahāt .
+nṛpaḥ pāpāddvijaḥ krodhāt sā vidyā vāryate yayā .. kdarp_3.49 ..
+
+vidyāguṇāste viduṣāṃ ye vivekanibandhanam .
+svalpaśilpakalātulyāḥ śeṣā jīvitahetavaḥ .. kdarp_3.50 ..
+
+vīṇeva śrotrahīnasya lolākṣīva vicakṣuṣaḥ .
+vyasoḥ kusumamāleva vidyā stabdhasya niṣphalā .. kdarp_3.51 ..
+
+dveṣadarpahatā vidyā kāmakrodhahatā matiḥ .
+lobhamohahatā vṛttir yeṣāṃ teṣāṃ kimāyuṣā .. kdarp_3.52 ..
+
+dūre vyākaraṇaṃ kuruṣva viṣamaṃ dhātukṣayakṣobhitaṃ mīmāṃsā virasā na śoṣayati kiṃ tarkairalaṃ karkaśaiḥ .
+na kṣībaḥ patati smarabhramakaraiḥ kiṃ navyakāvyāsavais tasmānnityahitāya śāntamanasāṃ vairāgyamārogyadam .. kdarp_3.53 ..
+
+ityuktaḥ surarājena niścayānna cacāla saḥ .
+abhimānagṛhītānāṃ durnivāro hi durgrahaḥ .. kdarp_3.54 ..
+
+atha vṛddhadvijo bhūtvā sikatāmuṣṭibhiḥ śanaiḥ .
+śakraḥ pracakrame kartuṃ gaṅgāyāṃ setubandhanam .. kdarp_3.55 ..
+
+taṃ dṛṣṭvā niṣphalakleśa- viphalodyoganiścalam .
+munisūnuḥ kṛpāviṣṭaḥ papracchābhyetya sasmitaḥ .. kdarp_3.56 ..
+
+brahmanka eṣa nirbandhas tava vandhyasamudyame .
+niṣphalaṃ vipulāyāsaṃ na prājñāḥ karma kurvate .. kdarp_3.57 ..
+
+asminkuṭilakallola- dolāvikṣobhite 'mbhasi .
+hāsyahetuḥ kathaṃ setuḥ sikatāmuṣṭibhirbhavet .. kdarp_3.58 ..
+
+ityukte muniputreṇa brāhmaṇastamabhāṣata .
+aho paropadeśeṣu sarvo bhavati paṇḍitaḥ .. kdarp_3.59 ..
+
+anadhītāṃ balādvidyāṃ tapasā prāptumicchasi .
+yathā tvaṃ niṣphalārambhas tathāhamaparo jaḍaḥ .. kdarp_3.60 ..
+
+etaddvijavacaḥ śrutvā yathārthaṃ sthagitottaraḥ .
+tathāpi dṛḍhasaṅkalpaḥ svakṛtyānna cacāla saḥ .. kdarp_3.61 ..
+athāsya tīvratapasā śakraḥ prādādvaraṃ varam .
+sarvavidyānidhiryena sahasaiva babhūva saḥ .. kdarp_3.62 ..
+
+prāptavidyaḥ sa sotsāhas tūrṇaṃ gatvā svamāśramam .
+nijāṃ tapaḥphalāvāpti- kathāṃ pitre nyavedayat .. kdarp_3.63 ..
+
+taṃ madākrāntamaśrānta- vṛttasaṃskṛtavādinam .
+bharadvājaḥ pramode 'pi svedākula ivāvadat .. kdarp_3.64 ..
+
+putra prāptā tvayā vidyā tapastāpātkimucyate .
+kiṃ tvāgāmibhayādetan na yuktaṃ pratibhāti me .. kdarp_3.65 ..
+
+itaḥ samīpe raibhyasya kopanasya tapovanam .
+vidyāmadāndhau tatputrāv- arvāvasuparāvasū .. kdarp_3.66 ..
+
+tāvaśrāntaśrutonmādau tvaṃ cābhinavapaṇḍitaḥ .
+tatsaṅgame dveṣamayaḥ sadā sannihitaḥ kaliḥ .. kdarp_3.67 ..
+
+grīvāstambhabhṛtaḥ paronnatikathāmātre śiraḥśūlinaḥ sodvegabhramaṇapralāpavipulakṣobhābhibhūtasthiteḥ .
+antardveṣaviṣapraveśaviṣamakrodhoṣṇaniḥśvāsinaḥ kaṣṭā nūtanapaṇḍitasya vikṛtirbhīmajvarārambhabhūḥ .. kdarp_3.68 ..
+
+tava tatra prayātasya yuktāyuktavivādinaḥ .
+bhaviṣyati muneḥ śāpād avaśyaṃ madanigrahaḥ .. kdarp_3.69 ..
+
+śuktikārajatajñāna- nīlapītādidarśanaiḥ .
+unmādaṃ janayatyeva vidyādarpapiśācikā .. kdarp_3.70 ..
+
+eṣa vidyopadeśena vināśaḥ prārthitastvayā .
+raibhyāśramo na gantavyaḥ kartavyaṃ yadi madvacaḥ .. kdarp_3.71 ..
+
+ityukto 'pyasakṛtpitrā sa gatvā raibhyaputrayoḥ .
+vyadhādvivādanirvedaiḥ sadā vidyāmadakṣitim .. kdarp_3.72 ..
+
+taṃ darpamattaṃ sākopa- bhīmabhrūbhaṅgadurmukhau .
+tāvūcaturmanaḥsakta- vidyāvidveṣaśūlinau .. kdarp_3.73 ..
+
+kanīyānāvayoryasmād vayasā tvaṃ śrutena ca .
+karoṣi vādairākṣepaṃ tasmādāyuḥkṣayo 'stu te .. kdarp_3.74 ..
+
+ityukto 'pi krudhā tābhyāṃ na darpādvirarāma saḥ .
+na prasannaṃ na ca kruddhaṃ gaṇayanti madoddhatāḥ .. kdarp_3.75 ..
+
+atrāntare bhramadbhṛṅga- mālābhrūbhaṅgavibhramaḥ .
+kālaḥ proṣitakāntānāṃ puṣpakālaḥ samāyayau .. kdarp_3.76 ..
+
+kṣiptapattrāḥ sumanasāṃ rajaḥkaluṣitekṣaṇāḥ .
+sadveṣā iva vidvāṃsaś cerurmalayamārutāḥ .. kdarp_3.77 ..
+
+mādhuryalalitodāra- vāṇīvilasitairmuhuḥ .
+kavīnāmiva saṅgharṣaḥ kokilānāmajāyata .. kdarp_3.78 ..
+
+raibhye prayāte putrābhyāṃ saha snātuṃ sarittaṭam .
+bharadvājātmajo 'bhyetya praviveśa tadāśramam .. kdarp_3.79 ..
+
+tatra puṣpoccayavyagrāṃ dharmapatnīṃ purāvasoḥ .
+so 'paśyatsuprabhāṃ nāma rūpadarpāpahāṃ rateḥ .. kdarp_3.80 ..
+
+uṭajāṅganasaktānāṃ hariṇīnāṃ vilokane .
+vilāsadīkṣāṃ kurvāṇāṃ taralāpāṅgamaṅgibhiḥ .. kdarp_3.81 ..
+
+tāṃ dṛṣṭvā candravadanāṃ madanānandadevatām .
+babhūvotkrāntamaryādaḥ sahasaiva muneḥ sutaḥ .. kdarp_3.82 ..
+
+sa brahmacārī kāmena navena taralīkṛtaḥ .
+abhilāṣocitaṃ vaktum anabhijño 'pyuvāca tām .. kdarp_3.83 ..
+
+unmādanamidaṃ rūpam anurūpaṃ manobhuvaḥ .
+samutsiktamivāsaktaṃ karoti mama mānasam .. kdarp_3.84 ..
+
+vidyāvinayamutsṛjya santyajya guruyantraṇām .
+tvayi pravṛttaṃ cittaṃ me prāgjanmapremabandhanam .. kdarp_3.85 ..
+
+jānāmi yatkṛtasyāsya vipāke karmaṇaḥ phalam .
+tathāpyabhimataṃ dhartuṃ na śaknomi karomi kim .. kdarp_3.86 ..
+
+na śrutena na vittena na vṛttena na karmaṇā .
+pravṛttaṃ śakyate roddhuṃ manobhavapathe manaḥ .. kdarp_3.87 ..
+
+ityuktvā tāṃ bhayodbhrānta- nayanāmāśramonmukhīm .
+gantuṃ pravṛttāṃ so 'bhyetya jagrāhāṃśukapallave .. kdarp_3.88 ..
+
+kadalī kuñjareṇeva tarasā tena nirjane .
+kṛṣyamāṇā tamavadat sā niṣedhacalāṅguliḥ .. kdarp_3.89 ..
+
+mā mā malinaya svacchaṃ śīlaṃ mama tathātmanaḥ .
+vidyāyā niravadyāyāḥ kimetaducitaṃ phalam .. kdarp_3.90 ..
+
+śīlaśuklāṃśukāṃ tyaktvā lajjāṃ nijavadhūmiva .
+gṛhṇāsi paranārīṇāṃ pāṇinā paṭapallavam .. kdarp_3.91 ..
+
+kimetadityanucitaṃ dṛṣṭvā nūnaṃ kamaṇḍaluḥ .
+udgrīvaḥ kautukeneva mukhaṃ tava nirīkṣate .. kdarp_3.92 ..
+
+bibhrato 'ntargatarasāṃ kusumeṣuruciṃ navām .
+jaṭāvalkalabhāraste taroriva na śāntaye .. kdarp_3.93 ..
+
+pāpasaṅkalpamātreṇa trapayādhomukhī tava .
+patitā sparśabhītyeva kampalolākṣamālikā .. kdarp_3.94 ..
+
+āsanābje sarasvatyā japalolaradacchade .
+durnayoktirna yukteyaṃ mukhe tava manīṣiṇaḥ .. kdarp_3.95 ..
+
+iyaṃ tapovanamahī vivekajananī katham .
+janayatyabhilāṣaṃ te jananīvājitātmanaḥ .. kdarp_3.96 ..
+
+durmado (durdamo) yauvanabharas turaṅga iva hārakaḥ .
+sarvathā śithilātmānam avaṭe kṣipati kṣaṇāt .. kdarp_3.97 ..
+
+dhigdhiyaṃ kiṃ vivekena dūre viśrāmyatu śrutam .
+dhāryate yairna saṃsāra- vikāraskhalitaṃ manaḥ .. kdarp_3.98 ..
+
+kva vidyā viditāśeṣa- kāryākāryavimarśadhīḥ .
+mūḍhatā kva ca duṣkarma- mahāpāpakuṭumbinī .. kdarp_3.99 ..
+
+ityucyamāno 'pi yadā na sa tatyāja durgraham .
+śīlāpahārasantrastā sā tadā samacintayat .. kdarp_3.100 ..
+
+kiṃ karomyajane labdhā vivaśāhaṃ pramādinā .
+utsṛṣṭadharmanimayāḥ kiṃ na kurvantyavāritāḥ .. kdarp_3.101 ..
+
+ayaṃ smarāturastāvad vacasā na nivartate .
+vañcyante sāntvavādena kāmakrodhamadoddhatā .. kdarp_3.102 ..
+
+iti dhyātvā tamavadat sā śanairmṛduvādinī .
+gaccha tvaṃ svayameṣyāmi niśi śūnyalatāgṛhe .. kdarp_3.103 ..
+
+snātvā saputraḥ kāle 'smin nāyāti śvaśuro mama .
+jvalajjvalanatulyasya tasyāgre kiṃ kariṣyasi .. kdarp_3.104 ..
+
+ityuktaḥ sa tayā prāyāt satyaṃ vijñāya tadvacaḥ .
+duṣprāpamapi manyante sulabhaṃ kāmamohitāḥ .. kdarp_3.105 ..
+
+raibhyaṃ tataḥ samāyātam agnyāgārāgrataḥ sthitam .
+snuṣā provāca kopāgni- dhūmenevāśruvarṣiṇī .. kdarp_3.106 ..
+
+bharadvājātmajastāta pāpastava suhṛtsutaḥ .
+mamādya vijane śīla- viplave 'bhyarthitāṃ gataḥ .. kdarp_3.107 ..
+
+sa mayā durgrahagrastaḥ sameṣyāmīti vañcitaḥ .
+vimucye nānyathā hastāt tasya svastimatī satī .. kdarp_3.108 ..
+
+etadākarṇya sahasā prajvalanmanyunā muniḥ .
+babhūva durnimittolkā- pātakrūre ivāṃśumān .. kdarp_3.109 ..
+
+vidyāvatāṃ sphuratyantar- vivekaḥ svasthacetasām .
+vikārakāle sammohaś citte vidyā ca pustake .. kdarp_3.110 ..
+
+sa niḥśvasannatha krodha- jvarārambhāruṇekṣaṇaḥ .
+abhicārajapeneva kampamānādharo 'bhyadhāt .. kdarp_3.111 ..
+
+aho bata bharadvājaḥ putrasyādhyayane vyadhāt .
+dharmopadeśaṃ yatnena nagnīkartuṃ parāṅganaḥ .. kdarp_3.112 ..
+
+ityuktvāmarṣasaṃrambhād aparaṃ vaktumakṣamaḥ .
+sa praviśyāgnisadanaṃ pratīkāraparo 'bhavat .. kdarp_3.113 ..
+
+utpāṭya vikaṭāṭopa- kopaḥ prauḍhāgnipiṅgalam .
+sa juhāva jaṭāṃ vahnau krūrakrodhasaṭāmiva .. kdarp_3.114 ..
+
+dvitīyāyāṃ hutāyāṃ ca śūlabhṛdghorarākṣasaḥ .
+kṛtyāsakhaḥ samudbhūtaḥ provāca praṇato munim .. kdarp_3.115 ..
+
+kiṃ karomi mune kasya vināśāyāsmi nirmitaḥ .
+trailokyamapi nirdagdhuṃ sannaddho 'haṃ tvadājñayā .. kdarp_3.116 ..
+
+iti bruvāṇaṃ taṃ raibhyaḥ krūrākāramabhāṣata .
+bharadvājasutaṃ gaccha kavalīkurvapaṇḍitam .. kdarp_3.117 ..
+
+iti tena samādiṣṭaḥ sa vrajankampitāvaniḥ .
+ardhaśaucaṃ munisutaṃ dṛṣṭvā durātsamādravat .. kdarp_3.118 ..
+
+tasminnabhidrute vegād dīptaśūle niśācare .
+bhayabhagnagatiḥ prāpa śaraṇaṃ na muneḥ sutaḥ .. kdarp_3.119 ..
+
+palāyamānaḥ samprāptaḥ sa javātpiturāśramat .
+agnyāgāraṃ viśanruddhaḥ śūdreṇāśaucadūṣitaḥ .. kdarp_3.120 ..
+
+dāsaspṛṣṭaḥ sa niḥśaucaḥ patitaḥ sambhramātkṣitau .
+rakṣaḥ śūlahataḥ paścāt sahasā bhasmasādabhūt .. kdarp_3.121 ..
+
+atrāntare bharadvājaḥ praviśannijamāśramam .
+vidhvastacchāyamālokya sodvegaḥ samacintayat .. kdarp_3.122 ..
+
+mama puṣpaphalādāna- pratyāvṛttasya vahnayaḥ .
+sadottiṣṭhanti puratas te 'dya kiṃ niścalā iva .. kdarp_3.123 ..
+
+iti sañcintya dṛṣṭvāgre bhasmabhītaṃ sutaṃ muniḥ .
+śrutvā ca dāsakathitaṃ vṛttāntaṃ nyapatadbhuvi .. kdarp_3.124 ..
+
+sa labdhasañjñaḥ śanakair avadadbāṣpagadgadam .
+raibhyo 'pi vidvānkālena prāpnotu svasutādvadham .. kdarp_3.125 ..
+
+hā putra rakṣitenāpi kṣaṇakṣayanipātinā .
+na jīvāmi sadoṣeṇa kāyeneva tvayā vinā .. kdarp_3.126 ..
+
+ityuktvā putraśokena citāgnimaviśanmuniḥ .
+mahatsvapi navotsekād abhagnaprasarāḥ śucaḥ .. kdarp_3.127 ..
+
+atha yāte śanaiḥ kāle bṛhadyumnasya bhūpateḥ .
+yājakau jagmaturgeham arvāvasuparāvasū .. kdarp_3.128 ..
+
+pravṛtte vidhivattasya dīrghasattre pṛthuśriyaḥ .
+dānamānodayaḥ ko 'pi tayoryājakayorabhūt .. kdarp_3.129 ..
+
+kadāciddinaparyanta- sandhyāyāṃ nijamāśramam .
+parāvasuḥ samāgacchan dṛṣṭvā pitaramagrataḥ .. kdarp_3.130 ..
+
+kṛṣṇājinottarāsaṅgaṃ daṇḍena mṛgaśaṅkayā .
+jaghāna śāpavivaśaḥ sa tenābhūdvicetanaḥ .. kdarp_3.131 ..
+
+janakaṃ hatamālokya brahmahatyābhayākulaḥ .
+gatvā yajñabhuvaṃ bhrātre sa tamarthaṃ nyavedayat .. kdarp_3.132 ..
+
+arvāvasustamavadad bhrātaḥ kiṃ kriyate vidheḥ .
+bhavanti yasya saṅkalpād evaṃrūpā viparyayāḥ .. kdarp_3.133 ..
+
+dharmārthī pāpamāpnoti śīlārthī śīlaviplavam .
+vidhau vidhuratāṃ yāte draviṇārthī daridratām .. kdarp_3.134 ..
+
+brahmahatyāvrataṃ tīvraṃ bhavato 'rthe carāmyaham .
+tvamasya kuru bhūbhartuḥ sampūrṇāṃ yājanakriyām .. kdarp_3.135 ..
+
+uktvetyarvāvasurbhrātuḥ pāpaśāntyai dhṛtavrataḥ .
+cakāra sarvatīrtheṣu tīvraniṣkṛtipāraṇam .. kdarp_3.136 ..
+
+taṃ samāptavrataṃ prāptaṃ rājño yajñavasundharām .
+dūrātparāvasurjñātvā pitṛghnaḥ samacintayat .. kdarp_3.137 ..
+
+ayaṃ me dakṣiṇākāle bhāgahartā samāgataḥ .
+madabhāgyaiściraṃ tīvra- vratakliṣṭo 'pi jīvati .. kdarp_3.138 ..
+
+iti sañcintya so 'bhyetya provāca pṛthivīpatim .
+lobhamātsaryayoraṅke patitaḥ pātakecchayā .. kdarp_3.139 ..
+
+rājanyajñamahīmeṣa kilbiṣī brahmahatyayā .
+praviśatyavikalpena madbhrātā vāryatāmitaḥ .. kdarp_3.140 ..
+
+ityuktastena nṛpatiḥ kṛtaghnena viparyayāt .
+tasya praveśamajñānān niṣpāpasya nyavārayat .. kdarp_3.141 ..
+
+andhā iva na paśyanti yogyāyogyaṃ hitāhitam .
+pathā tenaiva gacchanti nīyante yena pārthivāḥ .. kdarp_3.142 ..
+
+mithyāpavādadānena naiva bhrātre cukopa saḥ .
+nikāre kāraṇaṃ daivaṃ manyante hi manīṣiṇaḥ .. kdarp_3.143 ..
+
+tena tasyānṛśaṃsyena nirvikāratayā tayā .
+tuṣṭāḥ kratusamāsīnās tamūcustridivaukasaḥ .. kdarp_3.144 ..
+
+praśamena tavānena prasannāste vayaṃ mune .
+varārho 'pi varācāra gṛhyatāṃ pravaro varaḥ .. kdarp_3.145 ..
+
+ityuktaḥ sa suraiḥ prītyā tānuvāca kṛtāñjaliḥ .
+yadi yuṣmadvarārho 'haṃ dīyatāṃ yanmamepsitam .. kdarp_3.146 ..
+
+matpitrā yo 'bhicāreṇa bharadvājātmajo hataḥ .
+sa jīvatvasmṛtakrūra- nikāraḥ sa ca tatpitā .. kdarp_3.147 ..
+
+asmatpitā mṛgadhiyā yaḥ parāvasunā hataḥ .
+so 'pi vismṛtatatkopaḥ svasthaḥ prāpnotu jīvitam .. kdarp_3.148 ..
+
+ityarthite vare tena tathetyākhyāyi taiḥ suraiḥ .
+yavakrītabharadvāja- raibhyāḥ prāpuḥ svajīvitam .. kdarp_3.149 ..
+
+ityete munayo 'pi darpaviphale yāte śrute śocyatāṃ krodhāndhyena punaḥ pranaṣṭavimalāloke viveke cyute .
+śīle rāgamahoṣmaṇā vigalite dveṣeṇa nāśaṃ gatāḥ kasyānyasya dhanābhimānamalinā vidyā vidhatte guṇam .. kdarp_3.150 ..
+cetaḥ śāntyai dveṣadarpojjhitena yatnaḥ kāryaḥ sarvathā paṇḍitena .
+vidyādīpaḥ kāmakopākulākṣṇāṃ darpāndhānāṃ niṣphalāloka eva .. kdarp_3.151 ..
+
+alobhaḥ paramaṃ vittam ahiṃsā paramaṃ tapaḥ .
+amāyā paramā vidyā niravadyā manīṣiṇām .. kdarp_3.152 ..
+
+śukrasya vidyā dhanadārthahartum āryāprapañcopacitasya śocyā .
+kacasya vācaspatijanmano 'pi vyājena vidyā viphalībabhūva .. kdarp_3.153 ..
+
+spṛśati matiṃ nahi teṣāṃ dveṣaviṣaḥ kalisarpaḥ .*
+yadi śamavimalamatīnāṃ svamanasi bhavati na darpaḥ .. kdarp_3.154 ..*
+
+caturtho vicāraḥ
+
+padmopamānāṃ dinasundarāṇāṃ ko 'yaṃ nṛṇāmasthirarūpadarpaḥ .
+rūpeṇa kāntiḥ kṣaṇikaiva yeṣāṃ hāridrarāgeṇa yathāṃśukānām .. kdarp_4.1 ..
+
+paryantarekhāṅgavibhāgahīna- citropamaṃ bālavapuḥ prakṛtyā .
+tadyauvanenaiva vikāsameti caitrotsaveneva śirīṣapuṣpam .. kdarp_4.2 ..
+
+alomaśaṃ pūrṇaśaśāṅkaśobhaṃ mukhaṃ tu yūnāṃ katiciddināni .
+jāte tataḥ śmaśruviśālajāle śevālalīnābjatulāṃ bibharti .. kdarp_4.3 ..
+
+dhūmena citraṃ tuhinena padmaṃ tamisrapakṣeṇa sudhāṃśubimbam .
+śītaṃ nidāghena na bhāti toyaṃ jarāvatāreṇa ca cārurūpam .. kdarp_4.4 ..
+
+rūpaṃ kṣaṇasvīkṛtaraktamāṃsa- grāsaprasaktākṛtakāmadoṣā .
+keśagraheṇaiva jarā janānāṃ veśyeva vittaṃ kavalīkaroti .. kdarp_4.5 ..
+
+pākakrameṇaiva vicitrakarmā pratikṣaṇaṃ dehabhṛtāmalakṣyaḥ .
+karoti kālaḥ pariṇāmaśaktyā rūpaṃ virūpaṃ caturapravāhaḥ .. kdarp_4.6 ..
+
+na lakṣyate kālagatiḥ savega- cakrabhramabhrāntividhāyinīyam .
+hyo yaḥ śiśuḥ sa sphuṭayauvano 'dya prātarjarājīrṇatanuḥ sa eva .. kdarp_4.7 ..
+
+puṃsāmavasthātritayatribhāge rūpapradaṃ yauvanameva nānyat .
+tasminmadonmādagadāṅgabhaṅga- vyaṅgyādidoṣopahate kva rūpam .. kdarp_4.8 ..
+
+yadā naraḥ śocati duḥkhataptas tyaktāśanaḥ śokavivarṇavaktraḥ .
+na snāti nottiṣṭhati naiva śete tadā kva rūpaṃ kva ca yauvanaśrīḥ .. kdarp_4.9 ..
+
+yadā sthitaḥ preta ivāsthiśeṣaḥ kārāgṛhe dhūsaritordhvakeśaḥ .
+prakīrṇayūkāmalakālakāyas tadā kva rūpasya gato 'bhimānaḥ .. kdarp_4.10 ..
+
+yadā sadāṅgīkṛtadainyaduḥkha- sevāpravāsena vinaṣṭakāyaḥ .
+nityapravāsabhramabhagnajānur na rūpalabdhasya tadāsti rupam .. kdarp_4.11 ..
+
+yadā prahārairdalitākhilāṅgaḥ khaṇḍoṣṭhanāsaḥ sphuṭitākṣidantaḥ .
+yuvā piśācatvamivopayāti tadāpi rūpaṃ vigatasvarūpam .. kdarp_4.12 ..
+
+yadā na dhīmānariṣu pramāthī na vākpaṭuścitramanuṣyatulyaḥ .
+tadā surūpādavicāraramyād varaṃ virūpaḥ spṛhaṇīyarūpaḥ .. kdarp_4.13 ..
+
+yadā daridraḥ paridhānahīnas trapānilīnaḥ kurute 'tiyāñcām .
+kapolasañjātavalīvikāras tadā surūpo 'pi paraṃ virūpaḥ .. kdarp_4.14 ..
+
+vidvatsaṃsadi vādibhiḥ kavivarairbhāṣānabhijñaḥ paraṃ mūrkhaḥ śaṅkaravāhanastutipadairyaḥ sañjñayā hasyate .
+vikrītaḥ paradeśapaṇyasadane dhūrtairivānuttaraḥ puṃsaścitramayūracāruvapuṣaḥ kiṃ tasya rūpaśriyā .. kdarp_4.15 ..
+
+kālaṃ muhūrtāṅgulimaṇḍalena dinatriyāmāñjalinā pibantam .
+rūpaṃ vilokyaiva vapuśca keṣāṃ bhaṅgena nāṅgānyalasībhavanti .. kdarp_4.16 ..
+
+rūpaṃ vayaḥ śauryamanaṅgabhogaṃ prajñāprabhāvaṃ vibhavaṃ vapuśca .
+aśnāti kālabhramaraḥ samantāt puṃsāṃ ni kiñjalkamivāmbujānām .. kdarp_4.17 ..
+
+kadācitsaha gandharvaiḥ sabhāsthāne śacīpatim .
+nṛttenāpsarasaḥ sarvā gītena ca siṣevire .. kdarp_4.18 ..
+
+tāsāṃ madhye babhau kāntā vṛttīnāmiva kaiśikī .
+urvaśī svamukhe maitrīṃ vadantīvendupadmayoḥ .. kdarp_4.19 ..
+
+śakrasevāgatāstatra tāṃ dṛṣṭvendumukhīṃ surāḥ .
+menire dhanyamātmānaṃ śṛṅgārasyāṅgatāṃ gatam .. kdarp_4.20 ..
+
+nṛtyantī sā babhau hāra- madhyaratneṣu bimbitā .
+yugapatpraviśantīva hṛdayāni divaukasām .. kdarp_4.21 ..
+
+līnā devavimāneṣu haṃsāstadgatinirjitāḥ .
+tatkaṭākṣajitaścakre nidrāṃ candre mṛgaḥ kṣaṇam .. kdarp_4.22 ..
+
+tasyāḥ serṣyāpsaronetra- māleva patitā babhau .
+stanayoḥ śekharasrastā nīlotpaladalāvalī .. kdarp_4.23 ..
+
+utsāhoddhatavibhramabhramarakavyāvṛttahārāntara- truṭyatsūtravimuktamauktikabharaḥ saktaḥ stanotsaṅgayoḥ .
+vaktrenducyutasantatāmṛtakaṇākāraścakāra kṣaṇaṃ tasyā nṛttarasaśramoditaghanasvedāmbubimbaśriyam .. kdarp_4.24 ..
+
+tasyā nṛttavilokane pulakitaṃ dṛṣṭvā ratirmanmathaṃ niḥśvāsāñcitacārurūpa(?)rajasā cakre purastātpaṭam .
+udvīkṣyākṣiparamparāmapi harestatrāvasannā śacī kopāndolitakelipadmamadhupairmadhye 'ndhakāraṃ vyadhāt .. kdarp_4.25 ..
+
+vighnaṃ na cakrurnanu nṛttalīlāsandarśane puṇyavatāṃ narāṇām .*
+tatrorvaśīrūpavaśīkṛtānāṃ nimeṣaśūnyāni vilocanāni .. kdarp_4.26 ..*
+
+devayoraśvinostatra rūpamādhuryadhuryayoḥ .
+mithaḥ kathā samabhavat tadguṇākṛṣṭacittayoḥ .. kdarp_4.27 ..
+
+eko 'bravīdaho rūpam asyāstaralacakṣuṣaḥ .
+nimīlanniyamā yena munayo 'pyākulīkṛtāḥ .. kdarp_4.28 ..
+
+asyāṃ saṃsadi kasyāsye patantyetāḥ sujanmanaḥ .
+smarasambhogasaṃvāda- lajjākuṭilitā dṛśaḥ .. kdarp_4.29 ..
+
+vṛttasaṅgamayoreva parasparavilokane .
+nyāsaṃ śṛṅgārasarvasvam anaṅgenārpitaṃ rahaḥ .. kdarp_4.30 ..
+
+raṇotsṛṣṭatanoḥ kaṇṭhe sotkaṇṭhā bhujabandhanam .
+kasyeyaṃ taralāpāṅgā raṅgottīrṇā kariṣyati .. kdarp_4.31 ..
+
+iti bruvāṇamaparaḥ sasmitastamabhāṣata .
+aho nu vismṛtaḥ kiṃ te bhūtalenduḥ purūravāḥ .. kdarp_4.32 ..
+
+vikramābharaṇaṃ dikṣu lāvaṇyatilakaṃ bhuvaḥ .
+urvaśībhogasubhagaṃ yasyaitadgīyate yaśaḥ .. kdarp_4.33 ..
+
+tena rūpaguṇotsāhair urvaśīyaṃ vaśīkṛtā .
+puraḥ sthitāpi śakrasya manasā tatra tiṣṭhati .. kdarp_4.34 ..
+
+rūpasāmyena śītāṃśu- vaṃśe jātaḥ sa lajjate .
+na karoti rateragre tatkathāṃ matsarī smaraḥ .. kdarp_4.35 ..
+
+na jāne bata hevākaḥ ko 'yaṃ kusumadhanvanaḥ .
+naivārpayati yatpāṇau tasyaiva śarapañcakam .. kdarp_4.36 ..
+
+bhuvaḥ samastāmbudhimekhalāyā voḍhāramājānuvilambibāhum .
+līlāguruṃ taṃ hṛdaye vahantī tanvī kathaṃ nṛtyati naiva vidmaḥ .. kdarp_4.37 ..
+
+draṣṭavyaḥ sa nṛpastāvad aprastāve 'pi yatnataḥ .
+ko vetti tadvidhaṃ ratnaṃ puṇyairāste kiyacciram .. kdarp_4.38 ..
+
+iyuktvā tau kṛtakṣoṇī- patidarśananiścayau .
+nṛtte nivṛtte jambhāriṃ praṇamya yayaturbhuvam .. kdarp_4.39 ..
+
+rājadhānīṃ samāsādya tau purūravasaḥ kṣaṇāt .
+avāritau viviśatur vetribhiḥ suragauravāt .. kdarp_4.40 ..
+
+tau taṃ dadṛśatuḥ snāna- vihitābhyaṅgasaṅgamam .
+pīyūṣanavanītena lagnasnehamivoḍupam .. kdarp_4.41 ..
+
+snātottāritakeyūra- mahārhamaṇikaṅkaṇam .
+lāvaṇyābharaṇaṃ tasya virarājorjitaṃ vapuḥ .. kdarp_4.42 ..
+
+śūnyaśravaṇapāśasya tasya kaṇṭhaḥ samāyayau .
+nirbhūṣaṇaniveśo 'pi viśeṣaramaṇīytām .. kdarp_4.43 ..
+
+vicārya tasyā maryādaṃ saundaryodāryamaśvinau .
+praśaśaṃsaturāścarya- nirmāṇātiśayaṃ vidheḥ .. kdarp_4.44 ..
+
+sa tau kṛtāñjaliḥ prītyā kṛtāsanaparigrahau .
+papraccha svacchahṛdayastv arāgamanakāraṇam .. kdarp_4.45 ..
+
+tāvūcatuḥ kṣitipate mahīkusumadhanvanaḥ .
+trailokyābharaṇaṃ rūpaṃ tavāvāṃ draṣṭumāgatau .. kdarp_4.46 ..
+
+nisargeṇa jagatsarga- nirargalaguṇādarāt .
+kautukālokasāreva dṛṣṭvā sṛṣṭiḥ prajāpateḥ .. kdarp_4.47 ..
+
+vilokitastvaṃ vasudhā- sudhāṃśuḥ pūrṇamaṇḍalaḥ .
+rūpapīyūṣapānena prāptā prītiḥ kimucyate .. kdarp_4.48 ..
+
+ityuktaḥ praṇayāttābhyāṃ kiñcitkusumitasmitaḥ .*
+tāvūce nṛpatirmānyamānenābhyadhikāraḥ .. kdarp_4.49 ..*
+
+bhavatsandarśanenāham asmyanugrahabhājanam .
+draṣṭavyā draṣṭumāyānti puṇyapuṇyena kevalam .. kdarp_4.50 ..
+
+tīrthāptiḥ sādhusamparkaḥ pūjyapūjāmahotsavaḥ .
+asminvirasaniḥsāre saṃsāre sārasaṅgrahaḥ .. kdarp_4.51 ..
+
+snānābhyaktena na mayā yuvayorucitaḥ kṛtaḥ .
+puṇyasāphalyaniḥśalya- kalyāṇāyārcanādaraḥ .. kdarp_4.52 ..
+
+agnyāgārāntare tāvan muhūrtaṃ kriyatāṃ sthitiḥ .
+kṛtasnānaḥ sameṣyāmi pūjāpraṇayapātratām .. kdarp_4.53 ..
+
+iyuktau tena yayatus tau hutāśanamandiram .
+snātaṃ vibhūṣitaṃ bhūpaṃ drakṣyāva iti kautukāt .. kdarp_4.54 ..
+
+atha rājā kṛtasnānaḥ sarvābharaṇabhūṣitaḥ .
+purohitena sahitas tatsamīpamupāyayau .. kdarp_4.55 ..
+
+tau dṛṣṭvā pṛthivīpālaṃ tārahāraṃ kirīṭinam .
+kṣaṇaṃ naivocatuḥ kiñcid viṣaṇṇau vinatānanau .. kdarp_4.56 ..
+
+kṛtārcane narapatau tau papraccha purohitaḥ .
+akasmādyuvayoḥ kasmād aprasāda ivekṣyate .. kdarp_4.57 ..
+
+vinayātikramo 'smākaṃ yātaḥ kacinna hetutām .
+pṛṣṭau purohiteneti tau śanaistamabhāṣatām .. kdarp_4.58 ..
+
+āvayornāprasannatvaṃ na yuṣmākamatikramaḥ .
+kiṃ tu kālagalatsarva- bhāvālokanavismayaḥ .. kdarp_4.59 ..
+
+adhunaiva narendro 'yaṃ dṛṣṭo 'bhyaṅge 'pi yādṛśaḥ .
+kṣaṇapākena kālasya dṛśyate naiva tādṛśaḥ .. kdarp_4.60 ..
+
+dinendhanavane nityaṃ dahyamāne 'rkavahninā .
+nīyate kāladhūmena rūpacitramacitratām .. kdarp_4.61 ..
+
+niścitya sarvabhāvānāṃ nityametāmanityatām .
+rūpe 'bhimānaṃ kaḥ kuryāt svapnacitrapaṭopame .. kdarp_4.62 ..
+
+jarājīrṇāni rūpāṇi rogārtāni vapūṃṣi ca .
+āyūṃṣi kālalīḍhāni dṛṣṭvā kasya bhavenmadaḥ .. kdarp_4.63 ..
+
+yo 'yaṃ vikokyate lokaḥ sphārākāravikāravān .
+ucchūnatāmupagatās ta ete śukrabindavaḥ .. kdarp_4.64 ..
+
+aho kālasya sūkṣmo 'yaṃ ko 'pyalakṣyakramaḥ kramaḥ .
+yatpākapariṇāmena sarvaṃ yātyanyarūpatām .. kdarp_4.65 ..
+
+rājñaḥ snānakṣaṇe yābhūl lāvaṇyalaharī tanoḥ .
+pītā kṣaṇena sā tena pravṛttānyakṣaṇocitā .. kdarp_4.66 ..
+
+sampūrṇasyāyuṣo mātrā rūpasya vibhavasya ca .
+horāyātrāmbudhāreva galatyevāniśaṃ nṛṇām .. kdarp_4.67 ..
+
+kalākāṣṭhāmuhurtānāṃ kālasya vrajatāṃ javāt .
+na lakṣyate vibhāgena dīpasyevārciṣāṃ gatiḥ .. kdarp_4.68 ..
+
+bālaḥ prabhāte madhyāhne taruṇaḥ sthaviro 'stagaḥ .
+dine dine dineśo 'pi kriyate kālalīlayā .. kdarp_4.69 ..
+
+śuṣyantyambudhayastaraṅgagahanairāliṅgitāśāṅganā gacchantyudgatatuṅgaśṛṅgamukuṭodagrā girīndrāḥ kṣayam .
+bhraśyatyeva vasundharāpi sahitā digdantibhiryadvaśāt sarvāśī satataṃ pradhāvati mahākālaḥ sa ko 'pyākulaḥ .. kdarp_4.70 ..
+
+ityuktvā nṛpamāmantrya divaṃ jagmaturaśvinau .
+nṛpaśca tadvacaścintā- śāntarūpamado 'bhavat .. kdarp_4.71 ..
+
+tasmānna kāryaḥ sudhiyā vicārya sāścaryasaundaryavilāsadarpaḥ .
+saṃsāramohaprasare ghane 'smin vidyullatāvisphuritaṃ hi rūpam .. kdarp_4.72 ..
+
+prātarbālataro 'tha kudmalatayā kāntākucābhaḥ śanair helāhāsavikāsasundararuciḥ sampūrṇakoṣastataḥ .
+paścānmlānavapurvilolaśithilaḥ padmaḥ prakīrṇe 'nilais tasminneva dine sa paṅkakalilaklinnastaṭe śuṣyati .. kdarp_4.73 ..
+
+vairūpyaṃ sahajaṃ jarāhṛtaruciryāto yayātiḥ purā kāntyā tarjitakāmakīrtirabhavaddurdarśamūrtirnalaḥ .
+saudāsasya manoharaṃ vapurabhūtsantrāsanaṃ dehināṃ rūpe kasya bhaviṣyati pratidinamlāyinyanitye dhṛtiḥ .. kdarp_4.74 ..
+
+tasmādasthirarūpaṃ vicārya rūpaṃ bhavasvarūpaṃ ca .*
+anurūpamadanaśamanaṃ sthirapadasamprāptaye sudhiyām .. kdarp_4.75 ..*
+
+pañcamo vicāraḥ
+
+ahaṃ śūraḥ krūrapratibhaṭaghaṭāpāṭanapaṭus tarasvī senāyāṃ hayagajaghaṭānāmadhipatiḥ .
+iti prauḍhaḥ puṃsāṃ nijabhujabalākrāntajagatāṃ bhavatyantardarpaḥ paribhavapadaṃ kālagalitaḥ .. kdarp_5.1 ..
+
+śauryeṇa darpaḥ puruṣasya ko 'yaṃ dṛṣṭastiraścāmapi śūrabhāvaḥ .
+aucityahīnaṃ vinayavyapetaṃ dayādaridraṃ na vadanti śauryam .. kdarp_5.2 ..
+
+bālasya śauryaṃ kusumopamasya mātuḥ prahāre praṇayasmiteṣu .
+vṛddhasya śauryaṃ śithilāṅgasandheḥ svaślāghayā pūrvakathāpatheṣu .. kdarp_5.3 ..
+
+vayastribhāge taruṇasya śauryaṃ yadeva darpaprabhavābhibhūtam .
+taccittavṛttervividhasvabhāvāt paryāyaśo yātyativaiparītyam .. kdarp_5.4 ..
+
+........... ........... .
+cittasya jātyānilacañcalasya nānāguṇatvātkriyate kimasya .. kdarp_5.5 ..
+
+hyo yena bhagnāḥ purato 'risenā bhītaḥ sa evādya bhavatyadhīraḥ .
+vṛtreṇa śakraḥ samare nigīrṇaḥ phenena śakraḥ sa jaghāna vṛtram .. kdarp_5.6 ..
+........ ........ .
+ekaṃ samāliṅgati darpalolā kṣībeva veśyā nahi rājalakṣmīḥ .. kdarp_5.7 ..
+
+yaḥ kārtavīryasya ca doḥsahasraṃ viccheda vīro nahi yudhi jāmadagnyaḥ .*
+sa sāyake rāmakarādhirūḍhe brāhmaṇyadainyapraṇayī babhūva .. kdarp_5.8 ..*
+
+rāmo 'pi sāhāyakalābhalobhāccakre kapeḥ saṃśrayadainyasevām .*
+śūrapratāpaḥ śiśirartuneva kālena līḍhastanutāmupaiti .. kdarp_5.9 ..*
+
+vālī prasahya plavagaḥ kareṇa sollāsakailāsasahaṃ daśāsyam .
+nikṣipya kakṣāñcalasandhibandhe saptābdhisandhyāvidhimanvatiṣṭhat .. kdarp_5.10 ..
+
+yuddhoddhatā bhūpatayaḥ prasiddhā baddhā jarāsandhanṛpeṇa pūrvam .
+sabhīmasenena bhujāyudhena dvidhā kṛtaḥ sandhividāraṇena .. kdarp_5.11 ..
+
+bhīmo 'pi karṇena vikīrṇadhairyaḥ pramūḍhaśaktiḥ kṛpayā vimuktaḥ .
+karṇe 'rjunasyātatakārmukasya kṣaṇātkṣaṇaṃ yācakatāṃ prayātaḥ .. kdarp_5.12 ..
+
+tyaktvārjunaḥ kṛṣṇakalatravargaṃ jagāma gopālabalābhibhūtaḥ .
+na jñāyate daivapathānuyātā śauryasya vṛttiḥ karikarṇalolā .. kdarp_5.13 ..
+
+bhīruḥ śūratvamāyāti śūro 'pyāyāti bhīrutām .
+na kvaciccapalasyāsya śauryasya niyatā sthitiḥ .. kdarp_5.14 ..
+
+bāṇastryakṣeṇa kaṃsāri- cakradhārāpathātithiḥ .
+ājanmabhaktipraṇayī rakṣaṇārho na rakṣitaḥ .. kdarp_5.15 ..
+
+vegāpte kālayavane mucukundamaśiśriyat .
+śauriḥ śayanaparyaṅka- talasaṅkucitākṛtiḥ .. kdarp_5.16 ..
+
+śiśupālasya śirasi cchinne cakreṇa cakriṇā .
+dṛṣṭiḥ kṛtā na cāpeṣu nṛpaistatpakṣipātibhiḥ .. kdarp_5.17 ..
+
+bhīmaniṣpīyamāṇasṛg dṛṣṭo duryodhanānujaḥ .
+aśastrābhireva strībhir droṇakarṇakṛpādibhiḥ .. kdarp_5.18 ..
+
+sphārājagarasaṃruddha- bhujadvandvo vṛkodaraḥ .
+jananīkaruṇākranda- ninādamukharo 'bhavat .. kdarp_5.19 ..
+
+mahatāmapi pūrveṣām evaṃrūpā madakṣitiḥ .
+sāmānyavikramoddāma- ślāghā kenābhinandyate .. kdarp_5.20 ..
+
+aśakte raudratātaikṣṇyaṃ tīvrapāpeṣu dhīratā .
+chadmadhīrvāci pāruṣyaṃ nīcānāṃ śauryamīdṛśam .. kdarp_5.21 ..
+
+niṣkāraṇanṛśaṃsasya śauryaṃ hiṃsratvamucyate .
+yaḥ sarpa iva sannaddhaḥ prāṇabhādhāya dehinām .. kdarp_5.22 ..
+
+etadeva paraṃ śauryaṃ yatparaprāṇarakṣaṇam .
+nahi prāṇaharaḥ śūraḥ śūraḥ prāṇaprado 'rthinām .. kdarp_5.23 ..
+
+na kaścidbuddhihīnasya śauryeṇa kriyate guṇaḥ .
+parjanyagarjitāmarṣī śvabhre patati kesarī .. kdarp_5.24 ..
+
+kiṃ śauryeṇa sarāgasya madakṣībasya dantinaḥ .
+bandhakīlābhalobhena yaḥ kṣipatyavaṭe tanum .. kdarp_5.25 ..
+
+śauryaṃ vikrītakāyasya sevakasya kimadbhutam .
+meṣasyeva vadho yasya sūnābaddhasya niścitaḥ .. kdarp_5.26 ..
+
+na darpavikṛtaṃ śauryaṃ na māyāmalinaṃ manaḥ .
+na dveṣoṣṇaṃ śrutaṃ yeṣāṃ gaṇyante tadguṇā budhaiḥ .. kdarp_5.27 ..
+
+kulaṃ kutanayeneva lobheneva guṇodayaḥ .
+aiśvaryaṃ durnayeneva śauryaṃ darpeṇa naśyati .. kdarp_5.28 ..
+
+prabhāvabhavanastambha iva dambhodbhavo 'bhavat .
+saptābdhiparikhālekha- mekhalāyāḥ prabhurbhuvaḥ .. kdarp_5.29 ..
+
+tasya niḥśeṣitārāteḥ sadā yuddhamanorathaḥ .
+aprāptapratimallasya yayau hṛdayaśalyatām .. kdarp_5.30 ..
+
+sa surāsurayuddhāpta- darpadarpitamānasaḥ .
+kaḥ ko 'sti śūraḥ saṃrambhād ityapṛcchatsadājanam .. kdarp_5.31 ..
+
+darpakaṇḍūladordaṇḍaṃ pṛcchantaṃ rabhasena tam .
+sarvāvamānasannaddhaṃ jagādābhyetya nāradaḥ .. kdarp_5.32 ..
+
+nāsti tvatsadṛśaḥ śūras trailokye satyamucyate .
+kiṃ tu jāne raṇārhau te naranārāyaṇāvṛṣī .. kdarp_5.33 ..
+
+badaryāśramasaṃsaktau tīvre tapasi niṣṭhitau .
+yuddhecchau tau yadi syātāṃ tatpūrṇaste manorathaḥ .. kdarp_5.34 ..
+
+nāradenetyabhihite sa badaryāśramaṃ yayau .
+vilokayannijabhujau pratyāsannaraṇotsavau .. kdarp_5.35 ..
+
+dṛṣṭvā tejonidhī tatra naranārāyaṇau nṛpaḥ .
+manorathapathābhyastaṃ yayāce yuddhamuddhataḥ .. kdarp_5.36 ..
+
+taṃ yuddhakāmukaṃ tiryag- dṛśā gambhīradhīrayā .
+vilokyovāca sāvajña- smitadigdhādharaṃ naraḥ .. kdarp_5.37 ..
+
+mahīpate nivartasva na vayaṃ yuddhakovidāḥ .
+yuktastaireva saṅgrāmas tava ye bhūmyanantarāḥ .. kdarp_5.38 ..
+
+ityukto 'pi yadā rājā na cacāla raṇādarāt .
+tadā taṃ dṛptamaiṣīka- niśitāstrairapūrayat .. kdarp_5.39 ..
+
+pradīptajvalanākāraiḥ śarairākīrṇavigrahaḥ .
+vinaṣṭavigraharucir nṛpastatyāja dhīratām .. kdarp_5.40 ..
+
+akāṇḍakhaṇḍitoccaṇḍa- darpajvarabharo nṛpaḥ .
+kṛpaṇaḥ prāṇarakṣāyai tameva śaraṇaṃ yayau .. kdarp_5.41 ..
+
+vāritāstrastatastena bhagnamānamanorathaḥ .
+lajjāvikuṇṭhakaṇṭhaḥ svāṃ rājadhānīṃ yayau nṛpaḥ .. kdarp_5.42 ..
+
+iti mānasya mahatām api ghorāśanirmadaḥ .
+lohasya svamaleneva kṣayo darpeṇa tejasaḥ .. kdarp_5.43 ..
+
+tasmātsadā mānadhanena puṃsā darpaḥ prayatnena nivāraṇīyaḥ .
+darpogravaktrasya suhṛjjano 'pi sarvātmanā tivranipātasajjaḥ .. kdarp_5.44 ..
+
+adarpaśauryaspṛhaṇīyasattvā goviprarakṣākṣapitasvadehāḥ .
+prayānti vīrāḥ sukṛtāmṛtādrair yaśaḥśarīrairajarāmaratvam .. kdarp_5.45 ..
+
+ṣaṣṭho vicāraḥ
+
+jagatyeko bhadradvirada iva dānārdrasaraṇir yaśasvī niḥsvānāmahamabhimatāśāphalataruḥ .
+iti tyāgodagraṃ vahati kila darpaṃ manasi yas tadudbhūtaṃ sarvaṃ sukṛtamapahāya vrajati saḥ .. kdarp_6.1 ..
+
+svargādisambhogaphalābhilāṣāt pātrāya pūjāṃ pratipadyate yaḥ .
+dharmārthapaṇyakrayavikrayo 'sau kastena dānaprabhavo 'bhimānaḥ .. kdarp_6.2 ..
+
+yadvidyādiguṇotkarṣa- viśeṣaparitoṣitaiḥ .
+dīyate prītidhanayoḥ sa paṇyakrayavikrayaḥ .. kdarp_6.3 ..
+
+lokaprasiddhisiddhyai yaḥ prayacchati guṇastavaiḥ .
+karoti vittayaśasoḥ sa tadā krayavikrayam .. kdarp_6.4 ..
+
+avamānahataṃ yacca dattamaśraddhayā dhanam .
+ūṣare niṣphalaṃ bījaṃ kṣiptamakṣiptameva tat .. kdarp_6.5 ..
+
+tyāgino 'nyasya saṅgharṣe kīrtyutkarṣajigīṣayā .
+dattaṃ kāraṇabhūtasya tasyaivānte phalapradam .. kdarp_6.6 ..
+
+parārtiśamanaṃ vittam ajñātamanudīritam .
+aphalākāṅkṣayā yuktaṃ prayātyalpamanalpatām .. kdarp_6.7 ..
+
+kurukṣetrādideśeṣu kāleṣvarkagrahādiṣu .
+ātmopakāramātreṇa pātre dānena kiṃ madaḥ .. kdarp_6.8 ..
+
+deśakālakriyāpātrāṇy avicāryaiva kevalam .
+pareṣāmārtiśamanaṃ dayārdraṃ dānamucyate .. kdarp_6.9 ..
+
+rakṣāyai sampadāṃ putra- kalatrasukhasiddhaye .
+dīyate yatprayatnena lobhadānena tena kim .. kdarp_6.10 ..
+
+vāde khalaiḥ khalīkṛtya vedhadrutaparīkṣayā .
+dīyate yaccirakliṣṭaṃ kaṣṭadānena tena kim .. kdarp_6.11 ..
+
+tyaktvāśāgatasatpātraṃ pūrṇāyābhyarthya dīyate .
+yattaducchvāsasantaptaṃ dagdhadānena tena kim .. kdarp_6.12 ..
+
+anyadābhāṣitaṃ pūrvaṃ dattamanyattato 'lpakam .
+yatsadoṣamayogyaṃ vā kūṭadānena tena kim .. kdarp_6.13 ..
+
+cirasevānurodhena lobhakṛcchrādanicchayā .
+aprasādena yaddattaṃ balādānena tena kim .. kdarp_6.14 ..
+
+yatpuṣpadhūpatilaka- pratipattipradarśitam .
+dattamatyalpaniḥsāraṃ dambhadānena tena kim .. kdarp_6.15 ..
+
+prabhūtabhārasambhāraṃ rājacaurādiviplave .
+dattvā yadduṣṭamudghuṣṭaṃ śalyadānena tena kim .. kdarp_6.16 ..
+
+anāsvādyamavikreyam anādeyamanīpsitam .
+dattaṃ nirupakāraṃ yad vandhyadānena tena kim .. kdarp_6.17 ..
+
+ṛṇavaccirasaṃśodhyaṃ vacasā pratipāditam .
+yannityayācanadveṣaṃ yācyadānena tena kim .. kdarp_6.18 ..
+
+ekasmai pūrṇamanyasmai kṛśaṃ tulyaguṇodaye .
+bhedādyadarpitaṃ rāga- dveṣadānena tena kim .. kdarp_6.19 ..
+
+ṛṇadaiḥ svajanaiḥ putrair labdhakṣāmapratigrahaḥ .
+nityamāyāsyate yena kalidānena tena kim .. kdarp_6.20 ..
+
+na parasyārtiśanamaṃ nātmanaḥ puṇyakāraṇam .
+dattālpamūlyenāptaṃ yat svalpadānena tena kim .. kdarp_6.21 ..
+
+durgraheṣu viruddheṣu daśāpāke 'tidāruṇe .
+dīyate doṣaśāntyai yad bhayadānena tena kim .. kdarp_6.22 ..
+
+mumūrṣastyaktasarvāśaḥ śayanastho dadāti yat .
+mūrcchāsthānena manasā mohadānena tena kim .. kdarp_6.23 ..
+
+dattaṃ priyaviyogogra- śokaśalyārtacetasā .
+yatpaścāttāpajananaṃ bāṣpadānena tena kim .. kdarp_6.24 ..
+
+purohitāya gurave śāntisvastividhāyine .
+dīyate yatprasaṅgena bhṛtidānena tena kim .. kdarp_6.25 ..
+
+yatsantyaktaphalaspṛhaṃ yaducitaṃ sarvasvabhūtaṃ ca yan nānyāyena yadarjitaṃ paradhanasparśena śaptaṃ na yat .
+dattvā duḥkhaśataṃ na yatsvavacasā paścānna yadgaṇyate taddānaṃ dhanabījavāpanipuṇaḥ śeṣaḥ prakāraḥ kṛṣeḥ .. kdarp_6.26 ..
+
+prāptuṃ svargavarāṅganāstanataṭasparśātiriktaṃ sukhaṃ datto merurapi prayāti tṛṇatāmātmopakārecchayā .
+āpannārtivilokane karuṇayā śraddhāsudhāpūritaṃ sattvotsāhasamanvitaṃ tṛṇamapi trailokyadānādhikam .. kdarp_6.27 ..
+
+yudhiṣṭhirasya bhūbhartuḥ purā kanakavarṣiṇaḥ .
+aśvamedhe vidhānena vartamāne mahākratau .. kdarp_6.28 ..
+
+sajjāsu rājabhojyāsu vividhāsvannapāliṣu .
+aniśaṃ ratnapātreṣu bhuñjāneṣu dvijanmasu .. kdarp_6.29 ..
+
+vipreṣu pūryamāṇeṣu maṇikāñcanaśāsanaiḥ .
+ucchiṣṭabhūmiṃ nakulaḥ svabilātsamupāyayau .. kdarp_6.30 ..
+
+dīptakāñcanavarṇena pārśvenaikena śobhitaḥ .
+apareṇāsuvarṇena vitīrṇajanakautukaḥ .. kdarp_6.31 ..
+
+so 'bhyetya tūrṇamucchiṣṭa hemapātracyute 'mbhasi .
+luloṭha śapharotphāla- parivartavivartanaiḥ .. kdarp_6.32 ..
+
+suvarṇapārśvaṃ nakulaṃ dṛṣṭvā sarve kutūhalāt .
+majjantamucchiṣṭajale kṣitipāya nyavedayan .. kdarp_6.33 ..
+
+prāptena bhūbhujā dṛṣṭvā dṛṣṭyā pṛṣṭa iveṣṭayā .
+so 'vadadvismayabhuvā suspaṣṭākṣarayā girā .. kdarp_6.34 ..
+
+rājannasyātidānasya na paśyāmyucitaṃ phalam .
+asmātprabhūtasambhārāt saktupātraṃ varaṃ param .. kdarp_6.35 ..
+
+pravṛtte 'sminmahādāne mahataste mahīpate .
+vitte vṛtte ca citte ca śuddhiṃ ko vetti tattvataḥ .. kdarp_6.36 ..
+
+sambhāro 'yaṃ bhuvanabhavanavyāptiparyāptabhogaḥ sarvāśāsu pratatajanatāpūraṇe 'tyantatucchaḥ .
+āpannārtipraśamanavidhau sattvaśuddhipradāne sannaddhānāmapi tṛṇakaṇaḥ kāñcanādritvameti .. kdarp_6.37 ..
+
+śrūyatām yanmayā dṛṣṭaṃ bhūpate svayamadbhutam .
+udetyudīrite yasmin kāye romāñcakañcukaḥ .. kdarp_6.38 ..
+
+śiloñchavṛttinā pūrvaṃ vipreṇa kṣetracāriṇā .
+upavāsakṛśenāptaṃ yavastokaṃ kalatriṇā .. kdarp_6.39 ..
+
+saktupātre tataḥ siddhe kṛtadevapitṛkriyaḥ .
+jāyāputravibhāgena svaṃ bhāgaṃ bhoktumudyayau .. kdarp_6.40 ..
+
+sa prāṇāhutitoyārthī dadarśātithimāgatam .
+kṣutkṣāmakukṣiṃ saṅkṣipta- sarvāṅgaśithilākṛtim .. kdarp_6.41 ..
+
+tasmai vihitasatkāraḥ saprasādena cetasā .
+śraddhāsudhāvasiktaṃ tat sa dadau nijabhojanam .. kdarp_6.42 ..
+
+nigīrṇo 'tithinā tasminn akṣīṇakṣudvikāriṇā .
+tadbhāryāpyādaravatī tasmai svamaśanaṃ dadau .. kdarp_6.43 ..
+
+tenāpyatṛptimālokya tatsūnuḥ śraddhayātithim .
+svabhojanena vidadhe sampūrṇāśananirvṛttam .. kdarp_6.44 ..
+
+gate bhuktvātithau tasminn upavāsakṛśo dvijaḥ .
+sattvotsāhayutastasthau klānto 'pi niśi nirvyathaḥ .. kdarp_6.45 ..
+
+athāhaṃ saktugandhena nirgataḥ kṣudhito bilāt .
+prāptastatparṇakuṭikām utsṛṣṭocchiṣṭavartinīm .. kdarp_6.46 ..
+
+tatrācamanatoyena spṛṣṭamātrasya me nṛpa .
+pasya me dakṣiṇaṃ pārśvaṃ jataṃ hemamayacchavi .. kdarp_6.47 ..
+
+tato 'haṃ vāmapārśvasya hemacchāyāptaye sadā .
+nirnidraścintayā yātaḥ kṛśatāmeva kevalam .. kdarp_6.48 ..
+yadyatprāpnoti puruṣaḥ karmayogātsamīhitam .
+tattatsampūraṇāyaiva yāti cintāvidheyatām .. kdarp_6.49 ..
+
+adhunā vartamāne 'sminn aśvamedhe tava kratau .
+hemapārśvāśayāyāto viprocchiṣṭāmahīmaham .. kdarp_6.50 ..
+
+ratnakāñcanapātrāmbu- siktasya luṭhataściram .
+mama kāntilavo 'pyaṅge na kaścidiha dṛśyate .. kdarp_6.51 ..
+
+sarvathā sattvaśuddhāya dānāyātilaghīyase .
+namo mahāphalāyaiva na bhogāṅgaprasaṅgine .. kdarp_6.52 ..
+
+ityuktvā nakule yāte tattatheti yudhiṣṭhiraḥ .
+vicintya santatocchvāsaḥ kṣaṇaṃ stimitatāṃ yayau .. kdarp_6.53 ..
+
+tasmātsuvarṇāmbararatnabhūmi- dānairna darpaḥ puruṣeṇa kāryaḥ .
+bhavatyudāraṃ karuṇārdrasattvaṃ dānaṃ sadā kasyacideva puṇyaiḥ .. kdarp_6.54 ..
+
+saptamo vicāraḥ
+
+tapaḥ sadā rāgadhanābhimāna- mohaprahāṇāya satāmabhīṣṭam .
+tenaiva darpo yadi kiṃ vṛthaiva tyakto nikāyaḥ kṣapitaśca kāyaḥ .. kdarp_7.1 ..
+
+sarvātmanā śuddhadhiyā vidheyaḥ saṃsāradoṣapraśamāya yatnaḥ .
+kopopataptaṃ dhanarāgadigdhaṃ karoti tīvraṃ na tapaḥ praśāntim .. kdarp_7.2 ..
+
+cittaṃ viraktaṃ yadi kiṃ tapobhiś cittaṃ sarāgaṃ yadi kiṃ tapobhiḥ .
+cittaṃ prasannaṃ yadi kiṃ tapobhiś cittaṃ sakopaṃ yadi kiṃ tapobhiḥ .. kdarp_7.3 ..
+
+kopena śāpaśpuritādharāṇāṃ kāmena kampasphuritādharāṇām .
+svedāmbhasā tulyasamudbhavena nistejasāṃ kiṃ tapasā munīnām .. kdarp_7.4 ..
+
+bhāryāpyahalyā kila gautamasya kruddhasya śāpena śilā babhūva .
+nīto vasiṣṭhena ruṣābhiśaptaś caṇḍālatāṃ bhūmipatistraśaṅkuḥ .. kdarp_7.5 ..
+
+bhūmagnamūrtirvararatnalobhād vipāṭayantīṃ nayane sukanyām .
+tatpāṇisaṃsparśasukhādareṇa sehe nikāraṃ cyavanaḥ sarāgaḥ .. kdarp_7.6 ..
+
+pāṇḍuḥ priyākaṇṭhavilambibāhur yayau stananyastatanuryadastam .
+dagdhaḥ parīkṣitphaṇiphūtkṛtairyat tapasvikopasya vijṛmbhitaṃ tat .. kdarp_7.7 ..
+
+visārasaṃsāratarorna yena niḥśeṣamunmūlitameva mūlam .
+śāpopatāpaprabhuṇā pareṣāṃ kiṃ tena mithyātapasā munīnām .. kdarp_7.8 ..
+
+na rājasevārajasā viluptaṃ na bhūmividyādivivādataptam .
+na dambhadīkṣākuhakākulaṃ yat kalyāṇamittraṃ vimalaṃ vrataṃ tat .. kdarp_7.9 ..
+
+sasañcayaṃ guptakalatraputraṃ punargṛhītavyavāharabhāram .
+dambhābhimānodbhavakaṣṭabhūtaṃ mithyāvrataṃ jīvitavṛttyupāyaḥ .. kdarp_7.10 ..
+
+sarāgarogaṃ bahulapramohaṃ sarogasambhāramakharvagarvam .
+pradveṣadoṣoṣṇamameyamāyaṃ saṃsāracihnaṃ vratametadagryam .. kdarp_7.11 ..
+
+jaṭākṣasūtrājinayogapaṭṭa- kanyādṛḍhagranthinipīḍyamānam .
+vivekahīnaṃ virataprakāśaṃ vrataṃ bṛhadbandhanamāmananti .. kdarp_7.12 ..
+
+sarāgakāṣāyakaṣāyacittaṃ śīlāṃśukatyāgadigambaraṃ vā .
+laulyodbhavadbhasmabharaprahāsaṃ vrataṃ na veṣodbhaṭatulyavṛttam .. kdarp_7.13 ..
+
+niḥsaṅgayogaṃ dhanabhogasaṅgaṃ vilambikaṅkālakapālamālam .
+kopākulaṃ sparśavivarjanīyaṃ bhāravrataṃ tatkathayanti pāpam .. kdarp_7.14 ..
+
+bālastapasvī kimato 'sti hāsyaṃ yuvā vanaiṣī kimato 'styayogyam .
+vṛddha sarāgaḥ kimato 'sti nindyaṃ mūrkhaḥ pramātā kimato 'sti śocyam .. kdarp_7.15 ..
+
+kṣamā śamaḥ śāsanamindriyāṇāṃ manaḥ prasiktaṃ karuṇāmṛtena .
+tapo 'rhametatsajane vane vā kāyasya saṃśoṣaṇamanyadāhuḥ .. kdarp_7.16 ..
+
+himācale śyāmaladevadāru- vane purā nirjharacāruhāsye .
+tapasyatāṃ śoṣajuṣāṃ munīnāṃ kālo yayau varṣasahasrasaṅkhyaḥ .. kdarp_7.17 ..
+
+tataḥ kadācidbhagavānbhavārti- hārī vihārāya nabhaḥpathena .
+samaṃ bhavānyā vṛṣabhādhirūḍhaḥ samāyayau śītamayūkhamauliḥ .. kdarp_7.18 ..
+
+tasyoditānāṃ vadanaprabhāṇāṃ dīrghīkṛtānekaśaśiprabhāṇām .
+vilāsahāsyena nabho babhūva vibhaktisaṃsaktasitottarīyam .. kdarp_7.19 ..
+
+devī vilokyātha tapaḥprayatna- tīvraprayāsaprakaṭāsthiśeṣān .
+munīnkṛpāveśaviṣaṇṇacittā śaśāṅkalekhābharaṇaṃ babhāṣe .. kdarp_7.20 ..
+
+deva tvadārādhananiścalānāṃ santyaktasarvāgrahanigrahāṇām .
+tapa kriyāśoṣitavigrahāṇāṃ nādyāpi muktiḥ kimaho munīnām .. kdarp_7.21 ..
+
+kasmādamī varṣasahasralagna- kleśāvalagnāstanuśoṣamagnāḥ .
+bhavatpadaṃ nityasukhāya naiva nirāmayaṃ tanmunayaḥ prayānti .. kdarp_7.22 ..
+
+pṛthuḥ prasādaḥ prathamāgateṣu nirādaratvaṃ cirasaṃśriteṣu .
+svācchandyalīlāvipulāvalepād eṣu svabhāvaḥ sulabhaḥ prabhūṇām .. kdarp_7.23 ..
+
+iti priyāyāḥ praṇayopapannam ākarṇya vākyaṃ giriśo 'bravīttām .
+kurvanviṣaśyāmalakaṇṭhakāntiṃ dantaprabhābhiḥ pratibhāvihīnam .. kdarp_7.24 ..
+
+devi tvayoktam dayayā munīnāṃ bhaktānurodhāducitaṃ mamaitat .
+eṣāṃ bhavollaṅganavighnabhūtau śāntiṃ gatau kiṃ tu na kāmakopau .. kdarp_7.25 ..
+
+vanapraveśairniyamairaśeṣaiḥ kriyāviśeṣaiḥ kṛtakāyaśoṣaiḥ .
+na nirvikāraṃ padamāpnuvanti kopena kāmena ca kṛṣyamāṇāḥ .. kdarp_7.26 ..
+
+pratyakṣameṣāṃ manaso vikāraṃ sandarśayāmyeṣa niṣaktamantaḥ .
+tīvravrataiḥ śuṣyati kāya eva na vāsanālīnaghanapramohaḥ .. kdarp_7.27 ..
+
+santyaktabhogāḥ spṛhayā vimuktāḥ snehe 'pyarāgāḥ sujane 'pyasaṅgāḥ .
+bhajantyavikleśatapaḥprasaktā yuktāḥ prakāmaṃ padamavyayaṃ tat .. kdarp_7.28 ..
+
+uktveti śambhurvṛṣabhātsalīlaṃ girerivāgrādavatīrya bhūmim .
+kṣaṇādabhūdadbhutarūparāśir nagnavrataḥ kāntisudhāvadātaḥ .. kdarp_7.29 ..
+
+tasyāmarādhīśakirīṭaratna- śoṇaprabhārdrāviva pādapadmau .
+pracakraturvidrumabālavallī- navaprarohādbhutagarvamurvyām .. kdarp_7.30 ..
+
+suspaṣṭajānu pracitoruśobhi nābhihradāvartavibhaktamadhyam .
+tattasya rūpaṃ pravilambibāhoḥ pīnāṃsamāsīnmukhapūrṇacandram .. kdarp_7.31 ..
+
+ananyalāvaṇyasudhābdhimadhya- snātairivāṅgaiḥ sphaṭikāvadātaiḥ .
+cakre daśāśāḥ sa pṛthuprakāśā digambaratvādiva jātahāsāḥ .. kdarp_7.32 ..
+
+pāṇisthitaśyāmamayūrapicchacchāyācchaṭāvicchurito 'sya kaṇṭhaḥ .*
+rarāja līnāntarakālakūṭamiṣāgninevārpitadhūmalekhaḥ .. kdarp_7.33 ..*
+
+sa locanābhyāṃ pṛthupakṣmalābhyām āraktaparyantamanoharābhyām .
+vyadhādivānaṅganavāṅgasaṅge digaṅganānāmanurāgadīkṣām .. kdarp_7.34 ..
+
+dṛṣṭvā trilokīkalitābhilāṣaṃ vapuḥ smarārerjanitasmaraṃ tat .
+pūrvāpakārasmṛtijātalajjaṃ cakṣuḥ kṣaṇaṃ kvāpi yayau tṛtīyam .. kdarp_7.35 ..
+
+babhau sa kāntaḥ kuṭilāsitena skandhaspṛśā kuntalasañcayena .
+anveṣṭumiṣṭāṃ mukuṭendulekhāṃ niśāgaṇeneva samāgatena .. kdarp_7.36 ..
+
+latāvadhūpallavapāṇimuktaiḥ smitāvadātairvibabhau ca puṣpaiḥ .
+rūpāntare nihnutajahnukanyā- phenāvaśeṣairiva kīrṇakeśaḥ .. kdarp_7.37 ..
+
+tenānyarūpeṇa kṛtā navaiva kāntiścakāśe nijarūpaguptyai .
+jūṭādivendurmṛditaḥ karābhyāṃ sarvāṅgamabhyaṅgapade niyuktaḥ .. kdarp_7.38 ..
+
+rūpaṃ virūpīkṛtamanmathasya tattasya kāntyā kamanīyamāsīt .
+lajjāpahārādvanadevatānāṃ savismayo yena navābhilāṣaḥ .. kdarp_7.39 ..
+
+vivāsasastasya sasaṅgamaṅge lajjāvatīnāṃ spṛhayaiva petuḥ .
+netrāṇi vidyādharasundarīṇāṃ līlāravindārdhatiraskṛtāni .. kdarp_7.40 ..
+
+nabhaḥsthitānāṃ tridaśāṅganānāṃ tadgātrasaundaryavaśīkṛtānām .
+prakampaśiñjānavibhūṣaṇānāṃ netrotsavo 'bhūdgativighnabhūtaḥ .. kdarp_7.41 ..
+
+susiddhakanyāñjalipallavāgra- vimuktanīlotpalapuṣpakuñjam .
+aṅge jagallocanavargamasya saundaryasaṃsaktamivābabhāse .. kdarp_7.42 ..
+
+taddarśane kautukaniścalānāṃ karṇāvataṃsīkṛtalocanānām .
+mṛgāṅganānāmapi saspṛhābhūn nitāntamantaḥkaraṇapravṛttiḥ .. kdarp_7.43 ..
+
+tasya praveśe vadanādhivāsa- lobhabhramadbhṛṅgagaṇāñcitānām .
+abhūtsajṛmbhaśvasanākulānāṃ muhurlatānāṃ kusumeṣu kampaḥ .. kdarp_7.44 ..
+
+śanaiḥ śanairāśramasannikarṣaṃ taṃ yauvanaṃ mūrtamivāpatantam .
+vilokya kāntaṃ munikāminīnāṃ manaḥ praharṣocchalitaṃ babhūva .. kdarp_7.45 ..
+
+tāsāṃ tadālokananirnimeṣā dṛṣṭiḥ paraṃ karṇapathapraviṣṭā .*
+utsṛṣṭalajjāvipulābhilāṣādasūcayanmugdhamṛgīvilāsam .. kdarp_7.46 ..*
+
+tāsāṃ tadarcārabhasotthitānāṃ srastāṃśukotkampighanastanīnām .
+navena kāmena khalīkṛtānāṃ jṛmbhābhavo 'bhūdbhujayorvilāsaḥ .. kdarp_7.47 ..
+
+tāsāṃ babhau romalatā mukhendu- bhītā tamaḥśrīḥ stanarakṣiteva .
+rāgāgnidhūmaprasarāgryalekhā tanīyasī nābhivinirgateva .. kdarp_7.48 ..
+
+tasyādhare cumbanalālaseva kaṇṭhe haṭhāliṅganasaspṛheva .
+hṛdi stananyāsasamutsukeva papāta dṛṣṭiḥ sahasaiva tāsām .. kdarp_7.49 ..
+
+bhṛṅgasvanairāhitahuṅkṛtābhiḥ puṣpyatprasūnaiḥ prasṛtasmitābhiḥ .
+vātāñcitaiḥ pallavapaṇibhistā nivāryamāṇā iva mañjarībhiḥ .. kdarp_7.50 ..
+
+santarjyamānā iva homadhūma- lekhāvalībhrūbhramaṇena digbhiḥ .
+tasyāntike śīladukūlamukti- sajjā vilajjāḥ prasabhaṃ babhūvuḥ .. kdarp_7.51 ..
+
+niḥśvāsinīnāṃ smarabāṇapuṅkha- pakṣāntavātairiva kampitānām .
+tāsāṃ vilokyaiva manovikāraṃ bhrūbhaṅgabhīmā muniparṣadāsīt .. kdarp_7.52 ..
+
+kopotkaṭavyāghravidīryamāṇa- kṣamāmṛgīraktaciteva teṣām .
+āsannadoṣāgamavāsarānta- sandhyānibhābhūtsahasaiva dṛṣṭiḥ .. kdarp_7.53 ..
+
+daṣṭādharāḥ kampavidhūrṇamānāḥ svedārdradehā viṣamaṃ śvasantaḥ .
+te bhejire rāgasamudgaterṣyāḥ kopākulāḥ kāmukavṛttameva .. kdarp_7.54 ..
+
+antarjvalatkopakṛśānudhūma- saṅkāśakṛṣṇājinabaddhakakṣaḥ .
+tridaṇḍamudyamya javena kaścid abhyādravannagnatanuṃ vṛṣāṅkam .. kdarp_7.55 ..
+
+bṛsīṃ samutkṣipya sakampabāhuś cikṣepa kaścitkṣamayā vihīnaḥ .
+yenāsanātkṣmāvirahādivāśu mohe nirālambatanuḥ papāta .. kdarp_7.56 ..
+
+kamaṇḍaluṃ kaścidakāṇḍacaṇḍa- saṃrambhapiṇḍīkṛtakopatulyam .
+ādāya mohena pinākapāṇeḥ puraḥ prahārābhimukho babhūva .. kdarp_7.57 ..
+
+teṣāmamarṣādbhṛśamakṣamāṇāṃ soḍhuṃ nikāraṃ kṣaṇamakṣamāṇām .
+prāpuḥ prayātāḥ kṣitimakṣamālā bhrūbhaṅgatāṃ tasya tapovanasya .. kdarp_7.58 ..
+
+tatsambhramādāśramamañjarīṇāṃ kampākulānāṃ kusumāntarotthaiḥ .
+āsītpramohapratimo 'ndhakāraḥ śāpākṣarāmairbhramarairbhramadbhiḥ .. kdarp_7.59 ..
+
+te prāpurīrṣyāpadamandhakāri vaktraṃ śaśāṅkopamamīkṣamāṇāḥ .
+kaṇṭhasthalālokanakālakūṭa- sampūritākṣā iva mohamūrcchām .. kdarp_7.60 ..
+
+te taṃ smitaprasphuritādharāgram udagralāvaṇyaviśeṣatarṣāḥ .
+patnīvikārogranikāramūcuḥ kaṇṭhāntaraśvāsavikīrṇavarṇāḥ .. kdarp_7.61 ..
+
+ko 'yaṃ vijātirviguṇaḥ kalāvān nagno vṛṣāṅkaḥ praviśatyalajjaḥ .
+pradūṣitā yena maharṣijuṣṭā gaṅgeva śuddhā lalanāvalīyam .. kdarp_7.62 ..
+
+anena saṃsūcayatā nigūḍha- rūpeṇa darpādakulīnabhāvam .
+nītā pavitratvamiyaṃ munīnāṃ kāpālikeneva vanāntabhūmiḥ .. kdarp_7.63 ..
+
+aho batāsya pratibhā prasahya satīsamāliṅganasaspṛhasya .
+kenāpi kāmatkuhakakrameṇa kāntaṃ kṛtaṃ rūpamanena nūnam .. kdarp_7.64 ..
+
+uktveti tasmai sasṛjuḥ sakopās te daṇḍapāṣāṇabṛsīśatāni .
+dveṣāvṛtākṣṇāmavivekajanmā mohaḥ pramāde gurutāmupaiti .. kdarp_7.65 ..
+
+dūre bhavatyatha śanaiḥ śiśirāṃśumaulau teṣaṃ prakopavipulānalatāpitānām .
+taddarśanānusaraṇaprasṛtasya yatnaḥ patnījanasya sutarāṃ vinivartane 'bhūt .. kdarp_7.66 ..
+
+atha sa bhagavānbhargaḥ svargāpagāpṛthunirjhara- prasṛtahasitastasmādeśātkrameṇa tirohitaḥ .
+praśamavimalaṃ vyoma vyāpya priyāmavadatsmaya- smitasitamukhīṃ dṛṣṭaṃ devi tvayā municeṣṭitam .. kdarp_7.67 ..
+
+bhasmasmeraśarīratā pṛthujaṭābandhaḥ śiromuṇḍanaṃ kuṇḍī daṇḍakamaṇḍalupraṇayitā carmākṣasūtragrahaḥ .
+kāṣāyavyasanaṃ nirambararuciḥ kaṅkālamālādhṛtiḥ kāmakrodhavaśādviśeṣaruciraṃ sarvaṃ vṛthaiva vratam .. kdarp_7.68 ..
+
+darpotkopātparaṇitajaṭāsūtrabandhacca mohād antaḥsīdatsarasaviṣayāsvādasaṃvādasaṅgāt .
+āśāpāśavyasananicayādvāsanālīnadoṣān naiṣāṃ muktirbhavati tapasā kāyasaṃśoṣaṇena .. kdarp_7.69 ..
+
+ityuktaṃ tripurāriṇā girisutā śrutvā yathārthaṃ vaco niścitya vratamapraśāntamanasāṃ mithyaiva kāyakṣayam .
+saṃsāroparamāya moharajasaḥ śāntyai munīnāṃ paraṃ rāgadveṣavimuktaye ca dayayā cakre harasyārthanām .. kdarp_7.70 ..
+
+devyārthito 'tha bhagavānkṛpayā smarāris teṣāmanugrahamayena vilokanena .
+cakre smitasnapitadigvadano munīnāṃ līnasya moharajasaḥ sahasaiva śāntim .. kdarp_7.71 ..
+
+tapoviśeṣairniśitaprayatnais tasmānna kāryaḥ pṛthumohadarpaḥ .
+dveṣeṇa rāgeṇa mohadayena tapaḥ kṣayaṃ yāti saha smayena .. kdarp_7.72 ..
+
+praśānto 'ntastṛṣṇāviṣamaparitāpaḥ śamajalair aśeṣaḥ santoṣāmṛtavisarapānena vapuṣaḥ .
+asaṅgaḥ sambhogaḥ kamaladalakīlālatulyā bhavāraṇye puṃsāṃ parahitamudāraṃ khalu tapaḥ .. kdarp_7.73 ..

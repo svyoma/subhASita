@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- Hero -->
+<div class="hero-section text-center py-5 mb-4">
+  <h1 class="hero-title">
+    <span class="deva-text">सुभाषित-संग्रहः</span>
+    <span class="iast-text">subhāṣita-saṅgrahaḥ</span>
+  </h1>
+  <p class="hero-subtitle text-muted">
+    An interactive Sanskrit anthology explorer
+  </p>
+
+  <!-- Search -->
+  <form action="{{ url_for('browse') }}" method="get" class="row g-2 justify-content-center mt-3">
+    <div class="col-md-7">
+      <input type="text" name="q" class="form-control form-control-lg search-input"
+             placeholder="Search verses in IAST (e.g. kavi, rāja, dharma…)"
+             autocomplete="off">
+    </div>
+    <div class="col-auto">
+      <button class="btn btn-maroon btn-lg" type="submit">
+        <i class="bi bi-search"></i> Search
+      </button>
+    </div>
+  </form>
+</div>
+
+<!-- Stats row -->
+<div class="row g-3 mb-5 text-center">
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.total_verses | format_number }}</div>
+      <div class="stat-label">Verses</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.texts | length }}</div>
+      <div class="stat-label">Texts</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.shared_padas | format_number }}</div>
+      <div class="stat-label">Shared Pādas</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.total_padas | format_number }}</div>
+      <div class="stat-label">Total Pādas</div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-4">
+  <!-- Verse of the Day -->
+  <div class="col-lg-7">
+    <div class="card verse-card border-0 shadow-sm h-100">
+      <div class="card-header bg-saffron-light d-flex justify-content-between align-items-center">
+        <span class="fw-semibold">
+          <i class="bi bi-sun text-warning"></i>&nbsp;
+          <span class="deva-text">आज का सुभाषितम्</span>
+          <span class="iast-text">Verse of the Day</span>
+        </span>
+        {% if verse_of_day %}
+        <a href="{{ url_for('verse_detail', verse_id=verse_of_day.id) }}"
+           class="btn btn-sm btn-outline-secondary">
+          Full verse →
+        </a>
+        {% endif %}
+      </div>
+      <div class="card-body">
+        {% if verse_of_day %}
+          <div class="verse-display">
+            <div class="deva-text verse-text-deva">{{ verse_of_day.full_text_deva }}</div>
+            <div class="iast-text verse-text-iast">{{ verse_of_day.full_text_iast }}</div>
+          </div>
+          <div class="verse-meta mt-3">
+            {% if verse_of_day.attribution %}
+              <span class="badge bg-secondary">{{ verse_of_day.attribution }}</span>
+            {% endif %}
+            <span class="badge bg-light text-dark">{{ verse_of_day.text_title }}</span>
+            {% if verse_of_day.chapter %}
+              <span class="badge bg-light text-dark">{{ verse_of_day.chapter }}</span>
+            {% endif %}
+          </div>
+          <div class="mt-2">
+            <button class="btn btn-sm btn-outline-secondary"
+                    onclick="copyVerseText('{{ verse_of_day.full_text_iast | e }}')">
+              <i class="bi bi-clipboard"></i> Copy IAST
+            </button>
+            <a href="{{ url_for('random_verse') }}"
+               class="btn btn-sm btn-outline-primary ms-1">
+              <i class="bi bi-shuffle"></i> Another random
+            </a>
+          </div>
+        {% else %}
+          <p class="text-muted">No verses loaded yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick links -->
+  <div class="col-lg-5">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-lightning-charge text-warning"></i> Quick Access
+      </div>
+      <div class="card-body">
+        <div class="list-group list-group-flush">
+          <a href="{{ url_for('shared_padas') }}"
+             class="list-group-item list-group-item-action d-flex justify-content-between">
+            <span><i class="bi bi-link-45deg text-primary"></i> Shared Pādas</span>
+            <small class="text-muted">pādas in multiple verses</small>
+          </a>
+          <a href="{{ url_for('concordance') }}"
+             class="list-group-item list-group-item-action d-flex justify-content-between">
+            <span><i class="bi bi-search text-primary"></i> Word Concordance</span>
+            <small class="text-muted">find all occurrences of a word</small>
+          </a>
+          <a href="{{ url_for('insights') }}"
+             class="list-group-item list-group-item-action d-flex justify-content-between">
+            <span><i class="bi bi-bar-chart-line text-primary"></i> Insights Dashboard</span>
+            <small class="text-muted">statistics & charts</small>
+          </a>
+          <a href="{{ url_for('sources') }}"
+             class="list-group-item list-group-item-action d-flex justify-content-between">
+            <span><i class="bi bi-journals text-primary"></i> Text Sources</span>
+            <small class="text-muted">browse by text</small>
+          </a>
+        </div>
+
+        <hr>
+        <p class="small text-muted mb-2 fw-semibold">Browse by text:</p>
+        {% for t in all_texts %}
+        <a href="{{ url_for('browse', text_id=t.id) }}"
+           class="btn btn-sm btn-outline-maroon me-1 mb-1">
+          {{ t.title }} <span class="badge bg-light text-dark">{{ t.verse_count }}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Feature cards -->
+<div class="row g-4 mt-3">
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm feature-card h-100">
+      <div class="card-body text-center py-4">
+        <div class="feature-icon">🔗</div>
+        <h5>Shared Pādas</h5>
+        <p class="text-muted small">Discover which quarter-verses appear in multiple works — evidence of textual transmission and oral tradition.</p>
+        <a href="{{ url_for('shared_padas') }}" class="btn btn-sm btn-maroon">Explore</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm feature-card h-100">
+      <div class="card-body text-center py-4">
+        <div class="feature-icon">🧭</div>
+        <h5>Verse Similarity</h5>
+        <p class="text-muted small">TF-IDF cosine similarity maps verses sharing vocabulary and sound patterns. Find thematic cousins across texts.</p>
+        <a href="{{ url_for('browse') }}" class="btn btn-sm btn-maroon">Browse</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm feature-card h-100">
+      <div class="card-body text-center py-4">
+        <div class="feature-icon">📊</div>
+        <h5>Corpus Insights</h5>
+        <p class="text-muted small">Word frequency, meter distribution, attribution patterns, and more — a data-driven view of the subhāṣita tradition.</p>
+        <a href="{{ url_for('insights') }}" class="btn btn-sm btn-maroon">View</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

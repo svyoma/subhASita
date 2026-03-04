@@ -1,0 +1,180 @@
+{% extends "base.html" %}
+{% block title %}Insights{% endblock %}
+
+{% block content %}
+<h2 class="mb-1">
+  <span class="deva-text">संख्याशास्त्रम्</span>
+  <span class="iast-text">Corpus Insights</span>
+</h2>
+<p class="text-muted mb-4">Data-driven view of the subhāṣita corpus.</p>
+
+<!-- Summary cards -->
+<div class="row g-3 mb-5">
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.total_verses | format_number }}</div>
+      <div class="stat-label">Total Verses</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.total_padas | format_number }}</div>
+      <div class="stat-label">Total Pādas</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.shared_padas | format_number }}</div>
+      <div class="stat-label">Shared Pāda Groups</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <div class="stat-number">{{ stats.texts | length }}</div>
+      <div class="stat-label">Source Texts</div>
+    </div>
+  </div>
+</div>
+
+<!-- Per-text breakdown -->
+<div class="row g-4 mb-4">
+  <div class="col-12">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header fw-semibold">Verses per Text</div>
+      <div class="card-body">
+        {% for t in stats.texts %}
+        <div class="mb-2">
+          <div class="d-flex justify-content-between small mb-1">
+            <span>{{ t.title }}{% if t.author %} <span class="text-muted">({{ t.author }})</span>{% endif %}</span>
+            <span class="fw-semibold">{{ t.verse_count | format_number }}</span>
+          </div>
+          <div class="progress" style="height:8px">
+            <div class="progress-bar bg-maroon"
+                 style="width: {{ (t.verse_count / stats.total_verses * 100) | round(1) }}%">
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-4 mb-4">
+  <!-- Word frequency chart -->
+  <div class="col-lg-7">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-header fw-semibold">Top 30 Words (by frequency)</div>
+      <div class="card-body">
+        <canvas id="wordFreqChart" height="350"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Meter / pāda count distribution -->
+  <div class="col-lg-5">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-header fw-semibold">Pāda Count Distribution</div>
+      <div class="card-body d-flex flex-column">
+        <canvas id="meterChart" style="max-height:250px"></canvas>
+        <div class="mt-3">
+          {% for m in stats.meter_dist %}
+          <div class="d-flex justify-content-between small">
+            <span>{{ m.pada_count }}-pāda verse</span>
+            <span>{{ m.cnt | format_number }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Attribution distribution -->
+{% if stats.attributions %}
+<div class="row g-4 mb-4">
+  <div class="col-12">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header fw-semibold">
+        Top Poet Attributions
+        <small class="text-muted ms-2">verses with identified authors</small>
+      </div>
+      <div class="card-body">
+        <div class="row g-2">
+          {% for a in stats.attributions %}
+          <div class="col-md-4 col-sm-6">
+            <div class="d-flex justify-content-between align-items-center p-2 rounded bg-light">
+              <span class="small text-truncate" style="max-width:75%">{{ a.attribution }}</span>
+              <span class="badge bg-maroon">{{ a.cnt }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Insight notes -->
+<div class="card border-0 shadow-sm bg-light-subtle">
+  <div class="card-body">
+    <h6><i class="bi bi-lightbulb text-warning"></i> What these insights reveal</h6>
+    <ul class="small text-muted mb-0">
+      <li><strong>Shared pādas</strong> — identical quarter-verses across texts point to verses from a common oral/written source, conscious quotation, or the same verse being anthologised multiple times.</li>
+      <li><strong>TF-IDF similarity</strong> — verses scoring high on character n-gram overlap often share the same topic, meter, or even the same poet's style.</li>
+      <li><strong>Word frequency</strong> — words like <em>rāja</em>, <em>kavi</em>, <em>dharma</em> reflect the dominant registers of the subhāṣita genre.</li>
+      <li><strong>Pāda count</strong> — 2-pāda entries are half-verses (often anuṣṭubh hemistichs), while 4-pāda entries are complete ślokas in more elaborate meters.</li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Word Frequency Chart
+const wordLabels = {{ stats.top_words | map(attribute='word') | list | tojson }};
+const wordCounts = {{ stats.top_words | map(attribute='cnt')  | list | tojson }};
+
+new Chart(document.getElementById('wordFreqChart'), {
+  type: 'bar',
+  data: {
+    labels: wordLabels,
+    datasets: [{
+      label: 'Occurrences',
+      data: wordCounts,
+      backgroundColor: '#7b2d2d',
+      borderRadius: 3,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true } }
+  }
+});
+
+// Meter (pada count) chart
+const meterLabels = {{ stats.meter_dist | map(attribute='pada_count') | list | tojson }}.map(n => n + '-pāda');
+const meterCounts = {{ stats.meter_dist | map(attribute='cnt') | list | tojson }};
+const palette = ['#7b2d2d','#c47c2b','#3a7ca5','#4a9c5a','#6c3d7c','#2b6c7c'];
+
+new Chart(document.getElementById('meterChart'), {
+  type: 'doughnut',
+  data: {
+    labels: meterLabels,
+    datasets: [{
+      data: meterCounts,
+      backgroundColor: palette,
+    }]
+  },
+  options: {
+    plugins: {
+      legend: { position: 'right', labels: { font: { size: 12 } } }
+    }
+  }
+});
+</script>
+{% endblock %}

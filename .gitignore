@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# NOTE: subhashita.db is intentionally NOT listed here.
+# For local dev it is auto-generated on first run (can be gitignored locally).
+# For Vercel deployment, commit the pre-built DB to the repo.
+# To exclude it locally without affecting collaborators, add it to
+# .git/info/exclude instead.

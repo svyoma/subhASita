@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Sources{% endblock %}
+
+{% block content %}
+<h2>
+  <span class="deva-text">ग्रन्थसूची</span>
+  <span class="iast-text">Source Texts</span>
+</h2>
+<p class="text-muted mb-4">All loaded Sanskrit texts in the corpus.</p>
+
+<div class="row g-4">
+  {% for t in texts %}
+  <div class="col-md-6 col-lg-4">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ t.title }}</h5>
+        {% if t.author %}
+          <p class="text-muted small mb-2">by {{ t.author }}</p>
+        {% endif %}
+        <dl class="row small mb-3">
+          <dt class="col-5 text-muted">Language</dt>
+          <dd class="col-7">{{ t.language or '—' }}</dd>
+          <dt class="col-5 text-muted">Domain</dt>
+          <dd class="col-7">{{ t.domain or '—' }}</dd>
+          <dt class="col-5 text-muted">Serial no.</dt>
+          <dd class="col-7">{{ t.serial_no or '—' }}</dd>
+          <dt class="col-5 text-muted">File</dt>
+          <dd class="col-7" style="word-break:break-all">{{ t.filename }}</dd>
+        </dl>
+        <div class="d-flex justify-content-between align-items-center">
+          <span class="badge bg-maroon fs-6">{{ t.verse_count | format_number }} verses</span>
+          <a href="{{ url_for('browse', text_id=t.id) }}"
+             class="btn btn-outline-maroon btn-sm">
+            Browse →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="card border-0 shadow-sm mt-4 bg-light-subtle">
+  <div class="card-body small text-muted">
+    <strong>Note:</strong> Texts are identified by the <code>Devanagari_IAST_*.txt</code> naming
+    convention. Place additional files in the same folder and restart the app to load them.
+    The format is auto-detected (NNNN-P pāda lines, or <code>||N||</code>-delimited verses).
+  </div>
+</div>
+{% endblock %}

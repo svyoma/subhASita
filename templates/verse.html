@@ -1,0 +1,353 @@
+{% extends "base.html" %}
+{% block title %}Verse {{ verse.verse_num_str }}{% endblock %}
+
+{% block content %}
+<div class="row g-4">
+  <!-- Main verse panel -->
+  <div class="col-lg-8">
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb small">
+        <li class="breadcrumb-item"><a href="{{ url_for('browse') }}">Browse</a></li>
+        <li class="breadcrumb-item">
+          <a href="{{ url_for('browse', text_id=verse.text_id) }}">{{ verse.text_title }}</a>
+        </li>
+        {% if verse.chapter %}
+        <li class="breadcrumb-item">
+          <a href="{{ url_for('browse', text_id=verse.text_id, chapter=verse.chapter) }}">
+            {{ verse.chapter | truncate(40) }}
+          </a>
+        </li>
+        {% endif %}
+        <li class="breadcrumb-item active" aria-current="page">{{ verse.verse_num_str }}</li>
+      </ol>
+    </nav>
+
+    <!-- Verse display card -->
+    <div class="card border-0 shadow verse-detail-card mb-4">
+      <div class="card-header d-flex justify-content-between align-items-center bg-saffron-light flex-wrap gap-2">
+        <span class="fw-semibold">
+          {{ verse.text_title }} · {{ verse.verse_num_str }}
+          {% if verse.chapter or verse.section %}
+            <span class="text-muted">· {{ verse.chapter or verse.section }}</span>
+          {% endif %}
+        </span>
+        <div class="d-flex flex-wrap gap-1">
+          <button class="btn btn-sm btn-outline-secondary"
+                  onclick="copyVerseText('{{ verse.full_text_iast | e }}')"
+                  title="Copy IAST text"
+                  aria-label="Copy IAST transliteration to clipboard">
+            <i class="bi bi-clipboard" aria-hidden="true"></i>
+            <span class="d-none d-sm-inline">IAST</span>
+          </button>
+          <button class="btn btn-sm btn-outline-secondary"
+                  onclick="copyVerseText('{{ verse.full_text_deva | e }}')"
+                  title="Copy Devanāgarī text"
+                  aria-label="Copy Devanāgarī text to clipboard">
+            <i class="bi bi-clipboard" aria-hidden="true"></i>
+            <span class="d-none d-sm-inline" lang="sa">देव</span>
+          </button>
+          <button class="btn btn-sm btn-outline-secondary"
+                  onclick="shareVerse('{{ verse.text_title | e }} · {{ verse.verse_num_str }}', '{{ verse.full_text_iast[:80] | e }}…', window.location.href)"
+                  title="Share this verse"
+                  aria-label="Share this verse">
+            <i class="bi bi-share" aria-hidden="true"></i>
+            <span class="d-none d-sm-inline">Share</span>
+          </button>
+          <button class="btn btn-sm btn-outline-warning"
+                  onclick="toggleFavorite({{ verse.id }})"
+                  id="fav-btn-{{ verse.id }}"
+                  title="Bookmark this verse"
+                  aria-label="Toggle bookmark for this verse">
+            <i class="bi bi-bookmark" id="fav-icon-{{ verse.id }}" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="card-body verse-body">
+        <!-- Full verse text -->
+        <div class="verse-display mb-4" id="verse-full"
+             role="region" aria-label="Verse text">
+          <div class="deva-text verse-text-deva large" lang="sa">{{ verse.full_text_deva }}</div>
+          <div class="iast-text verse-text-iast large">{{ verse.full_text_iast }}</div>
+        </div>
+
+        <!-- Attribution / metadata -->
+        <div class="verse-meta mb-3">
+          {% if verse.attribution %}
+            <span class="badge bg-secondary fs-6">— {{ verse.attribution }}</span>
+          {% endif %}
+          {% for tag in verse.auto_tags %}
+            <a href="{{ url_for('browse', tag=tag) }}"
+               class="badge bg-tag text-decoration-none"
+               aria-label="Browse topic: {{ tag }}">{{ tag }}</a>
+          {% endfor %}
+          <span class="badge bg-light text-muted" aria-label="{{ verse.pada_count }} pādas">
+            {{ verse.pada_count }} pādas
+          </span>
+        </div>
+
+        <!-- Flashcard mode -->
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <button class="btn btn-outline-secondary btn-sm"
+                  onclick="toggleFlashcard()"
+                  id="flashcard-btn"
+                  aria-pressed="false"
+                  aria-label="Toggle flashcard mode — hides second half for memorisation">
+            <i class="bi bi-eye-slash" aria-hidden="true"></i> Flashcard mode
+          </button>
+          <small class="text-muted d-none d-sm-inline">
+            Hide second half for memorisation practice
+          </small>
+        </div>
+
+        <!-- Pāda breakdown table -->
+        {% if verse.padas %}
+        <h6 class="mt-3 text-muted" id="pada-table-label">Pāda breakdown</h6>
+        <div class="table-responsive">
+          <table class="table table-sm pada-table" aria-labelledby="pada-table-label">
+            <thead class="table-light">
+              <tr>
+                <th scope="col" style="width:2rem">P.</th>
+                <th scope="col">
+                  <span class="deva-text" lang="sa">पाठ</span>
+                  <span class="iast-text">Text</span>
+                </th>
+                <th scope="col" style="width:6rem">Shared?</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for p in verse.padas %}
+              <tr class="pada-row {% if loop.index > verse.pada_count // 2 %}second-half{% endif %}"
+                  data-pada="{{ loop.index }}">
+                <th scope="row" class="text-muted">{{ loop.index }}</th>
+                <td>
+                  <div class="deva-text" lang="sa">{{ p.text_deva }}</div>
+                  <div class="iast-text small text-muted">{{ p.text_iast }}</div>
+                </td>
+                <td>
+                  {% set shared = shared_pada_info | selectattr('pada.id', 'equalto', p.id) | list %}
+                  {% if shared %}
+                    <span class="badge bg-warning text-dark">
+                      {{ shared[0].matches | length }} match{% if shared[0].matches | length != 1 %}es{% endif %}
+                    </span>
+                  {% else %}
+                    <span class="badge bg-light text-muted">unique</span>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Cross-text references -->
+    {% if cross_refs %}
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-book text-info" aria-hidden="true"></i> Also found in
+        <small class="text-muted ms-2">Same verse in other texts</small>
+      </div>
+      <div class="card-body p-0">
+        <div class="list-group list-group-flush" role="list">
+          {% for cr in cross_refs %}
+          <a href="{{ url_for('verse_detail', verse_id=cr.id) }}"
+             class="list-group-item list-group-item-action py-3"
+             role="listitem"
+             aria-label="{{ cr.text_title }} · {{ cr.verse_num_str }}">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-semibold small">
+                {{ cr.text_title }} · {{ cr.verse_num_str }}
+              </span>
+              {% if cr.chapter %}
+              <small class="text-muted">{{ cr.chapter | truncate(30) }}</small>
+              {% endif %}
+            </div>
+            {% if cr.attribution %}
+              <div class="mb-1"><small class="text-muted">— {{ cr.attribution }}</small></div>
+            {% endif %}
+            <div class="deva-text small" lang="sa">{{ cr.full_text_deva | truncate(120) }}</div>
+            <div class="iast-text small text-muted">{{ cr.full_text_iast | truncate(120) }}</div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Shared pādas section -->
+    {% if shared_pada_info %}
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-link-45deg text-primary" aria-hidden="true"></i> Shared Pādas
+        <small class="text-muted ms-2">These pādas appear in other verses too</small>
+      </div>
+      <div class="card-body">
+        {% for item in shared_pada_info %}
+        <div class="shared-pada-block mb-4">
+          <div class="shared-pada-text p-2 rounded bg-light mb-2">
+            <div class="deva-text small" lang="sa">{{ item.pada.text_deva }}</div>
+            <div class="iast-text text-muted small">{{ item.pada.text_iast }}</div>
+          </div>
+          <p class="small text-muted mb-1">
+            Also found in {{ item.matches | length }} other
+            verse{{ 's' if item.matches|length != 1 }}:
+          </p>
+          <div class="list-group list-group-flush" role="list">
+            {% for mv in item.matches[:5] %}
+            <a href="{{ url_for('verse_detail', verse_id=mv.id) }}"
+               class="list-group-item list-group-item-action py-2"
+               role="listitem">
+              <div class="d-flex justify-content-between">
+                <span class="small fw-semibold text-muted">
+                  {{ mv.text_title }} · {{ mv.verse_num_str }}
+                </span>
+                <small class="text-muted">pāda {{ mv.pada_num }}</small>
+              </div>
+              <div class="deva-text small mt-1" lang="sa">{{ mv.full_text_deva | truncate(120) }}</div>
+              <div class="iast-text small text-muted">{{ mv.full_text_iast | truncate(120) }}</div>
+            </a>
+            {% endfor %}
+            {% if item.matches | length > 5 %}
+            <div class="list-group-item text-muted small py-1">
+              … and {{ item.matches|length - 5 }} more.
+              <a href="{{ url_for('shared_padas') }}">Browse all shared pādas →</a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div><!-- /col-lg-8 -->
+
+  <!-- Right sidebar: similar verses -->
+  <div class="col-lg-4">
+
+    <div class="card border-0 shadow-sm mb-3">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-diagram-3 text-success" aria-hidden="true"></i> Similar Verses
+        <small class="text-muted">(TF-IDF)</small>
+      </div>
+      <div class="card-body p-0">
+        {% if similar %}
+          <div class="list-group list-group-flush" role="list">
+            {% for sv in similar %}
+            <a href="{{ url_for('verse_detail', verse_id=sv.vid) }}"
+               class="list-group-item list-group-item-action py-3"
+               role="listitem"
+               aria-label="{{ sv.text_title }} · {{ sv.verse_num_str }}, {{ (sv.similarity * 100) | round(0) | int }}% similar">
+              <div class="d-flex justify-content-between mb-1">
+                <small class="fw-semibold text-muted">
+                  {{ sv.text_title | truncate(20) }} · {{ sv.verse_num_str }}
+                </small>
+                <span class="badge bg-success-light">
+                  {{ (sv.similarity * 100) | round(0) | int }}%
+                </span>
+              </div>
+              <div class="deva-text small" lang="sa">{{ sv.full_text_deva | truncate(100) }}</div>
+              <div class="iast-text small text-muted">{{ sv.full_text_iast | truncate(100) }}</div>
+              {% if sv.attribution %}
+                <div class="mt-1"><small class="text-muted">— {{ sv.attribution }}</small></div>
+              {% endif %}
+            </a>
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="text-muted p-3 mb-0 small">No similar verses found.</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="card border-0 shadow-sm d-none d-lg-block">
+      <div class="card-body">
+        <div class="d-flex gap-2">
+          {% if verse.id > 1 %}
+          <a href="{{ url_for('verse_detail', verse_id=verse.id - 1) }}"
+             class="btn btn-outline-secondary btn-sm flex-fill prev-verse-btn"
+             aria-label="Previous verse">
+            ‹ Prev
+          </a>
+          {% endif %}
+          <a href="{{ url_for('random_verse') }}"
+             class="btn btn-outline-primary btn-sm flex-fill"
+             aria-label="Go to a random verse">
+            <i class="bi bi-shuffle" aria-hidden="true"></i> Random
+          </a>
+          <a href="{{ url_for('verse_detail', verse_id=verse.id + 1) }}"
+             class="btn btn-outline-secondary btn-sm flex-fill next-verse-btn"
+             aria-label="Next verse">
+            Next ›
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── Mobile Bottom Action Bar ── -->
+<div class="mobile-action-bar" role="toolbar" aria-label="Verse actions">
+  {% if verse.id > 1 %}
+  <a href="{{ url_for('verse_detail', verse_id=verse.id - 1) }}"
+     class="btn btn-outline-secondary btn-sm prev-verse-btn"
+     aria-label="Previous verse">
+    <i class="bi bi-chevron-left" aria-hidden="true"></i> Prev
+  </a>
+  {% endif %}
+  <button class="btn btn-outline-warning btn-sm"
+          onclick="toggleFavorite({{ verse.id }})"
+          id="fav-btn-mobile-{{ verse.id }}"
+          aria-label="Toggle bookmark">
+    <i class="bi bi-bookmark" id="fav-icon-mobile-{{ verse.id }}" aria-hidden="true"></i>
+  </button>
+  <button class="btn btn-outline-secondary btn-sm"
+          onclick="shareVerse('{{ verse.text_title | e }}', '{{ verse.full_text_iast[:60] | e }}…', window.location.href)"
+          aria-label="Share this verse">
+    <i class="bi bi-share" aria-hidden="true"></i>
+  </button>
+  <a href="{{ url_for('verse_detail', verse_id=verse.id + 1) }}"
+     class="btn btn-outline-secondary btn-sm next-verse-btn"
+     aria-label="Next verse">
+    Next <i class="bi bi-chevron-right" aria-hidden="true"></i>
+  </a>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Initialise bookmark state for both desktop and mobile buttons
+  _updateFavBtn({{ verse.id }});
+});
+
+// Flashcard mode
+var flashcardOn = false;
+function toggleFlashcard() {
+  flashcardOn = !flashcardOn;
+  document.querySelectorAll('.pada-row.second-half').forEach(function (row) {
+    row.style.filter    = flashcardOn ? 'blur(6px)' : '';
+    row.style.userSelect = flashcardOn ? 'none' : '';
+  });
+  var btn = document.getElementById('flashcard-btn');
+  if (btn) {
+    btn.setAttribute('aria-pressed', flashcardOn ? 'true' : 'false');
+    if (flashcardOn) {
+      btn.innerHTML = '<i class="bi bi-eye" aria-hidden="true"></i> Reveal';
+      btn.classList.replace('btn-outline-secondary', 'btn-warning');
+    } else {
+      btn.innerHTML = '<i class="bi bi-eye-slash" aria-hidden="true"></i> Flashcard mode';
+      btn.classList.replace('btn-warning', 'btn-outline-secondary');
+    }
+  }
+}
+</script>
+{% endblock %}

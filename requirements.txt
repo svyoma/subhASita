@@ -1,0 +1,5 @@
+flask
+aksharamukha
+indic-transliteration
+scikit-learn
+numpy

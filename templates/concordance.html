@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% block title %}Concordance{% endblock %}
+
+{% block content %}
+<h2>
+  <span class="deva-text">अनुक्रमणिका</span>
+  <span class="iast-text">Word Concordance</span>
+</h2>
+<p class="text-muted">
+  Search for any IAST word or phrase across all loaded texts.
+  Diacritics are handled automatically (searching "raja" also finds "rāja").
+</p>
+
+<form method="get" class="row g-2 mb-4">
+  <div class="col-md-8">
+    <input type="text" name="word" class="form-control"
+           value="{{ word }}"
+           placeholder="Enter word in IAST (e.g. kavi, dharma, rāja…)"
+           autofocus>
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-maroon">
+      <i class="bi bi-search"></i> Search
+    </button>
+  </div>
+  {% if word %}
+  <div class="col-auto">
+    <a href="{{ url_for('concordance') }}" class="btn btn-outline-secondary">Clear</a>
+  </div>
+  {% endif %}
+</form>
+
+{% if word %}
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="mb-0">
+      Results for "<strong>{{ word }}</strong>"
+      <span class="badge bg-light text-dark ms-1">{{ pager.total }}</span>
+    </h5>
+    <small class="text-muted">Page {{ pager.page }} / {{ pager.total_pages }}</small>
+  </div>
+
+  {% if results %}
+    <div class="row g-3">
+      {% for v in results %}
+      <div class="col-12">
+        <div class="card verse-card border-0 shadow-sm">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <small class="text-muted fw-semibold">
+                {{ v.text_title }} · {{ v.verse_num_str }}
+                {% if v.chapter %} · {{ v.chapter | truncate(30) }}{% endif %}
+              </small>
+              <a href="{{ url_for('verse_detail', verse_id=v.id) }}"
+                 class="btn btn-sm btn-outline-maroon">View →</a>
+            </div>
+            <div class="mt-2">
+              <div class="deva-text verse-text-deva small">{{ v.full_text_deva }}</div>
+              <div class="iast-text verse-text-iast small text-muted">{{ v.full_text_iast }}</div>
+            </div>
+            {% if v.attribution %}
+              <small class="text-muted">— {{ v.attribution }}</small>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <nav class="mt-4">
+      <ul class="pagination justify-content-center">
+        {% if pager.has_prev %}
+        <li class="page-item">
+          <a class="page-link" href="?word={{ word }}&page={{ pager.prev_page }}">‹ Prev</a>
+        </li>
+        {% endif %}
+        {% for p in range([1, pager.page-2]|max, [pager.total_pages+1, pager.page+3]|min) %}
+        <li class="page-item {% if p == pager.page %}active{% endif %}">
+          <a class="page-link" href="?word={{ word }}&page={{ p }}">{{ p }}</a>
+        </li>
+        {% endfor %}
+        {% if pager.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?word={{ word }}&page={{ pager.next_page }}">Next ›</a>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+
+  {% else %}
+    <div class="alert alert-warning">
+      No verses found containing "<strong>{{ word }}</strong>".
+      Try a shorter form or check the spelling.
+    </div>
+  {% endif %}
+
+{% else %}
+  <!-- Suggested common words -->
+  <div class="card border-0 shadow-sm">
+    <div class="card-header fw-semibold">Common words to explore</div>
+    <div class="card-body">
+      <div class="d-flex flex-wrap gap-2">
+        {% for w in ['kavi','rāja','dharma','vidyā','kāma','mitra','suhṛd',
+                     'dāna','śiva','viṣṇu','kṛṣṇa','sarasvatī','nīti',
+                     'satya','mokṣa','khala','strī','vana','megha','candraḥ'] %}
+        <a href="?word={{ w }}" class="btn btn-outline-secondary btn-sm">{{ w }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}

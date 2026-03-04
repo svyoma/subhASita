@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block title %}Shared Pādas{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <div>
+    <h2>
+      <span class="deva-text">साझे पाद</span>
+      <span class="iast-text">Shared Pādas</span>
+    </h2>
+    <p class="text-muted mb-0">
+      Quarter-verses appearing verbatim in multiple texts — evidence of intertextual borrowing and oral transmission.
+    </p>
+  </div>
+  <form method="get" class="d-flex gap-2 align-items-center">
+    <label class="small text-muted">Minimum occurrences:</label>
+    <select name="min" class="form-select form-select-sm" style="width:auto" onchange="this.form.submit()">
+      {% for v in [2, 3, 4, 5] %}
+      <option value="{{ v }}" {% if min_count == v %}selected{% endif %}>{{ v }}+</option>
+      {% endfor %}
+    </select>
+  </form>
+</div>
+
+{% if items %}
+<div class="card border-0 shadow-sm">
+  <div class="card-header d-flex justify-content-between">
+    <span class="fw-semibold">{{ items | length }} shared pāda groups</span>
+    <small class="text-muted">sorted by frequency</small>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover mb-0 align-middle">
+      <thead class="table-light">
+        <tr>
+          <th>#</th>
+          <th>Pāda text</th>
+          <th class="text-center">Count</th>
+          <th>Verses</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in items %}
+        <tr>
+          <td class="text-muted small">{{ loop.index }}</td>
+          <td style="max-width: 350px">
+            <div class="deva-text fw-semibold">{{ item.text_deva }}</div>
+            <div class="iast-text text-muted small">{{ item.text_iast }}</div>
+          </td>
+          <td class="text-center">
+            <span class="badge bg-primary fs-6">{{ item.cnt }}</span>
+          </td>
+          <td>
+            {% set verse_id_list = item.verse_ids.split(',') %}
+            <div class="d-flex flex-wrap gap-1">
+              {% for vid in verse_id_list[:8] %}
+              <a href="{{ url_for('verse_detail', verse_id=vid | int) }}"
+                 class="badge bg-light text-dark text-decoration-none border">
+                #{{ vid }}
+              </a>
+              {% endfor %}
+              {% if verse_id_list | length > 8 %}
+              <span class="badge bg-light text-muted">+{{ verse_id_list|length - 8 }} more</span>
+              {% endif %}
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% else %}
+<div class="alert alert-info">
+  No shared pādas found with {{ min_count }}+ occurrences.
+</div>
+{% endif %}
+{% endblock %}

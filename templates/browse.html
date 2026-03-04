@@ -1,0 +1,313 @@
+{% extends "base.html" %}
+{% block title %}Browse Verses{% endblock %}
+
+{% block content %}
+
+<!-- Mobile offcanvas filter panel -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileFilterPanel"
+     aria-labelledby="mobileFilterLabel" role="dialog">
+  <div class="offcanvas-header bg-maroon text-white">
+    <h5 class="offcanvas-title" id="mobileFilterLabel">
+      <i class="bi bi-funnel" aria-hidden="true"></i> Filters
+    </h5>
+    <button type="button" class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas" aria-label="Close filter panel"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form method="get" action="{{ url_for('browse') }}" id="filter-form-mobile">
+      <div class="mb-3">
+        <label class="form-label small fw-semibold" for="m-search">Search</label>
+        <input type="text" name="q" id="m-search" class="form-control"
+               value="{{ query }}" placeholder="IAST keyword…"
+               aria-label="Search verses by keyword">
+      </div>
+      <div class="mb-3">
+        <label class="form-label small fw-semibold" for="m-text">Text</label>
+        <select name="text_id" id="m-text" class="form-select"
+                onchange="this.form.submit()" aria-label="Filter by text">
+          <option value="">All texts</option>
+          {% for t in all_texts %}
+          <option value="{{ t.id }}" {% if sel_text_id == t.id %}selected{% endif %}>
+            {{ t.title }} ({{ t.verse_count }})
+          </option>
+          {% endfor %}
+        </select>
+      </div>
+      {% if chapters %}
+      <div class="mb-3">
+        <label class="form-label small fw-semibold" for="m-chapter">Chapter</label>
+        <select name="chapter" id="m-chapter" class="form-select" aria-label="Filter by chapter">
+          <option value="">All chapters</option>
+          {% for ch in chapters %}
+          <option value="{{ ch }}" {% if sel_chapter == ch %}selected{% endif %}>{{ ch }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+      <div class="mb-3">
+        <label class="form-label small fw-semibold" for="m-pada">Pāda count</label>
+        <select name="pada_count" id="m-pada" class="form-select" aria-label="Filter by pada count">
+          <option value="">Any</option>
+          <option value="2" {% if sel_pada_count == 2 %}selected{% endif %}>2 (śloka half)</option>
+          <option value="4" {% if sel_pada_count == 4 %}selected{% endif %}>4 (full śloka)</option>
+          <option value="3" {% if sel_pada_count == 3 %}selected{% endif %}>3</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label small fw-semibold" for="m-tag">Topic tag</label>
+        <select name="tag" id="m-tag" class="form-select" aria-label="Filter by topic tag">
+          <option value="">Any topic</option>
+          {% for tag_name in [
+            'stuti/bhakti','viṣṇu/kṛṣṇa','śiva/rudra',
+            'kāvya/sāhitya','nīti/rājanīti','vidyā/jñāna',
+            'dharma','vairāgya/mokṣa','śṛṅgāra/kāma',
+            'mitra/bandhu','khala/durjana','dāna/kāruṇya',
+            'prakṛti/ṛtu'] %}
+          <option value="{{ tag_name }}" {% if sel_tag == tag_name %}selected{% endif %}>
+            {{ tag_name }}
+          </option>
+          {% endfor %}
+        </select>
+      </div>
+      <button type="submit" class="btn btn-maroon w-100">
+        <i class="bi bi-search" aria-hidden="true"></i> Apply Filters
+      </button>
+      <a href="{{ url_for('browse') }}" class="btn btn-outline-secondary w-100 mt-2">
+        Clear All
+      </a>
+    </form>
+  </div>
+</div>
+
+<!-- Mobile filter FAB -->
+<button class="mobile-filter-btn btn btn-maroon align-items-center gap-2"
+        data-bs-toggle="offcanvas" data-bs-target="#mobileFilterPanel"
+        aria-controls="mobileFilterPanel"
+        aria-label="Open filters"
+        type="button">
+  <i class="bi bi-funnel" aria-hidden="true"></i> Filters
+  {% if query or sel_text_id or sel_chapter or sel_tag or sel_pada_count %}
+    <span class="badge bg-warning text-dark" aria-label="Filters active">!</span>
+  {% endif %}
+</button>
+
+<div class="row g-4">
+
+  <!-- Desktop sidebar filters -->
+  <div class="col-lg-3 d-none d-lg-block">
+    <div class="card border-0 shadow-sm sticky-filter" role="search" aria-label="Verse filters">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-funnel" aria-hidden="true"></i> Filters
+      </div>
+      <div class="card-body">
+        <form method="get" action="{{ url_for('browse') }}" id="filter-form">
+
+          <div class="mb-3">
+            <label class="form-label small fw-semibold" for="d-search">Search</label>
+            <input type="text" name="q" id="d-search" class="form-control form-control-sm"
+                   value="{{ query }}" placeholder="IAST keyword…"
+                   aria-label="Search verses by keyword">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label small fw-semibold" for="d-text">Text</label>
+            <select name="text_id" id="d-text" class="form-select form-select-sm"
+                    onchange="this.form.submit()" aria-label="Filter by text">
+              <option value="">All texts</option>
+              {% for t in all_texts %}
+              <option value="{{ t.id }}" {% if sel_text_id == t.id %}selected{% endif %}>
+                {{ t.title }} ({{ t.verse_count }})
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+
+          {% if chapters %}
+          <div class="mb-3">
+            <label class="form-label small fw-semibold" for="d-chapter">Chapter</label>
+            <select name="chapter" id="d-chapter" class="form-select form-select-sm"
+                    aria-label="Filter by chapter">
+              <option value="">All chapters</option>
+              {% for ch in chapters %}
+              <option value="{{ ch }}" {% if sel_chapter == ch %}selected{% endif %}>
+                {{ ch }}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+          {% endif %}
+
+          <div class="mb-3">
+            <label class="form-label small fw-semibold" for="d-pada">Pāda count</label>
+            <select name="pada_count" id="d-pada" class="form-select form-select-sm"
+                    aria-label="Filter by pada count">
+              <option value="">Any</option>
+              <option value="2" {% if sel_pada_count == 2 %}selected{% endif %}>2 (śloka half)</option>
+              <option value="4" {% if sel_pada_count == 4 %}selected{% endif %}>4 (full śloka)</option>
+              <option value="3" {% if sel_pada_count == 3 %}selected{% endif %}>3</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label small fw-semibold" for="d-tag">Topic tag</label>
+            <select name="tag" id="d-tag" class="form-select form-select-sm"
+                    aria-label="Filter by topic tag">
+              <option value="">Any topic</option>
+              {% for tag_name in [
+                'stuti/bhakti','viṣṇu/kṛṣṇa','śiva/rudra',
+                'kāvya/sāhitya','nīti/rājanīti','vidyā/jñāna',
+                'dharma','vairāgya/mokṣa','śṛṅgāra/kāma',
+                'mitra/bandhu','khala/durjana','dāna/kāruṇya',
+                'prakṛti/ṛtu'] %}
+              <option value="{{ tag_name }}"
+                      {% if sel_tag == tag_name %}selected{% endif %}>
+                {{ tag_name }}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-maroon btn-sm w-100">
+            <i class="bi bi-search" aria-hidden="true"></i> Apply
+          </button>
+          <a href="{{ url_for('browse') }}" class="btn btn-outline-secondary btn-sm w-100 mt-1">
+            Clear
+          </a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Verse list -->
+  <div class="col-lg-9">
+
+    <!-- Active filter chips (mobile) -->
+    {% if query or sel_text_id or sel_chapter or sel_tag or sel_pada_count %}
+    <div class="d-flex flex-wrap gap-2 mb-3 d-lg-none" aria-label="Active filters" role="status">
+      {% if query %}
+        <span class="badge bg-secondary">
+          Search: "{{ query }}"
+          <a href="{{ url_for('browse', text_id=sel_text_id or '', chapter=sel_chapter or '', tag=sel_tag or '', pada_count=sel_pada_count or '') }}"
+             class="text-white ms-1" aria-label="Remove search filter">×</a>
+        </span>
+      {% endif %}
+      {% if sel_text_id %}
+        {% for t in all_texts %}{% if t.id == sel_text_id %}
+          <span class="badge bg-secondary">{{ t.title }}</span>
+        {% endif %}{% endfor %}
+      {% endif %}
+      {% if sel_tag %}
+        <span class="badge bg-secondary">{{ sel_tag }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 class="mb-0" role="status" aria-live="polite">
+        {% if query %}
+          Results for "<strong>{{ query }}</strong>"
+        {% else %}
+          All Verses
+        {% endif %}
+        <span class="badge bg-light text-dark ms-1"
+              aria-label="{{ pager.total }} verses found">
+          {{ pager.total | format_number }}
+        </span>
+      </h5>
+      <small class="text-muted" aria-label="Page {{ pager.page }} of {{ pager.total_pages }}">
+        Page {{ pager.page }} of {{ pager.total_pages }}
+      </small>
+    </div>
+
+    {% if verses %}
+      <div class="row g-3" role="list" aria-label="Verse results">
+        {% for v in verses %}
+        <div class="col-12" role="listitem">
+          <div class="card verse-card border-0 shadow-sm h-100">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <div class="verse-num-badge">
+                  {{ v.text_title | truncate(25, true, '…') }}
+                  · {{ v.verse_num_str }}
+                  {% if v.chapter %}
+                    <span class="text-muted">· {{ v.chapter | truncate(30, true, '…') }}</span>
+                  {% endif %}
+                </div>
+                <a href="{{ url_for('verse_detail', verse_id=v.id) }}"
+                   class="btn btn-sm btn-outline-maroon"
+                   aria-label="View verse {{ v.verse_num_str }} from {{ v.text_title }}">
+                  View →
+                </a>
+              </div>
+              <div class="verse-preview mt-2">
+                <div class="deva-text verse-text-deva small" lang="sa">
+                  {{ v.full_text_deva | truncate(200) }}
+                </div>
+                <div class="iast-text verse-text-iast small">
+                  {{ v.full_text_iast | truncate(200) }}
+                </div>
+              </div>
+              <div class="mt-2">
+                {% if v.attribution %}
+                  <span class="badge bg-secondary">{{ v.attribution | truncate(40) }}</span>
+                {% endif %}
+                {% for tag in v.auto_tags[:3] %}
+                  <a href="{{ url_for('browse', tag=tag, text_id=sel_text_id or '') }}"
+                     class="badge bg-tag text-decoration-none"
+                     aria-label="Browse topic: {{ tag }}">{{ tag }}</a>
+                {% endfor %}
+                <span class="badge bg-light text-muted" aria-label="{{ v.pada_count }} pādas">
+                  {{ v.pada_count }}P
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Pagination -->
+      <nav class="mt-4" aria-label="Browse results pages">
+        <ul class="pagination justify-content-center flex-wrap">
+          {% if pager.has_prev %}
+          <li class="page-item">
+            <a class="page-link" rel="prev"
+               href="{{ request.url | replace('page=' ~ pager.page, 'page=' ~ pager.prev_page) if 'page=' in request.url else request.url ~ ('&' if '?' in request.url else '?') ~ 'page=' ~ pager.prev_page }}"
+               aria-label="Previous page">
+              ‹ Prev
+            </a>
+          </li>
+          {% endif %}
+
+          {% for p in range([1, pager.page - 2]|max, [pager.total_pages + 1, pager.page + 3]|min) %}
+          <li class="page-item {% if p == pager.page %}active{% endif %}"
+              {% if p == pager.page %}aria-current="page"{% endif %}>
+            <a class="page-link"
+               href="{{ request.url | replace('page=' ~ pager.page, 'page=' ~ p) if 'page=' in request.url else request.url ~ ('&' if '?' in request.url else '?') ~ 'page=' ~ p }}"
+               aria-label="Page {{ p }}">
+              {{ p }}
+            </a>
+          </li>
+          {% endfor %}
+
+          {% if pager.has_next %}
+          <li class="page-item">
+            <a class="page-link" rel="next"
+               href="{{ request.url | replace('page=' ~ pager.page, 'page=' ~ pager.next_page) if 'page=' in request.url else request.url ~ ('&' if '?' in request.url else '?') ~ 'page=' ~ pager.next_page }}"
+               aria-label="Next page">
+              Next ›
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </nav>
+
+    {% else %}
+      <div class="alert alert-info" role="alert">
+        No verses found. Try a different search or
+        <a href="{{ url_for('browse') }}">clear all filters</a>.
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
