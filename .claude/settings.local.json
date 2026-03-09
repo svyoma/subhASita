@@ -9,7 +9,9 @@
       "Bash(cd \"/c/Users/jaino/Downloads/Flask Apps/similarity\" && python3 -c \"\nimport sys\nsys.stdout.reconfigure\\(encoding='utf-8'\\)\nimport parse\n\nmeta2, verses2 = parse.parse_file\\('Devanagari_IAST_saduktikarNAmRtam.txt'\\)\nprint\\(f'saduktikarNAmRtam: {len\\(verses2\\)} verses'\\)\nprint\\(\\)\nfor i in [0, 1, 2, 10, 50, 100]:\n    v = verses2[i]\n    print\\(f'Verse {i+1}: chapter=[{v.get\\(\\\\\"chapter\\\\\",\\\\\"?\\\\\"\\)}] attr=[{v.get\\(\\\\\"attribution\\\\\",\\\\\"?\\\\\"\\)}]'\\)\n    print\\(f'  text: {v[\\\\\"full_text_iast\\\\\"][:100]}'\\)\n    print\\(\\)\n\n# Check mahA\nmeta3, verses3 = parse.parse_file\\('Devanagari_IAST_mahAsubhAShitasangrahaH.txt'\\)\nprint\\(f'mahAsubhAShitasangrahaH: {len\\(verses3\\)} verses'\\)\nprint\\('Sample:', verses3[0]['verse_num_str'], '|', verses3[0]['full_text_iast'][:80]\\)\n\" 2>&1)",
       "Bash(python3:*)",
       "Bash(cd \"/c/Users/jaino/Downloads/Flask Apps/similarity\" && python -u -c \"\nimport db, parse\nfrom pathlib import Path\n\ndb.init_schema\\(\\)\ntxt_files = sorted\\(Path\\('.'\\).glob\\('Devanagari_IAST_*.txt'\\)\\)\nprint\\('Found files:', [f.name for f in txt_files]\\)\n\nfor fpath in txt_files:\n    filename = fpath.name\n    if db.text_already_loaded\\(filename\\):\n        print\\(f'{filename}: already loaded'\\)\n        continue\n    print\\(f'Parsing {filename}...'\\)\n    metadata, verses = parse.parse_file\\(str\\(fpath\\)\\)\n    print\\(f'  -> {len\\(verses\\)} verses parsed'\\)\n    if verses:\n        db.insert_text_and_verses\\(metadata, verses, filename\\)\n        print\\(f'  -> inserted'\\)\n\" 2>&1)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(taskkill:*)"
     ]
   }
 }

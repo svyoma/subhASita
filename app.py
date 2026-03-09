@@ -30,6 +30,17 @@ TEXT_GLOB = 'Devanagari_IAST_*.txt'
 
 PER_PAGE = 20
 
+# Canonical IAST work titles to override raw metadata titles
+# (some source files embed editor/edition info in their title field)
+_CANONICAL_TITLES = {
+    'Devanagari_IAST_mahAsubhAShitasangrahaH.txt':   'mahāsubhāṣitasaṅgrahaḥ',
+    'Devanagari_IAST_saduktikarNAmRtam.txt':          'saduktikarṇāmṛtam',
+    'Devanagari_IAST_subhAShitAvaliH.txt':            'subhāṣitāvalī',
+    'Devanagari_IAST_subhAShitaratnakoSha.txt':       'subhāṣitaratnakoṣaḥ',
+    'Devanagari_IAST_shatakatraya.txt':               'śatakatrayam',
+    'Devanagari_IAST_darpadalana.txt':                'darpadalanaḥ',
+}
+
 
 # ── Startup initialisation ────────────────────────────────────────────────────
 
@@ -45,6 +56,9 @@ def init_app():
             continue
         print(f'  Parsing {filename}...')
         metadata, verses = parse.parse_file(str(fpath))
+        # Apply canonical work title if available
+        if filename in _CANONICAL_TITLES:
+            metadata['title'] = _CANONICAL_TITLES[filename]
         print(f'    -> {len(verses)} verses parsed')
         if verses:
             db.insert_text_and_verses(metadata, verses, filename)

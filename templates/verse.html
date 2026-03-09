@@ -78,6 +78,12 @@
           {% if verse.attribution %}
             <span class="badge bg-secondary fs-6">— {{ verse.attribution }}</span>
           {% endif %}
+          {% if verse.sources_expanded %}
+            <div class="text-muted small mt-1">
+              <i class="bi bi-journal-text" aria-hidden="true"></i>
+              {{ verse.sources_expanded }}
+            </div>
+          {% endif %}
           {% for tag in verse.auto_tags %}
             <a href="{{ url_for('browse', tag=tag) }}"
                class="badge bg-tag text-decoration-none"

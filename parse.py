@@ -9,6 +9,7 @@ Handles three formats:
 
 import re
 import os
+import json
 from transliterate import to_devanagari, simplify
 
 # ── Patterns ──────────────────────────────────────────────────────────────────
@@ -130,6 +131,44 @@ def _format_full_text(padas_iast: list, padas_deva: list) -> tuple:
     return '\n'.join(lines_iast), '\n'.join(lines_deva)
 
 
+def _parse_abbreviations(lines: list[str]) -> dict[str, str]:
+    """
+    Extract abbreviation → full-name mappings from file lines.
+
+    Matches lines like:
+      su.ra. = subhāṣita-ratnākara
+      amaru  = amaru-śatakaḥ
+    Skips metadata key=value pairs inside the +++ header block and
+    any value wrapped in double-quotes (those are metadata fields).
+    """
+    abbrevs: dict[str, str] = {}
+    in_header = False
+    # Known metadata keys to skip even outside the +++ block
+    _META_KEYS = {'title', 'author', 'domain', 'language', 'sub-domain',
+                  'books contributor', 'serial no.', 'source_url', 'source',
+                  'pāṭhaḥ', 'Intro'}
+    for line in lines:
+        s = line.strip()
+        # Toggle header on exact +++ or on lines that START with +++ (opening header line)
+        if s == '+++' or (s.startswith('+++') and len(s) > 3 and not in_header):
+            in_header = not in_header
+            continue
+        if in_header:
+            continue
+        m = re.match(r'^([\w][\w.]{0,20})\s*=\s*(.+)$', s)
+        if not m:
+            continue
+        key = m.group(1).strip()
+        val = m.group(2).strip()
+        # Skip if value is quoted (metadata) or key is a known metadata name
+        if val.startswith('"') or key in _META_KEYS:
+            continue
+        # Accept if key contains a dot (abbrev like su.ra.) or is short lowercase
+        if '.' in key or (key.islower() and len(key) <= 10):
+            abbrevs[key] = val.rstrip('"').strip()
+    return abbrevs
+
+
 # ── Format A ──────────────────────────────────────────────────────────────────
 
 def parse_format_a(lines: list[str], metadata: dict) -> list[dict]:
@@ -186,6 +225,7 @@ def parse_format_a(lines: list[str], metadata: dict) -> list[dict]:
             'full_text_deva':   full_deva,
             'full_text_simple': simplify(full_iast),
             'attribution':      vs['attribution'],
+            'sources':          None,
             'chapter':          None,
             'section':          None,
             'auto_tags':        _auto_tag(full_iast),
@@ -302,6 +342,7 @@ def parse_format_b(lines: list[str], metadata: dict) -> list[dict]:
 
         verse_text_lines = []
         attribution_for_prev = None
+        sources_for_prev = None
         # For vi==0 we skip short pre-verse preamble lines (title, author, section headings)
         in_attr_zone = (vi > 0)
         # For the first segment, skip preamble until we hit the first long line
@@ -328,14 +369,33 @@ def parse_format_b(lines: list[str], metadata: dict) -> list[dict]:
 
             # Attribution for the PREVIOUS verse (start of this segment)
             if in_attr_zone and len(l) <= 100:
-                # Strip trailing dandas for matching
+                # Strip trailing dandas to get base text
                 l_clean = l.rstrip(' |').strip()
-                if _ATTRIB_PATT.match(l_clean) or _ATTRIB_PATT.match(l):
-                    attribution_for_prev = l_clean
+                # Separate trailing (source refs) from the author name
+                l_ref_m = re.search(r'\s*\([^)]+\)\s*$', l_clean)
+                l_refs = l_ref_m.group(0).strip() if l_ref_m else None
+                l_name = l_clean[:l_ref_m.start()].rstrip(' |').strip() if l_ref_m else l_clean
+                # Pure refs line: "(abbrev refs)" — source for prev verse, no author
+                if re.match(r'^\([^)]+\)$', l_clean):
+                    sources_for_prev = l_clean
+                    in_attr_zone = False
                     continue
-                # Very short lines (≤30 chars after stripping dandas) → attribution
-                if len(l_clean) <= 30 and len(l_clean) >= 3:
-                    attribution_for_prev = l_clean
+                # Check standard attribution patterns against the name-only part
+                # Also require name to be short (≤30) to avoid false-matching verse text
+                if len(l_name) <= 30 and (
+                    _ATTRIB_PATT.match(l_name) or _ATTRIB_PATT.match(l_clean) or _ATTRIB_PATT.match(l)
+                ):
+                    attribution_for_prev = l_name if l_name else l_clean
+                    if l_refs:
+                        sources_for_prev = l_refs
+                    in_attr_zone = False
+                    continue
+                # Short name (≤30 chars after stripping refs and dandas) → attribution
+                if l_name and 3 <= len(l_name) <= 30:
+                    attribution_for_prev = l_name
+                    if l_refs:
+                        sources_for_prev = l_refs
+                    in_attr_zone = False
                     continue
                 # Short line without | → section heading
                 if len(l) <= 50 and '|' not in l and '(' not in l:
@@ -346,10 +406,12 @@ def parse_format_b(lines: list[str], metadata: dict) -> list[dict]:
 
             verse_text_lines.append(l)
 
-        # Backfill attribution onto the PREVIOUS verse
-        if attribution_for_prev and result:
-            if result[-1]['attribution'] is None:
+        # Backfill attribution and sources onto the PREVIOUS verse
+        if result:
+            if attribution_for_prev and result[-1]['attribution'] is None:
                 result[-1]['attribution'] = attribution_for_prev
+            if sources_for_prev and result[-1].get('sources') is None:
+                result[-1]['sources'] = sources_for_prev
 
         verse_text_iast = '\n'.join(verse_text_lines).strip()
         if not verse_text_iast:
@@ -371,6 +433,7 @@ def parse_format_b(lines: list[str], metadata: dict) -> list[dict]:
             'full_text_deva':   full_deva,
             'full_text_simple': simplify(full_iast),
             'attribution':      None,   # filled in next iteration
+            'sources':          None,   # filled in next iteration
             'chapter':          current_chapter,
             'section':          current_section,
             'auto_tags':        _auto_tag(full_iast),
@@ -394,6 +457,11 @@ _GRETIL_ATTRIB_DASH = re.compile(
 # Attribution with ref:  "authorname . (ref)"  or  "authorname .. (ref)"
 _GRETIL_ATTRIB_REF = re.compile(
     r'^([\w\sāīūṛṝḷṃḥṅñṭḍṇśṣĀĪŪṚṜḶṂḤṄÑṬḌṆŚṢ\-]+?)\s*\.{1,2}\s*(\([^)]+\))\s*$',
+    re.UNICODE
+)
+# Attribution with just double-dot:  "authorname .."  (no parens)
+_GRETIL_ATTRIB_DOTDOT = re.compile(
+    r'^([\w\sāīūṛṝḷṃḥṅñṭḍṇśṣĀĪŪṚṜḶṂḤṄÑṬḌṆŚṢ\-]+?)\s*\.\.\s*$',
     re.UNICODE
 )
 # Section end:  "iti chapter-vrajya .."  or  ".. iti chapter-vrajya .."
@@ -446,6 +514,13 @@ def _extract_gretil_author(line: str) -> str | None:
 
     # Dash-style: "authorname --"
     m = _GRETIL_ATTRIB_DASH.match(s)
+    if m:
+        author = m.group(1).strip().rstrip('-')
+        if author and len(author) >= 3:
+            return author
+
+    # Double-dot style: "authorname .."  (no parens, just terminal ..)
+    m = _GRETIL_ATTRIB_DOTDOT.match(s)
     if m:
         author = m.group(1).strip().rstrip('-')
         if author and len(author) >= 3:
@@ -555,6 +630,7 @@ def parse_format_c(lines: list[str], metadata: dict) -> list[dict]:
         # Process lines: classify each as verse text or metadata
         verse_text_parts = []
         attribution_found = None   # attribution line found before this verse's text
+        sources_found = None       # source refs from attribution line (e.g. "(skmsa.u.ka. 241)")
         verse_text_started = False
 
         for text in segment_lines:
@@ -585,6 +661,10 @@ def parse_format_c(lines: list[str], metadata: dict) -> list[dict]:
                 author = _extract_gretil_author(text)
                 if author is not None:
                     attribution_found = author
+                    # Also extract embedded source ref if present
+                    ref_m = _GRETIL_ATTRIB_REF.match(text.strip())
+                    if ref_m:
+                        sources_found = ref_m.group(2)
                     continue
 
                 # Check if this line looks like verse text:
@@ -612,6 +692,7 @@ def parse_format_c(lines: list[str], metadata: dict) -> list[dict]:
 
         # Attribution found before this verse's text belongs to THIS verse
         attribution = attribution_found
+        sources = sources_found
 
         # Join verse text and split into padas
         raw_verse = ' '.join(verse_text_parts).strip()
@@ -645,6 +726,7 @@ def parse_format_c(lines: list[str], metadata: dict) -> list[dict]:
             'full_text_deva':   full_deva,
             'full_text_simple': simplify(full_iast),
             'attribution':      attribution,
+            'sources':          sources,
             'chapter':          current_chapter,
             'section':          current_section,
             'auto_tags':        _auto_tag(full_iast),
@@ -672,6 +754,9 @@ def parse_file(filepath: str) -> tuple[dict, list[dict]]:
 
     Returns:
         (metadata_dict, list_of_verse_dicts)
+
+    metadata may contain 'abbreviations' dict (abbrev→expansion) for files
+    that carry an abbreviation list (saduktikarNAmRtam, subhAShitaratnakoSha).
     """
     lines    = _read_lines(filepath)
     metadata = _parse_metadata(lines)
@@ -683,6 +768,11 @@ def parse_file(filepath: str) -> tuple[dict, list[dict]]:
         verses = parse_format_b(lines, metadata)
     else:
         verses = parse_format_c(lines, metadata)
+
+    # Collect abbreviations for texts that have an abbreviation section
+    abbrevs = _parse_abbreviations(lines)
+    if abbrevs:
+        metadata['abbreviations'] = abbrevs
 
     return metadata, verses
 

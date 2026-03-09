@@ -40,14 +40,15 @@ def init_schema():
     with get_conn() as conn:
         conn.executescript("""
         CREATE TABLE IF NOT EXISTS texts (
-            id          INTEGER PRIMARY KEY AUTOINCREMENT,
-            title       TEXT    NOT NULL,
-            author      TEXT,
-            filename    TEXT    NOT NULL UNIQUE,
-            language    TEXT    DEFAULT 'saṃskṛtam',
-            domain      TEXT,
-            serial_no   TEXT,
-            verse_count INTEGER DEFAULT 0
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            title         TEXT    NOT NULL,
+            author        TEXT,
+            filename      TEXT    NOT NULL UNIQUE,
+            language      TEXT    DEFAULT 'saṃskṛtam',
+            domain        TEXT,
+            serial_no     TEXT,
+            verse_count   INTEGER DEFAULT 0,
+            abbreviations TEXT    DEFAULT '{}'
         );
 
         CREATE TABLE IF NOT EXISTS verses (
@@ -60,6 +61,7 @@ def init_schema():
             full_text_deva    TEXT    NOT NULL,
             full_text_simple  TEXT    NOT NULL,
             attribution       TEXT,
+            sources           TEXT,
             chapter           TEXT,
             section           TEXT,
             auto_tags         TEXT    DEFAULT '[]',
@@ -118,9 +120,10 @@ def text_already_loaded(filename: str) -> bool:
 def insert_text_and_verses(metadata: dict, verses: list[dict], filename: str) -> int:
     """Insert one text file worth of data. Returns the text_id."""
     with get_conn() as conn:
+        abbrevs = metadata.get('abbreviations', {})
         cur = conn.execute(
-            """INSERT INTO texts (title, author, filename, language, domain, serial_no)
-               VALUES (?, ?, ?, ?, ?, ?)""",
+            """INSERT INTO texts (title, author, filename, language, domain, serial_no, abbreviations)
+               VALUES (?, ?, ?, ?, ?, ?, ?)""",
             (
                 metadata.get('title', filename),
                 metadata.get('author'),
@@ -128,6 +131,7 @@ def insert_text_and_verses(metadata: dict, verses: list[dict], filename: str) ->
                 metadata.get('language', 'saṃskṛtam'),
                 metadata.get('domain'),
                 metadata.get('"serial no."') or metadata.get('serial no.'),
+                json.dumps(abbrevs, ensure_ascii=False),
             )
         )
         text_id = cur.lastrowid
@@ -137,8 +141,8 @@ def insert_text_and_verses(metadata: dict, verses: list[dict], filename: str) ->
                 """INSERT INTO verses
                    (text_id, verse_num, verse_num_str, pada_count,
                     full_text_iast, full_text_deva, full_text_simple,
-                    attribution, chapter, section, auto_tags)
-                   VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                    attribution, sources, chapter, section, auto_tags)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
                 (
                     text_id,
                     v['verse_num'],
@@ -148,6 +152,7 @@ def insert_text_and_verses(metadata: dict, verses: list[dict], filename: str) ->
                     v['full_text_deva'],
                     v['full_text_simple'],
                     v.get('attribution'),
+                    v.get('sources'),
                     v.get('chapter'),
                     v.get('section'),
                     json.dumps(v.get('auto_tags', []), ensure_ascii=False),
@@ -192,11 +197,31 @@ def set_build_state(key: str, value: str):
 
 # ── Query helpers ─────────────────────────────────────────────────────────────
 
+def _expand_sources(sources_raw: str | None, abbreviations_json: str | None) -> str | None:
+    """Expand abbreviations in a source reference string.
+
+    E.g. "(su.ra. 47, śā.pa. 96)" → "(subhāṣita-ratnākara 47, śārṅgadhara-paddhati 96)"
+    """
+    if not sources_raw:
+        return None
+    try:
+        abbrevs: dict = json.loads(abbreviations_json or '{}')
+    except (ValueError, TypeError):
+        return sources_raw
+    if not abbrevs:
+        return sources_raw
+    result = sources_raw
+    # Replace longest abbreviations first to avoid partial matches
+    for abbrev in sorted(abbrevs, key=len, reverse=True):
+        result = result.replace(abbrev, abbrevs[abbrev])
+    return result
+
+
 def get_verse(verse_id: int) -> dict | None:
     with get_conn() as conn:
         row = conn.execute(
             """SELECT v.*, t.title AS text_title, t.author AS text_author,
-                      t.filename AS text_filename
+                      t.filename AS text_filename, t.abbreviations AS text_abbreviations
                FROM verses v JOIN texts t ON v.text_id = t.id
                WHERE v.id = ?""",
             (verse_id,)
@@ -206,6 +231,10 @@ def get_verse(verse_id: int) -> dict | None:
         verse = dict(row)
         verse['auto_tags'] = json.loads(verse['auto_tags'] or '[]')
         verse['padas'] = _get_padas(verse_id, conn)
+        # Expand abbreviations in sources for display
+        verse['sources_expanded'] = _expand_sources(
+            verse.get('sources'), verse.get('text_abbreviations')
+        )
         return verse
 
 
